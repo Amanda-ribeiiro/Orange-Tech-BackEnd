@@ -55,34 +55,34 @@ JVM (Java Virtual Machine)
 A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em C e C ++ que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
 
 ### QUIZ - 
-Como é chamado o conceito de execuções paralelas em uma aplicação?
+1-Como é chamado o conceito de execuções paralelas em uma aplicação?
 R: Multi-threading
 
-Qual foi o fato que contribuiu para que a linguagem se tornasse tão popular?
+2-Qual foi o fato que contribuiu para que a linguagem se tornasse tão popular?
 R: A Linguagem se popularizou pelo termo "White Once, Run Anywhere", que enaltece a interoperabilidade da plataforma java.
 
-Qual dos itens citados NÃO faz parte do conjunto de funcionalidades (features) da linguagem Java?
+3-Qual dos itens citados NÃO faz parte do conjunto de funcionalidades (features) da linguagem Java?
 R: Sem tipagem, ou seja, fracamente tipada.
 
-Hoje sabemos que a linguagem Java é mantida pela empresa Oracle Inc, mas antes, que empresa tinha os direitos desta tecnologia?
+4-Hoje sabemos que a linguagem Java é mantida pela empresa Oracle Inc, mas antes, que empresa tinha os direitos desta tecnologia?
 R: Sun Microsystems
 
-A linguagem Java é baseada sobre quais linguagens de programação?
+5-A linguagem Java é baseada sobre quais linguagens de programação?
 R: C e C ++
 
-Como é denominado o código originado da compilação de programas Java?
+6-Como é denominado o código originado da compilação de programas Java?
 R: Bytecode
 
-Qual dos itens citados NÃO faz parte dos 4 pilares da orientação a Objetos?
+7-Qual dos itens citados NÃO faz parte dos 4 pilares da orientação a Objetos?
 R: Sobrecarga
 
-Para executar uma aplicação desenvolvida em Java, convertendo os bytecodes em código de máquina, é necessário ter disponível em nosso sistema operacional o recurso denominado de?
+8-Para executar uma aplicação desenvolvida em Java, convertendo os bytecodes em código de máquina, é necessário ter disponível em nosso sistema operacional o recurso denominado de?
 R: JVM, através e uma JDK ou JRE
 
-Antes da linguagem receber o nome de Java, qual foi o primeiro nome escolhido pelo time de desenvolvimento?
+9-Antes da linguagem receber o nome de Java, qual foi o primeiro nome escolhido pelo time de desenvolvimento?
 R: Oak
 
-Como se chama o desenvolvedor que liderou o projeto para criação da linguagem Java?
+10-Como se chama o desenvolvedor que liderou o projeto para criação da linguagem Java?
 R: James Gosling
 
 - [Certificado]()
