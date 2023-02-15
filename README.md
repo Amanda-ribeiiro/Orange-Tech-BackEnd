@@ -49,8 +49,6 @@ POO - Programação Orientada a Objetos:
 Plataforma independente, robusta, 
 JVM (Java Virtual Machine)
 
-
-
 ##### *Java e sua história*
 A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em C e C ++ que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
 
@@ -89,7 +87,7 @@ R: James Gosling
 - [Link da apresentação do curso]()
 
 #### Ambiente de Desenvolvimento Java
-##### Introdução a IDEs
+##### *Introdução a IDEs*
 IDE(Integrated Development Environment), capaz de prover vários mecanismo que dispõe de recursos que auxiliam muito no nosso desenvolvimento. Ex:
 - Aceleração de nossa escrita com *Auto-Complete* ou *IntelliSense*;
 - Formatação de palavras e blocos de códigos;
@@ -104,46 +102,55 @@ Cada IDE dispõe de recursos comuns ou plugins espec[ificos para te auxiliar na 
 - IntelliJ: Oferece muito recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas.
 - VS Code: Hoje muito utilizada para desenvolvedores que já atuam com NodeJs ou plataformas de front-end.
 
-
-
-
-
 ### QUIZ -  Java - Plataformas e Escolha sua IDE
-Qual dos itens citados NÃO é considerada uma IDE para desenvolver aplicações na linguagem Java?
+1- Qual dos itens citados NÃO é considerada uma IDE para desenvolver aplicações na linguagem Java?
 R: PyCharm
 
-Qual a extensão de um arquivo que contém o código fonte da linguagem Java?
+2- Qual a extensão de um arquivo que contém o código fonte da linguagem Java?
 R: .java
 
-Considerando os inúmeros recursos de uma IDE, qual do itens citados não é aplicado como uma funcionalidade do ambiente de desenvolvimento ?
+3- Considerando os inúmeros recursos de uma IDE, qual do itens citados não é aplicado como uma funcionalidade do ambiente de desenvolvimento ?
 R: Integração contínua
 
-Qual plataforma contém recursos para desenvolvimento com recursos como páginas Web?
+4- Qual plataforma contém recursos para desenvolvimento com recursos como páginas Web?
 R: Java EE
 
-Qual ferramenta tem o papel de converter o bytecode em um algoritmo que é interpretado pelo sistema operacional?
+5- Qual ferramenta tem o papel de converter o bytecode em um algoritmo que é interpretado pelo sistema operacional?
 R: JVM
 
-Após a compilação do código fonte na linguagem, qual a extensão do conteúdo gerado?
+6- Após a compilação do código fonte na linguagem, qual a extensão do conteúdo gerado?
 R: .class
 
-Sabemos que uma das plataformas da linguagem Java contém uma biblioteca de componentes visuais, selecione esta plataforma.
+7- Sabemos que uma das plataformas da linguagem Java contém uma biblioteca de componentes visuais, selecione esta plataforma.
 R: Java SE
 
-Quais são os componentes de instalação da plataforma Java?
+8- Quais são os componentes de instalação da plataforma Java?
 R: JDK/JRE
 
-A linguagem Java conta com 4 plataformas de desenvolvimento, qual das alternativas NÃO faz parte?
+9- A linguagem Java conta com 4 plataformas de desenvolvimento, qual das alternativas NÃO faz parte?
 R: Java IO
 
-Você disponibilizou uma aplicação compilada para seus clientes, qual componente será necessário estar instalado na máquina do seu cliente?
+10- Você disponibilizou uma aplicação compilada para seus clientes, qual componente será necessário estar instalado na máquina do seu cliente?
 R: JRE
-
 
 - [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 - [Link da apresentação do curso]()
 
+
+
 #### Aprendendo a Sintaxe Java
+##### *Introdução*
+
+##### *Anatomia das Classes*
+##### *Tipos e variáveis*
+##### *Operadores*
+##### *Métodos*
+##### *Escopo*
+##### *Palavras Reservadas*
+##### *Java DOC*
+##### *Terminal e Argumentos*
+
+
 ### QUIZ - 
 - [Certificado]()
 - [Link da apresentação do curso]()
