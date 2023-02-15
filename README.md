@@ -85,7 +85,7 @@ R: Oak
 10-Como se chama o desenvolvedor que liderou o projeto para criação da linguagem Java?
 R: James Gosling
 
-- [Certificado]()
+- [Certificado](chat.openai.com/auth/login)
 - [Link da apresentação do curso]()
 
 #### Ambiente de Desenvolvimento Java
@@ -99,14 +99,48 @@ IDE(Integrated Development Environment), capaz de prover vários mecanismo que d
 
 Cada IDE dispõe de recursos comuns ou plugins espec[ificos para te auxiliar na agilidade de desenvolvimento. Dentre elas temos o *Visual Sudio Code, NetBeans, Eclipse, Intellij*.
 
-Eclipse: mais utilizada no ambiente corporativo com interface bem interativa.
-NetBeans: Utilizada mais em ambiente acadêmico e com versão de menu e assistentes em português.
-IntelliJ: Oferece muito recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas.
-VS Code: Hoje muito utilizada para desenvolvedores que já atuam com NodeJs ou plataformas de front-end.
+- Eclipse: mais utilizada no ambiente corporativo com interface bem interativa.
+- NetBeans: Utilizada mais em ambiente acadêmico e com versão de menu e assistentes em português.
+- IntelliJ: Oferece muito recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas.
+- VS Code: Hoje muito utilizada para desenvolvedores que já atuam com NodeJs ou plataformas de front-end.
 
 
-### QUIZ - 
-- [Certificado]()
+
+
+
+### QUIZ -  Java - Plataformas e Escolha sua IDE
+Qual dos itens citados NÃO é considerada uma IDE para desenvolver aplicações na linguagem Java?
+R: PyCharm
+
+Qual a extensão de um arquivo que contém o código fonte da linguagem Java?
+R: .java
+
+Considerando os inúmeros recursos de uma IDE, qual do itens citados não é aplicado como uma funcionalidade do ambiente de desenvolvimento ?
+R: Integração contínua
+
+Qual plataforma contém recursos para desenvolvimento com recursos como páginas Web?
+R: Java EE
+
+Qual ferramenta tem o papel de converter o bytecode em um algoritmo que é interpretado pelo sistema operacional?
+R: JVM
+
+Após a compilação do código fonte na linguagem, qual a extensão do conteúdo gerado?
+R: .class
+
+Sabemos que uma das plataformas da linguagem Java contém uma biblioteca de componentes visuais, selecione esta plataforma.
+R: Java SE
+
+Quais são os componentes de instalação da plataforma Java?
+R: JDK/JRE
+
+A linguagem Java conta com 4 plataformas de desenvolvimento, qual das alternativas NÃO faz parte?
+R: Java IO
+
+Você disponibilizou uma aplicação compilada para seus clientes, qual componente será necessário estar instalado na máquina do seu cliente?
+R: JRE
+
+
+- [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 - [Link da apresentação do curso]()
 
 #### Aprendendo a Sintaxe Java
