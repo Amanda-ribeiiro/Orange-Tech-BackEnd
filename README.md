@@ -158,6 +158,12 @@ public class CalculadoraCientifica {
 
 - *Nome de variável:* toda variável deve ser escrita com letra minúscula, porém se a palavra for comporta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase" 
 
+- ve conter apenas letras, _ (underline), $ ou os números de 0 a 9.
+- ve obrigatoriamente se iniciar por uma letra(preferencialmente), - ou $, jamais com número
+- Deve iniciar com uma letra minúscula 
+- Não pode conter espaçoes
+- Não podemos usar palavras reservadas da linguagem
+- o nome deve ser único dentro de um escopo
 
 ##### *Tipos e variáveis*
 ##### *Operadores*
