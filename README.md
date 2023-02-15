@@ -140,7 +140,7 @@ R: JRE
 
 #### Aprendendo a Sintaxe Java
 ##### *Introdução*
-
+Regras essenciais para a construção de códigos com base na linguagem Java.
 ##### *Anatomia das Classes*
 ##### *Tipos e variáveis*
 ##### *Operadores*
