@@ -146,7 +146,17 @@ A escrita de códigos de um programa é feito através da composição de palavr
 
 Padrão de nomenclatura
 Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algmas convenções de escrita. Esses padrões estão expressos nos itens abaixo:
-*Arquivo Java*:
+- *Arquivo Java*: Todo arquivo .java deve começar com a Letra MAIÚSCULA. Se a palavra for comporta, a segunda palavra deve também ser maiúscula, exemplo:
+Calculadora.java     CalculadoraCientifica.java
+
+- *Nome da classe no arquivo*: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
+1// arquivo CalculadoraCientifica.java
+
+public class CalculadoraCientifica {
+
+}
+
+- *Nome de vari
 
 
 ##### *Tipos e variáveis*
