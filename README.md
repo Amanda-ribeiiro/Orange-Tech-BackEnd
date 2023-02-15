@@ -89,6 +89,22 @@ R: James Gosling
 - [Link da apresentação do curso]()
 
 #### Ambiente de Desenvolvimento Java
+##### Introdução a IDEs
+IDE(Integrated Development Environment), capaz de prover vários mecanismo que dispõe de recursos que auxiliam muito no nosso desenvolvimento. Ex:
+- Aceleração de nossa escrita com *Auto-Complete* ou *IntelliSense*;
+- Formatação de palavras e blocos de códigos;
+- Análise de erro de sintaxe;
+- Compilação de programa;
+- Depuração (acompanhamento) de execução do programa.
+
+Cada IDE dispõe de recursos comuns ou plugins espec[ificos para te auxiliar na agilidade de desenvolvimento. Dentre elas temos o *Visual Sudio Code, NetBeans, Eclipse, Intellij*.
+
+Eclipse: mais utilizada no ambiente corporativo com interface bem interativa.
+NetBeans: Utilizada mais em ambiente acadêmico e com versão de menu e assistentes em português.
+IntelliJ: Oferece muito recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas.
+VS Code: Hoje muito utilizada para desenvolvedores que já atuam com NodeJs ou plataformas de front-end.
+
+
 ### QUIZ - 
 - [Certificado]()
 - [Link da apresentação do curso]()
