@@ -142,7 +142,7 @@ R: JRE
 ##### *Introdução*
 Regras essenciais para a construção de códigos com base na linguagem Java.
 ##### *Anatomia das Classes*
-A escrita de códigos de um programa é feito através da composição de palavras pré-definidas pela linguagem com as expressões que utilizam para determinar o nome do nossos arquivos, classes, atributos e métodos. É muito comum mesclarmos expressões no idioma amaericano com o nosso vocabulário. Nome de classe, métodos.
+A escrita de códigos de um programa é feito através da composição de palavras pré-definidas  pela linguagem com as expressões que utilizam para determinar o nome do nossos arquivos, classes, atributos e métodos. É muito comum mesclarmos expressões no idioma amaericano com o nosso vocabulário. Nome de classe, métodos.
 
 Padrão de nomenclatura
 Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algmas convenções de escrita. Esses padrões estão expressos nos itens abaixo:
@@ -155,6 +155,7 @@ Calculadora.java     CalculadoraCientifica.java
 public class CalculadoraCientifica {
 
 }
+- void: executa mais não retorna nada.
 
 - *Nome de variável:* toda variável deve ser escrita com letra minúscula, porém se a palavra for comporta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase" 
 
@@ -165,13 +166,34 @@ public class CalculadoraCientifica {
 - Não podemos usar palavras reservadas da linguagem
 - o nome deve ser único dentro de um escopo
 
+Declarando variáveis e métodos: 
+• Declarar uma vari[avel em Java segue sempre a seguinte estrutura:
+Tipo NomeBemDefinido = Atribuição (opcional em alguns casos)
+
+• Declarando métodos em Java segue uma estrutura bem simples: (todos os metodos na linguagem Java costuma a ser no infinitvo)
+TipoRetorno NomeObjetoNoInfinito Parametro (s)
+Casa parâmentro é separado por vírgula.
+
+Identação: é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim visualização e o entendimento do programa.
+
+Organizando arquivos: packge + nomeDaPastaEmQueOArquivoEsta
+
+Java Beans: uma das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere, através de convenções, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+• Uma variável deve ser clara, sem abreviações ou definição sem sentido;
+• uma variáel é sempre no singular, exceto quando se referir a um array ou coleção;
+• Defina um idioma único para suas variáveis. Se você for declarar variáveis em inglês, defina todas em inglês.
+
 ##### *Tipos e variáveis*
 ##### *Operadores*
+
+
 ##### *Métodos*
 ##### *Escopo*
 ##### *Palavras Reservadas*
 ##### *Java DOC*
 ##### *Terminal e Argumentos*
+
+
 
 
 ### QUIZ - 
