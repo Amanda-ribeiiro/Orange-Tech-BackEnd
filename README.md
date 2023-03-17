@@ -199,6 +199,12 @@ Primitive Types:
 Esses tipos não são considerados objetos, e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack).
 ![imag e](https://user-images.githubusercontent.com/108890154/225970151-54b3aa9c-9d45-4775-9b5b-0a524aaad538.png)
 
+Variável x Constantes:
+• variável é uma área de memória associado a um nome que pode armazenar valores de um determinado tipo. Um tipo de dado define um conjunto de valores e um conjunto de operações. Java é uma linguagem com rigidez de tipos, diferente do JavaScript onde declarar o tipo de variável não é obrigatorio.
+• Já as constantes são valores armazenados em memória que não podem ser modificados depois de declarados. Em java, esses valores são representados pela reservada _final_, seguida do tipo.
+Por convenção constantes são sempre escritas em CAIXA ALTA.
+
+
 
 ##### *Operadores*
 
