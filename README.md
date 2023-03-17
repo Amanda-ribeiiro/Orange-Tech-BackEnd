@@ -211,11 +211,13 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 
 • Aritméticos é utilizado para realizar operações matemáticas entre valores númericos, podendo se tornar ou não uma expressao mais complexa.
 
-•• (+)  ;
-•• (-)  ;
-•• (++) ;
-•• (!)  ;
-•• (%) resto da divisáo';
+• Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
+
+•• (+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
+•• (-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
+•• (++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
+•• (!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
+•• (%) resto da divisáo;
 
 
 
