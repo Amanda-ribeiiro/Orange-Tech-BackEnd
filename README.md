@@ -204,9 +204,26 @@ Variável x Constantes:
 • Já as constantes são valores armazenados em memória que não podem ser modificados depois de declarados. Em java, esses valores são representados pela reservada _final_, seguida do tipo.
 Por convenção constantes são sempre escritas em CAIXA ALTA.
 
-
-
 ##### *Operadores*
+São símbolos especiais que tem significado próprio para a linguagem e estão associados a determinadas operações.
+
+• Atribuição representando pelo símbolo de = , atribuir um valor a uma determinada variável.
+
+• Aritméticos é utilizado para realizar operações matemáticas entre valores númericos, podendo se tornar ou não uma expressao mais complexa.
+
+•• (+)  ;
+•• (-)  ;
+•• (++) ;
+•• (!)  ;
+•• (%) resto da divisáo';
+
+
+
+
+
+
+
+
 
 
 ##### *Métodos*
