@@ -184,6 +184,22 @@ Java Beans: uma das maiores dificuldades na programação é escrever algoritmos
 • Defina um idioma único para suas variáveis. Se você for declarar variáveis em inglês, defina todas em inglês.
 
 ##### *Tipos e variáveis*
+[Ebook](https://glysns.gitbook.io/java-basico/sintaxe/variaveis)
+Na linguagem Java existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Esses tipos de dados são conhecidos como tipos primitivos (Primitive Types).
+
+Primitive Types:
+• int (ex: *in* cep = 21070333; // se comecar com zer, talvez tenha que ser de outro tipo)
+• byte (ex: *byte* idade = 45; )
+• shot (ex: *shot* ano = 2023; )
+• long (ex: *long* cpf = 4563285788400L; // precisa ser encerrado com um "L" para representar que o numero não è inteiro è do tipo longo. Se comecar com zer, talvez tenha que ser de outro tipo)
+• float (ex: *float* pi = 3.14F; tem que ter "f")
+• double (ex: *double* salario = 1275.33; )
+• boolean
+• char 
+Esses tipos não são considerados objetos, e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack).
+![imag e](https://user-images.githubusercontent.com/108890154/225970151-54b3aa9c-9d45-4775-9b5b-0a524aaad538.png)
+
+
 ##### *Operadores*
 
 
