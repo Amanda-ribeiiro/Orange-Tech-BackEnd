@@ -218,7 +218,7 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 •• (++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
 •• (!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
 •• (%) resto da divisáo;
-
+ 
 
 
 
