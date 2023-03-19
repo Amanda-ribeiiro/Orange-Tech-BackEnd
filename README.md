@@ -219,9 +219,9 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 •• (!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
 •• (%) resto da divisáo;
  
+número ++; é a mesma coisa que número = número +1;
 
-
-
+• Operador Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
 
 
 
