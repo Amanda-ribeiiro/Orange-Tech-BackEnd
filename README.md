@@ -213,19 +213,19 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 
 • Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
 
-•• (+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
-•• (-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
-•• (++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
-•• (!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
-•• (%) resto da divisáo;
+(+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
+(-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
+(++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
+(!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
+(%) resto da divisáo;
  
 número ++; é a mesma coisa que número = número +1;
 
-• Operador Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
+• Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
 
 <Expressão Condicional> ? <caso condição seja tru> : <caso condição seja false>
 
-• Operador Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
+• Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
 
 == quando desejamos verificar se uma variável é IGUAL A outra.
 != quando desejamos verificar se uma variável é DIFERENTE da outra.
@@ -235,6 +235,11 @@ número ++; é a mesma coisa que número = número +1;
 <= quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
 
 método equals compara conteúdo
+
+• Lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões 
+
+&& operador lógico "E"
+|| operador lógico "OU"
 
 
 
