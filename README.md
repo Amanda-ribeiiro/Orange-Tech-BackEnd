@@ -239,14 +239,44 @@ método equals compara conteúdo
 • Lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões 
 
 && operador lógico "E"
-|| operador lógico "OU"
-
-
-
-
+( || )operador lógico "OU"
 
 
 ##### *Métodos*
+Ponto de reflexão 
+1-Qual a proposta principal do método?
+Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
+
+2-Qual o tipo de retorno esperado após executar o método ?
+Você deve analisar se o método será responsável por retornar algum valor ou não.
+
+3-Quais os parâmetro serão necessários para execução do método ?
+Os métodos as vezes  
+
+4-O método possui o risco de apresetar alguma exceção ?
+Exceções são comuns na execução de métodos, as vezes é necessário prever e tratar a possível existência de uma exceção.
+
+5-Qual a visibilidado do método ? 
+Será necessário que o método seja visível a toda aplicação, somente em mesmo pacotes, através de herança ou somente a nível a própria classe.
+
+
+|| Todos o métodos são disposto por uma classe mais isso não quer dizer que todos os métodos precisa estar visivel em todo o programa. 
+
+Uma classe é definida por atributos e métodos. Atributos são, em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a funções ou sub-rotinas disponíveis dentro de nossas classes.
+
+Critério de nomeação de métodos: não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa.
+* deve ser nomeado como verbo (exemplo: acelerar, freiar, processar, concluir ...)
+* seguir o padrão camelCase (todas as letras minúsculas com a exceção da primeira letra da segunda palavra).
+
+|| Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.
+
+
+
+
+
+
+
+
 ##### *Escopo*
 ##### *Palavras Reservadas*
 ##### *Java DOC*
