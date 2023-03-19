@@ -225,6 +225,17 @@ número ++; é a mesma coisa que número = número +1;
 
 <Expressão Condicional> ? <caso condição seja tru> : <caso condição seja false>
 
+• Operador Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
+
+== quando desejamos verificar se uma variável é IGUAL A outra.
+!= quando desejamos verificar se uma variável é DIFERENTE da outra.
+> quando quando desejamos verificar se uma variável MAIOR QUE a outra.
+>= quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+< quando desejamos verificar se uma variável é MENOR QUE outra.
+<= quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+
+método equals compara conteúdo
+
 
 
 
