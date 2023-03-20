@@ -278,11 +278,82 @@ A variável é criada no primeiro acesso à ela, se tornando inacessível após 
 Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáveis) são declarados no corpo principal da Classe, sendo portando acessíveis por todos os métodos.
 
 ##### *Palavras Reservadas*
+Palavras reservadas, são identidicadores de uma linguaem que já possuem uma finalidade específica, portanto, não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.
 
+A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são classificadas com uma cor especial pela maioria das IDE's. Abaixo temos a lista de palavras agrupadas por suas finalidades.
 
+*Palavras reservadas em Java*
 
+- abstract
+- continue
+- goto
+- package
+- synchronized
+- assert
+- default
+- if
+- private
+- this
+- boolean
+- do  
+- implements  
+- protected  
+- throw
+- break 
+- double 
+- import 
+- public 
+- throws
+- byte 
+- else 
+- instanceof 
+- return 
+- transient
+- case 
+- extends 
+- int 
+- short 
+- try
+- catch 
+- final 
+- interface 
+- static 
+- void
+- char 
+- finally 
+- long 
+- strictfp 
+- volatile
+- class 
+- float 
+- native 
+- super 
+- while
+- const 
+- for 
+- new 
+- switch
+![image](https://user-images.githubusercontent.com/108890154/226443762-37feb72f-808e-4e44-b23d-0b7daecf25b0.png)
 
+####### _*Controle de pacotes:*_
+- import: importa pacotes ou classes para dentro do código;
+- package: especifica a que pacote, todas as classes de um arquivo pertencem.
 
+####### _*Modificadores de acesso:*_
+- public: acesso de qualquer classe;
+- private: acesso apenas dentro da classe;
+- protected: acesso por classes no mesmo pacote e subclasses.
+
+####### _*Primitivos:*_
+- boolean: um valor indicando verdadeiro ou falso;
+- byte: um inteiro de 8 bits (signed);
+- cha: um character unicode (16-bit unsigned);
+- double: um número de ponto flutuando de 64 bits (signed);
+- float: um número de ponto flutuante de 32 bits (signed);
+- int: um inteiro de 32 bits (signed);
+- long: um inteiro de 64 bits (signed);
+- short: um inteiro de 32 bits (signed);
+- void: indica que o método não tem retorno *de valor*.
 
 
 
