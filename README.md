@@ -277,13 +277,16 @@ A variável é criada no primeiro acesso à ela, se tornando inacessível após 
 
 Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáveis) são declarados no corpo principal da Classe, sendo portando acessíveis por todos os métodos.
 
-
-
-
-
-
-
 ##### *Palavras Reservadas*
+
+
+
+
+
+
+
+
+
 ##### *Java DOC*
 ##### *Terminal e Argumentos*
 
