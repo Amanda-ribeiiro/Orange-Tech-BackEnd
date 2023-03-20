@@ -270,14 +270,19 @@ Critério de nomeação de métodos: não são obrigatórios, mas é recomendáv
 
 || Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.
 
-
-
-
-
-
-
-
 ##### *Escopo*
+O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
+
+A variável é criada no primeiro acesso à ela, se tornando inacessível após o interpretador sair do bloco de excecução ao qual ela pertence. Portando, esta variável não pode ser lida ou manipulada por rotinas e códigos que estão fora do seu bloco de declaraçã, ou seja, foa do escopo da variável.
+
+Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáveis) são declarados no corpo principal da Classe, sendo portando acessíveis por todos os métodos.
+
+
+
+
+
+
+
 ##### *Palavras Reservadas*
 ##### *Java DOC*
 ##### *Terminal e Argumentos*
