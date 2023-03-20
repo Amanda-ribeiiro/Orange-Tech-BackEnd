@@ -213,11 +213,11 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 
 • Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
 
-(+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
-(-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
-(++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
-(!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
-(%) resto da divisáo;
+- (+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
+- (-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
+- (++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
+- (!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
+- (%) resto da divisáo;
  
 número ++; é a mesma coisa que número = número +1;
 
@@ -227,12 +227,12 @@ número ++; é a mesma coisa que número = número +1;
 
 • Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
 
-== quando desejamos verificar se uma variável é IGUAL A outra.
-!= quando desejamos verificar se uma variável é DIFERENTE da outra.
-> quando quando desejamos verificar se uma variável MAIOR QUE a outra.
->= quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
-< quando desejamos verificar se uma variável é MENOR QUE outra.
-<= quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+- == quando desejamos verificar se uma variável é IGUAL A outra.
+- != quando desejamos verificar se uma variável é DIFERENTE da outra.
+- > quando quando desejamos verificar se uma variável MAIOR QUE a outra.
+- >= quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+- < quando desejamos verificar se uma variável é MENOR QUE outra.
+- <= quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
 
 método equals compara conteúdo
 
@@ -260,7 +260,7 @@ Exceções são comuns na execução de métodos, as vezes é necessário prever
 Será necessário que o método seja visível a toda aplicação, somente em mesmo pacotes, através de herança ou somente a nível a própria classe.
 
 
-|| Todos o métodos são disposto por uma classe mais isso não quer dizer que todos os métodos precisa estar visivel em todo o programa. 
+> Todos o métodos são disposto por uma classe mais isso não quer dizer que todos os métodos precisa estar visivel em todo o programa. 
 
 Uma classe é definida por atributos e métodos. Atributos são, em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a funções ou sub-rotinas disponíveis dentro de nossas classes.
 
@@ -268,7 +268,7 @@ Critério de nomeação de métodos: não são obrigatórios, mas é recomendáv
 * deve ser nomeado como verbo (exemplo: acelerar, freiar, processar, concluir ...)
 * seguir o padrão camelCase (todas as letras minúsculas com a exceção da primeira letra da segunda palavra).
 
-|| Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.
+> Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.
 
 ##### *Escopo*
 O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
@@ -335,16 +335,16 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 - switch
 ![image](https://user-images.githubusercontent.com/108890154/226443762-37feb72f-808e-4e44-b23d-0b7daecf25b0.png)
 
-####### _*Controle de pacotes:*_
+####### Controle de pacotes:
 - import: importa pacotes ou classes para dentro do código;
 - package: especifica a que pacote, todas as classes de um arquivo pertencem.
 
-####### _*Modificadores de acesso:*_
+####### Modificadores de acesso:
 - public: acesso de qualquer classe;
 - private: acesso apenas dentro da classe;
 - protected: acesso por classes no mesmo pacote e subclasses.
 
-####### _*Primitivos:*_
+####### Primitivos:
 - boolean: um valor indicando verdadeiro ou falso;
 - byte: um inteiro de 8 bits (signed);
 - cha: um character unicode (16-bit unsigned);
