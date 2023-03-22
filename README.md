@@ -355,10 +355,30 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 - short: um inteiro de 32 bits (signed);
 - void: indica que o método não tem retorno *de valor*.
 
-
-
-
 ##### *Java DOC*
+Tipos de comentários:
+One Line: Inserir uma única linha nesse comentário. Informação não é copilada na linguagem ela é nível de usuário
+// exemplo de comentário one line
+
+Mult Line: comentário mais detalhado quando necessário
+/*
+*
+*
+*
+*/
+
+Docymentation: Menciona aspecto de documentação 
+/ **
+* Está duas estrelinhas acima
+* é pra identificar que você 
+* pretende elaborar um comentário
+* a nível de documentação
+*/
+
+
+
+
+
 ##### *Terminal e Argumentos*
 
 
