@@ -438,7 +438,7 @@ public static void main(String[] args) throws Exception {
 
 R: 12
 
-- [Certificado]()
+- [Certificado](https://hermes.digitalinnovation.one/certificates/06415E1C.pdf?_gl=1*ulx1g3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTUyMjgwNS4yNDUuMS4xNjc5NTI0NTM5LjYwLjAuMA..)
 - [Link da apresentação do curso]()
 
 #### Estruturas de repetição e Arrays em Java
