@@ -344,7 +344,7 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 - private: acesso apenas dentro da classe;
 - protected: acesso por classes no mesmo pacote e subclasses.
 
-####### Primitivos:
+*Primitivos:*
 - boolean: um valor indicando verdadeiro ou falso;
 - byte: um inteiro de 8 bits (signed);
 - cha: um character unicode (16-bit unsigned);
@@ -355,7 +355,7 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 - short: um inteiro de 32 bits (signed);
 - void: indica que o método não tem retorno *de valor*.
 
-##### *Java DOC*
+*Java DOC*
 Tipos de comentários:
 One Line: Inserir uma única linha nesse comentário. Informação não é copilada na linguagem ela é nível de usuário
 // exemplo de comentário one line
@@ -388,14 +388,17 @@ Os parâmentros pode ser adicionados manualmente nos arquivos .json assim não t
 Classe Scanner proposta de ter melhor interação no que se refere aos inputs a entrada de dados que os nossos usuários vão querer realizar em nosso programa.
 Ex:
 
+> Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+>
 > System.out.println("Digite sua idade");
+> 
 > int idade = scanner.nexIt();
 
-
-
 ### QUIZ - 
+
+
 - [Certificado]()
-- [Link da apresentação do curso]()
+- [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
 
 #### Lógica Condicional e controle de fluxos em Java
 ### QUIZ - 
