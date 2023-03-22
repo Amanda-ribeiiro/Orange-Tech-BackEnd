@@ -400,8 +400,44 @@ Ex:
 - [Certificado]()
 - [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
 
+
+
+
 #### Lógica Condicional e controle de fluxos em Java
 ### QUIZ - 
+1- Qual o tipo de dados seria mais recomendado para representar um CPF?
+R: long
+
+2- Encontre o erro no código abaixo:
+
+public class Tv {
+    int canal = 1;
+    void mudarCanal(){
+        canal = novoCanal;
+    }
+}
+
+R: o método mudarCanal deveria ter o parâmetro int novoCanal
+
+3- Considerando que você precisa criar um arquivo Java para representar um Ponto Eletrônico, qual seria a forma mais recomendada para conteúdo inicial do arquivo?
+
+R: public class PontoEletronico {}
+
+4- Qual a melhor definição do método abaixo:
+
+public String formatarCep(long cep){}
+
+R: Este método tem por finalidade formatar um número de cep para texto que represente um código postal legível.
+
+5- Qual é o valor impresso na execução do código abaixo ?
+public static void main(String[] args) throws Exception {
+      int numero1 = 1;
+      String numero2 = "2";
+      System.out.println(numero1+numero2); 
+    }
+
+R: 12
+
 - [Certificado]()
 - [Link da apresentação do curso]()
 
