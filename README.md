@@ -446,4 +446,69 @@ R: 12
 - [Certificado]()
 
 
-#### Entendendo Métodos Java
+
+
+
+
+
+
+
+#### Lógica Condiciomal e Controle de Fluxos em Java
+
+
+
+
+
+
+
+### QUIZ - 
+- [Certificado]()
+- 
+#### Estruturas de Repetição e Arrays em Java
+
+
+
+
+
+
+
+
+
+
+
+### QUIZ - 
+- [Certificado]()
+- 
+#### Estendeno Métodos Java
+
+
+
+
+
+
+
+
+### QUIZ - 
+- [Certificado]()
+- 
+### 4- DOMINANDO ALGORITMOS BÁSICOS COM DESAFIOS DE CÓDIGO JAVA
+[Professor: NOME](LINK)
+#### *NOME*
+##### *NOME*
+
+
+
+### 5- PROGRAMAÇÃO ORIENTADA A OBJETOS COM JAVA
+[Professor: NOME](LINK)
+#### *NOME*
+##### *NOME*
+
+### 6- GANHANDO PRODUTIVIDADE COM SPRING FRAMEWORK
+[Professor: NOME](LINK)
+#### *NOME*
+##### *NOME*
+
+### 7- DOMINANDO ALGORITIMOS INTERMEDIÁRIOS COM DESAFIOS DE CÓDIGO JAVA
+[Professor: NOME](LINK)
+#### *NOME*
+##### *NOME*
