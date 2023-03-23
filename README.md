@@ -536,6 +536,11 @@ default:
 break;
 }
 
+x Switch é para valores exatos e if para expressções booleanas;
+x Evitar usar o default do awitch para "cases genéricos" 
+x Evitar o efeito "flecha" dos if's
+x Evitar muitos if's aninhados
+
 
 * Blocos
 
