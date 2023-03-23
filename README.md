@@ -394,17 +394,8 @@ Ex:
 > 
 > int idade = scanner.nexIt();
 
-QUIZ - 
 
-
-- [Certificado]()
-- [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
-
-
-
-
-#### Lógica Condicional e controle de fluxos em Java
-QUIZ - 
+QUIZ -  Aprendendo a Sintaxe Java
 1- Qual o tipo de dados seria mais recomendado para representar um CPF?
 R: long
 
@@ -453,7 +444,7 @@ QUIZ -
 
 
 
-#### Lógica Condiciomal e Controle de Fluxos em Java
+#### Lógica CondicioNal e Controle de Fluxos em Java
 
 
 
