@@ -445,7 +445,55 @@ Tamanho: (>)maior, (>=) maior igual, (<) menor, (<=) menor igual
 * Operadores Lógicos
 São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógico ou expressões e, em seguida, retornar um resultado.
 
-Tipos: Conjunção, Disjunção, Disjunção exclusiva e Negação,
+Tipos: Conjunção, Disjunção, Disjunção exclusiva e Negação.
+
+_Conjunção:_ operação lógica que só é verdadeira quando ambos os operando ou expressões envilvidas são verdadeiras.
+Simbologia: 
+* &&
+Terminologia:
+* and(e)
+![image](https://user-images.githubusercontent.com/108890154/227273291-202b0fd1-4220-40d2-b7f3-567900293cf7.png)
+O - Operando E - Expressão R- Resultado
+
+_Disjunção:_ operação que só é falsa quando ambos os operando ou expressões envolvidas sçao falsos.
+Simbologia: 
+* ||
+Terminologia:
+* or(ou)
+![image](https://user-images.githubusercontent.com/108890154/227275696-52eead72-393a-4edd-8b20-0355208c3cd3.png)
+O - Operando E - Expressão R- Resultado
+
+
+_Disjunção exclusiva:_ operação que só é verdade quando ambos os operando ou expressões são opostos.
+Simbologia: 
+* ^
+Terminologia:
+* xor
+![image](https://user-images.githubusercontent.com/108890154/227275566-e4f70470-4f30-4cb5-859a-2e866e2ec567.png)
+O - Operando E - Expressão R- Resultado
+
+
+_Negação:_ operação inverte o valor lógico de um operando ou expressão.
+Simbologia: 
+* !
+Terminologia:
+* inversão
+![image](https://user-images.githubusercontent.com/108890154/227275464-6318956b-ea72-4794-a0d9-d5ffea89d2b5.png)
+O - Operando E - Expressão R- Resultado
+
+operador bitwise: & e |
+operador: shift: ~, >>, >>>, << (~ = vai inverter o bitwise,  >>, >>>, << =vai mexer com os zeros)
+
+
+
+
+* Controle de Fluxo
+São estruturas que tem a capacidade de direcionar o fluxo de execução do código
+
+Tipos:
+- Decisão: if, if-else, if-else-if, switch e operador ternário
+- Repetição: for, while, do while
+- Interrupção: break, continue e return
 
 Decisão: estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução. Opções: if(se), switch(escolha), e operador ternário
 
@@ -475,8 +523,6 @@ condição  ? true : null;
 emMovimento ? freia: null;
 
 
-
-
 Decisão: switch
 
 variável: byte, short, char, int, enum, string
@@ -490,10 +536,6 @@ default:
 break;
 }
 
-
-
-
-* Controle de Fluxo
 
 * Blocos
 
