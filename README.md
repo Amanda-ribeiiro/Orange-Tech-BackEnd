@@ -543,15 +543,72 @@ x Evitar muitos if's aninhados
 
 
 * Blocos
+É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação. Tipos: locais dentro de métodos, estátivos dentro de classes, instância dentro de classes.
+
+
+QUIZ - Blocos
+1- Sobre controle de fluxo, é incorreto afirmar:
+R: switch avalia expressões booleanas.
+
+2- Dado o seguinte código é correto afirmar:
+
+if (!b2)
+              System.out.println("Verdade");
+else {
+           System.out.println("Mentira");
+           System.out.println("Mentira");
+}
+
+R: como o "if" tem só uma linha, as "{" e "}" são opcionais.
+
+3- Avalie o código a seguir e marque a opção correta:
+
+if ((10 + 15) < 20)
+    System.out.println("Verdade");
+else
+    System.out.println("Mentira");
+    
+R: O texto "Mentira" deve ser exibido.
+
+
+4- Sobre operadores relacionais, qual das alternativas a seguir é a INCORRETA?
+
+R: "=" é o operador de igualdade.
+
+
+5-Sobre controle de fluxo, é correto afirmar:
+
+R: if não suporta expressões aritméticas.
+
+
+6- Dadas as variáveis:
+int i1 = 10; float f1 = 4.5f; char c1 = "x";
+boolean b1 = true;
+Qual operação é válida?
+
+R: c1>i1
+
+7- Qual das expressões lógicas a seguir é válida?
+
+R: (10 > 15) && true
+
+
+8- São tipos de operadores relacionais:
+R: Igualdade e menor
+
+9- Avalie as expressões e marque a verdadeira.
+R: true || false é true
+
+10- Sobre operadores lógicos, é correto afirmar que:
+R: "!" corresponde a operação lógica "inversão"
+
+- [Certificado](https://hermes.digitalinnovation.one/certificates/27FC47B1.pdf?_gl=1*r6vxwo*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTU5ODk0MS4yNDcuMS4xNjc5NjAwMjQwLjYwLjAuMA..)
 
 
 
 
 
 
-QUIZ - 
-- [Certificado]()
-- 
 #### Estruturas de Repetição e Arrays em Java
 
 
