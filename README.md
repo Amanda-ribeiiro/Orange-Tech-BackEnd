@@ -394,7 +394,7 @@ Ex:
 > 
 > int idade = scanner.nexIt();
 
-### QUIZ - 
+QUIZ - 
 
 
 - [Certificado]()
@@ -404,7 +404,7 @@ Ex:
 
 
 #### Lógica Condicional e controle de fluxos em Java
-### QUIZ - 
+QUIZ - 
 1- Qual o tipo de dados seria mais recomendado para representar um CPF?
 R: long
 
@@ -442,7 +442,7 @@ R: 12
 - [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
 
 #### Estruturas de repetição e Arrays em Java
-### QUIZ - 
+QUIZ - 
 - [Certificado]()
 
 
@@ -461,7 +461,7 @@ R: 12
 
 
 
-### QUIZ - 
+QUIZ - 
 - [Certificado]()
 - 
 #### Estruturas de Repetição e Arrays em Java
@@ -476,7 +476,7 @@ R: 12
 
 
 
-### QUIZ - 
+QUIZ - 
 - [Certificado]()
 - 
 #### Estendeno Métodos Java
@@ -488,7 +488,7 @@ R: 12
 
 
 
-### QUIZ - 
+QUIZ - 
 - [Certificado]()
 - 
 ### 4- DOMINANDO ALGORITMOS BÁSICOS COM DESAFIOS DE CÓDIGO JAVA
