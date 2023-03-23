@@ -442,14 +442,56 @@ Similaridade: (==) igualdade, (!=) diferente
 
 Tamanho: (>)maior, (>=) maior igual, (<) menor, (<=) menor igual 
 
-
-
-
-
-
-
-
 * Operadores Lógicos
+São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógico ou expressões e, em seguida, retornar um resultado.
+
+Tipos: Conjunção, Disjunção, Disjunção exclusiva e Negação,
+
+Decisão: estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução. Opções: if(se), switch(escolha), e operador ternário
+
+Decisão: if, if-else, if-else-f
+
+if (condição) {
+}
+
+if (condição) {
+} else {
+}
+
+if (condição) {
+} else if (condição){
+} else {
+} 
+
+
+Decisão: Operador Ternário
+
+condição ? true: false;
+
+ligado ? desligar: ligar;
+
+condição  ? true : null;
+
+emMovimento ? freia: null;
+
+
+
+
+Decisão: switch
+
+variável: byte, short, char, int, enum, string
+
+switch (variável) {
+case 1:
+break;
+case ...:
+break;
+default: 
+break;
+}
+
+
+
 
 * Controle de Fluxo
 
