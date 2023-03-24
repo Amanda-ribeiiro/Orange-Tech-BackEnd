@@ -742,12 +742,13 @@ Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
 
 
 <br>Array Unidimensional</br>
+
 ```
 Nome do array (c) {(c) é o nome do meu<code>array</code> nesse exemplo.}
 
 Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> está. Lembrando que as posições sempre começa do "0".}
+```
 
-````
 ![image](https://user-images.githubusercontent.com/108890154/227620344-66e2a533-9c40-4347-aef7-cf82e33f0fa4.png)
 
 
