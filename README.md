@@ -669,7 +669,8 @@ Qual operação é válida?
 
 <li><a href="https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/febaaad5-ea57-4389-a960-2907fa40041c?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">Apresentação e Visão Geral</a></li>
 
-[Professora: Camila Cavalcante]()
+[Professora: Camila Cavalcante](https://www.linkedin.com/in/cami-la/)
+[Repositório](https://www.github.com/cami-la/loops-e-arrays)
 <p></p>
 <b>Objetivo do Curso</b>
 <ul>
