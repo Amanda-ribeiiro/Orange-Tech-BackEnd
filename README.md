@@ -670,6 +670,7 @@ Qual operação é válida?
 <li><a href="https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/febaaad5-ea57-4389-a960-2907fa40041c?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">Apresentação e Visão Geral</a></li>
 
 [Professora: Camila Cavalcante]()
+<p></p>
 <b>Objetivo do Curso</b>
 <ul>
     <li>
@@ -682,7 +683,8 @@ Qual operação é válida?
         Estrutura <code>for-each</code>
     </li>
 </ul>
-<b><code>Percurso</b>
+<p></p>
+<b>Percurso</b>
 <ul>
     <li>
         Comando<code>while</code>
@@ -693,17 +695,11 @@ Qual operação é válida?
     <li>
         Comando<code>for</code>
     </li>
-     <li>
+    </li>
+    <li>
         Controle de Repetição:<code>break</code>e<code>continue</code>
     </li>
-</ul>    
-
-
-
-
-
-
-
+</ul>
 
 
 
