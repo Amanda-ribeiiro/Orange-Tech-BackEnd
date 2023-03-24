@@ -3,6 +3,20 @@ O que falta para você se tornar um desenvolvedor Java e começar 2023 com uma f
 
 Módulos sobre a linguagem Java que vão desde o básico e introdução ao ambiente até códigos mais avançados e frameworks mais usados.
 
+<h2>Table of Contents</h2>
+<ol>
+    <li><a href="#prepare-se-para-a-jornada">Prepare-se para a Jornada</a></li>
+    <li><a href="#princípios-de-desenvolvimento-de-software">Princípios de Desenvolvimento de Software</a></li>
+    <li><a href="#conhecendo-a-linguagem-java">Conhecendo a Linguagem Java</a></li>
+    <li><a href="#dominando-algoritmos-básicos">Dominando Algoritmos básicos </a></li>
+    <li><a href="#programação-orientada-a-objetos-com-java">Programação Orientada a Objetos com Java</a></li>
+    <li><a href="#ganhando-produtividade-com-spring-framework">Ganhando Produtividade com Spring Framework</a></li>
+    <li><a href="#dominando-algoritmos-intermediarios-com-desafios-de-codigos">Dominando Algoritmos Intermediários com Desafios de Código Java</a></li>
+    <li><a href="#fortalecendo-sua-carreira-profissional">Fortalecendo sua Carreira Profissional</a></li>
+</ol>
+
+   <li><a href="#develop-vs-master"><code>develop</code> vs <code>master</code></a></li>
+
 ### 1- Prepare-se para a Jornada (Onboarding)
 #### Convite para "O Minha Carreira Tech - Orange Tech + | BackEnd
 Temas sobre empregaribilidade e um painel que será abordado sobre como se destacar mais no mercado de tecnologia e como é o dia a dia de um profissional dentro do Banco Inter 
@@ -213,6 +227,7 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 
 • Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
 
+```bash
 - (+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
 - (-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
 - (++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
@@ -220,6 +235,7 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 - (%) resto da divisáo;
  
 número ++; é a mesma coisa que número = número +1;
+```
 
 • Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
 
@@ -227,12 +243,14 @@ número ++; é a mesma coisa que número = número +1;
 
 • Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
 
+```bash
 - == quando desejamos verificar se uma variável é IGUAL A outra.
 - != quando desejamos verificar se uma variável é DIFERENTE da outra.
 - > quando quando desejamos verificar se uma variável MAIOR QUE a outra.
 - >= quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
 - < quando desejamos verificar se uma variável é MENOR QUE outra.
 - <= quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+```
 
 método equals compara conteúdo
 
