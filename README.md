@@ -3,7 +3,7 @@ O que falta para você se tornar um desenvolvedor Java e começar 2023 com uma f
 
 Módulos sobre a linguagem Java que vão desde o básico e introdução ao ambiente até códigos mais avançados e frameworks mais usados.
 
-<h2>Table of Contents</h2>
+<h2>Módulos</h2>
 <ol>
     <li><a href="#prepare-se-para-a-jornada">Prepare-se para a Jornada</a></li>
     <li><a href="#princípios-de-desenvolvimento-de-software">Princípios de Desenvolvimento de Software</a></li>
