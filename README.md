@@ -256,9 +256,10 @@ método equals compara conteúdo
 
 • Lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões 
 
+```bash
 && operador lógico "E"
 ( || )operador lógico "OU"
-
+```
 
 ##### *Métodos*
 Ponto de reflexão 
@@ -418,13 +419,14 @@ QUIZ -  Aprendendo a Sintaxe Java
 R: long
 
 2- Encontre o erro no código abaixo:
-
+```bash
 public class Tv {
     int canal = 1;
     void mudarCanal(){
         canal = novoCanal;
     }
 }
+```
 
 R: o método mudarCanal deveria ter o parâmetro int novoCanal
 
@@ -439,12 +441,13 @@ public String formatarCep(long cep){}
 R: Este método tem por finalidade formatar um número de cep para texto que represente um código postal legível.
 
 5- Qual é o valor impresso na execução do código abaixo ?
+```bash
 public static void main(String[] args) throws Exception {
       int numero1 = 1;
       String numero2 = "2";
       System.out.println(numero1+numero2); 
     }
-
+```
 R: 12
 
 - [Certificado](https://hermes.digitalinnovation.one/certificates/06415E1C.pdf?_gl=1*ulx1g3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTUyMjgwNS4yNDUuMS4xNjc5NTI0NTM5LjYwLjAuMA..)
@@ -517,6 +520,7 @@ Decisão: estrutura que avalia uma condição booleana ou variável para direcio
 
 Decisão: if, if-else, if-else-f
 
+```bash
 if (condição) {
 }
 
@@ -528,7 +532,7 @@ if (condição) {
 } else if (condição){
 } else {
 } 
-
+```
 
 Decisão: Operador Ternário
 
@@ -569,23 +573,23 @@ QUIZ - Blocos
 R: switch avalia expressões booleanas.
 
 2- Dado o seguinte código é correto afirmar:
-
+```bash
 if (!b2)
               System.out.println("Verdade");
 else {
            System.out.println("Mentira");
            System.out.println("Mentira");
 }
-
+```
 R: como o "if" tem só uma linha, as "{" e "}" são opcionais.
 
 3- Avalie o código a seguir e marque a opção correta:
-
+```bash
 if ((10 + 15) < 20)
     System.out.println("Verdade");
 else
     System.out.println("Mentira");
-    
+```   
 R: O texto "Mentira" deve ser exibido.
 
 
