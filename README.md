@@ -741,7 +741,8 @@ Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
 </p>
 
 
-<br>Array Unidimensional</br>
+<h5>Array Unidimensional</h5>
+![image](https://user-images.githubusercontent.com/108890154/227620344-66e2a533-9c40-4347-aef7-cf82e33f0fa4.png)
 
 ```
 Nome do array (c) {(c) é o nome do meu<code>array</code> nesse exemplo.}
@@ -749,15 +750,16 @@ Nome do array (c) {(c) é o nome do meu<code>array</code> nesse exemplo.}
 Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> está. Lembrando que as posições sempre começa do "0".}
 ```
 
-![image](https://user-images.githubusercontent.com/108890154/227620344-66e2a533-9c40-4347-aef7-cf82e33f0fa4.png)
+<h5>Array Multidimensional</h5>
+Primeiro conchete guarda a posição da linha e o segundo da coluna:
+```
+| Coluna 0    | coluna 1   | coluna 2  |
+| — — — — — — | — — — — —  | — — — — — |
+| a [0] [0]   | a [0] [1]  | a [0] [2] |
+| a [1] [0]   | a [1] [1]  | a [1] [2] |
+```
 
-
-<br>Array Multidimensional</br>
 ![image](https://user-images.githubusercontent.com/108890154/227620625-519bf1c1-9435-48e5-bf29-8aef7d89681b.png)
-
-
-
-
 
 
 
