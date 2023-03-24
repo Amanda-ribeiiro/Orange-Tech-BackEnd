@@ -780,6 +780,11 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 
 🔗<a href="https://github.com/cami-la/loops-e-arrays/tree/master/src/br/com/dio/exercicios/arrays"> Exercícios Arrays</a><br>
 
+🔗 <a href= "https://wiki.python.org.br/ExerciciosListas"> Lista de Exercícios Arrays Unidimensionais </a> - <a href="https://github.com/cami-la/listaDeExerciciosPythonBrasil/tree/master/exerciciosListas">Possíveis soluções</a><br>
+
+🔗 <a href= "https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-20?from_action=save"> Lista de Exercícios Arrays Multidimensionais </a><br>
+
+
 QUIZ - 
 - [Certificado]()
 - 
