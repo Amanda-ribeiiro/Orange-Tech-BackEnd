@@ -670,7 +670,7 @@ Qual operação é válida?
 <li><a href="https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/febaaad5-ea57-4389-a960-2907fa40041c?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">Apresentação e Visão Geral</a></li>
 
 [Professora: Camila Cavalcante](https://www.linkedin.com/in/cami-la/)
-[Repositório](https://www.github.com/cami-la/loops-e-arrays)
+🔗 <a href= "https://www.github.com/cami-la/loops-e-arrays">Repositório</a>
 <p></p>
 <b>Objetivo do Curso</b>
 <ul>
@@ -740,10 +740,9 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
 Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo. Permanecem com o mesmo tamanho depois de criados.
 </p>
 
+<img src="https://i.ibb.co/GVQVC4k/Screenshot-from-2021-08-25-09-11-48.png" alt="Screenshot-from-2021-08-25-09-11-48" border="0">
 
 <h5>Array Unidimensional</h5>
-
-![image](https://user-images.githubusercontent.com/108890154/227620344-66e2a533-9c40-4347-aef7-cf82e33f0fa4.png)
 
 ```
 Nome do array (c) {(c) é o nome do meu<code>array</code> nesse exemplo.}
@@ -761,15 +760,20 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 | a [1] [0]   | a [1] [1]  | a [1] [2] |
 ```
 
-![image](https://user-images.githubusercontent.com/108890154/227620625-519bf1c1-9435-48e5-bf29-8aef7d89681b.png)
+<h3 id="conhecento-o-repositorio">Conhecendo o repositório</h3>
+<h4>
+🛑 Pré-requistos
+</h4>
 
+- [x] Java JDK 11
+- [x] IDE para desenvolvimento Java 
+- [x] Conhecer a sintaxe Java
 
+🔗 <a href="https://docs.google.com/presentation/d/1G3MDuxTjdEGcDBguVoanbP9-xipy8v46/edit?usp=sharing&ouid=114707527529839266022&rtpof=true&sd=true" target="_blank"> Visão geral: Estruturas de Repetição e Arrays</a> <br>
 
+🔗 <a href="https://github.com/cami-la/loops-e-arrays/tree/master/src/br/com/dio/exercicios/loops"> Exercícios Loops</a><br>
 
-
-
-
-
+🔗<a href="https://github.com/cami-la/loops-e-arrays/tree/master/src/br/com/dio/exercicios/arrays"> Exercícios Arrays</a><br>
 
 QUIZ - 
 - [Certificado]()
