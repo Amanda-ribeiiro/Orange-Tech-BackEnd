@@ -705,7 +705,9 @@ Qual operação é válida?
 <p>
 O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes. Cada repetição é chamada laço <code>loop</code> é um dos conceitos básicos da programação estruturada.
 </p>
-** Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas condições sejam satisfeitas.**
+
+**Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas condições sejam satisfeitas.**
+
 <b>As Estruturas de repetição podem ser classificadas em:</b>
 <ul>
     <li>
@@ -740,6 +742,12 @@ Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
 
 
 <br>Array Unidimensional</br>
+```
+Nome do array (c) {(c) é o nome do meu<code>array</code> nesse exemplo.}
+
+Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> está. Lembrando que as posições sempre começa do "0".}
+
+````
 ![image](https://user-images.githubusercontent.com/108890154/227620344-66e2a533-9c40-4347-aef7-cf82e33f0fa4.png)
 
 
