@@ -8,7 +8,7 @@ Módulos sobre a linguagem Java que vão desde o básico e introdução ao ambie
 <h2>Módulos</h2>
 <ol>
     <li><a href="#prepare-se-para-a-jornada">Prepare-se para a Jornada</a></li>
-    <li><a href="#princípios-de-desenvolvimento-de-software">Princípios de Desenvolvimento de Software</a></li>
+    <li><a href="#principios-de-desenvolvimento-de-software">Princípios de Desenvolvimento de Software</a></li>
     <li><a href="#conhecendo-a-linguagem-java">Conhecendo a Linguagem Java</a></li>
     <li><a href="#dominando-algoritmos-básicos">Dominando Algoritmos básicos </a></li>
     <li><a href="#programação-orientada-a-objetos-com-java">Programação Orientada a Objetos com Java</a></li>
@@ -17,12 +17,12 @@ Módulos sobre a linguagem Java que vão desde o básico e introdução ao ambie
     <li><a href="#fortalecendo-sua-carreira-profissional">Fortalecendo sua Carreira Profissional</a></li>
 </ol>
 
-   <li><a href="#develop-vs-master"><code>develop</code> vs <code>master</code></a></li>
 
-### 1- Prepare-se para a Jornada (Onboarding)
-#### Convite para "O Minha Carreira Tech - Orange Tech + | BackEnd
-Temas sobre empregaribilidade e um painel que será abordado sobre como se destacar mais no mercado de tecnologia e como é o dia a dia de um profissional dentro do Banco Inter 
-20/03/2023 
+<h2 id="prepare-se-para-a-jornada">1- Prepare-se para a Jornada (Onboarding)</h2>
+<h4 id="minha-carreira">Convite para "O Minha Carreira Tech - Orange Tech + | BackEnd</h4>
+</p>
+Temas sobre empregaribilidade e um painel que será abordado sobre como se destacar mais no mercado de tecnologia e como é o dia a dia de um profissional dentro do Banco Inter 20/03/2023.
+</p>
 
 ### [Introdução ao Desenvolvimento Moderno de Software](https://web.dio.me/course/introducao-ao-desenvolvimento-moderno-de-software/learning/64118d38-e7a0-4e98-becd-c5e52c993e08?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined)
 
@@ -710,3 +710,8 @@ QUIZ -
 [Professor: NOME](LINK)
 #### *NOME*
 ##### *NOME*
+
+
+
+
+   <li><a href="#develop-vs-master"><code>develop</code> vs <code>master</code></a></li>
