@@ -730,6 +730,17 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
 </ul>
 ![image](https://user-images.githubusercontent.com/108890154/227617391-8661d023-cf89-4f78-b9aa-a79d2e5d669c.png)
 
+![image](https://user-images.githubusercontent.com/108890154/227617633-32d797bf-99c7-4d2e-a887-fcb44db9604a.png)
+
+
+
+
+<br>Array Unidimensional</br>
+![image](https://user-images.githubusercontent.com/108890154/227620344-66e2a533-9c40-4347-aef7-cf82e33f0fa4.png)
+
+
+<br>Array Multidimensional</br>
+![image](https://user-images.githubusercontent.com/108890154/227620625-519bf1c1-9435-48e5-bf29-8aef7d89681b.png)
 
 
 
