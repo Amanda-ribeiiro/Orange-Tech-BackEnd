@@ -606,7 +606,7 @@ break;
 * Blocos
 É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação. Tipos: locais dentro de métodos, estátivos dentro de classes, instância dentro de classes.
 
-<h2 id="stale-prs">QUIZ - Blocos</h2>
+<h2 id="quiz">QUIZ - Blocos</h2>
 <p>1- Sobre controle de fluxo, é incorreto afirmar:</p>
 <p>R: switch avalia expressões booleanas.</p>
 
@@ -665,10 +665,21 @@ Qual operação é válida?
 
 
 
+<h3 id="estruturas-de-repeticao-e-arrays-em-java">Estruturas de Repetição e Arrays em Java</h3>
 
-#### Estruturas de Repetição e Arrays em Java
+<li><a href="https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/febaaad5-ea57-4389-a960-2907fa40041c?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">Apresentação e Visão Geral</a></li>
 
-
+[Professora: Camila Cavalcante]()
+<p>Conhecer as estruturas de repetição</p>
+<p>Arrays na Linguagem Java</p>
+<p>Estrutura <code>for-each</code></p>
+   
+```html
+Comando<code>while</code>
+Comando<code>do-while</code>
+Comando<code>for</code>
+Controle de Repetição:<code>break</code>e<code>continue</code>
+```
 
 
 
