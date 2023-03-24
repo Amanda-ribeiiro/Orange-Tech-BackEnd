@@ -376,16 +376,20 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 
 *Java DOC*
 Tipos de comentários:
+```html
 One Line: Inserir uma única linha nesse comentário. Informação não é copilada na linguagem ela é nível de usuário
 // exemplo de comentário one line
-
+```
+```html
 Mult Line: comentário mais detalhado quando necessário
 /*
 *
 *
 *
 */
+```
 
+```html
 Docymentation: Menciona aspecto de documentação 
 / **
 * Está duas estrelinhas acima
@@ -393,7 +397,7 @@ Docymentation: Menciona aspecto de documentação
 * pretende elaborar um comentário
 * a nível de documentação
 */
-
+```
 ##### *Terminal e Argumentos*
 Com o JVM devidamente configurada, nós podemos criar um executável do nosso programa e disponilizar o instalador para qualquer sistema operacional.
 > Observe que nosso projeto Java criado por um IDE, ele terá uma pastada chama *bin*. É nesta pasa que ficarão os arquivos *.class*, o nosso bytecode.
@@ -469,42 +473,60 @@ São símbolos especiais quais são capazes de realizar comparações lógicas e
 Tipos: Conjunção, Disjunção, Disjunção exclusiva e Negação.
 
 _Conjunção:_ operação lógica que só é verdadeira quando ambos os operando ou expressões envilvidas são verdadeiras.
+```html
 Simbologia: 
 * &&
 Terminologia:
 * and(e)
+```
 ![image](https://user-images.githubusercontent.com/108890154/227273291-202b0fd1-4220-40d2-b7f3-567900293cf7.png)
+```html
 O - Operando E - Expressão R- Resultado
-
+```
 _Disjunção:_ operação que só é falsa quando ambos os operando ou expressões envolvidas sçao falsos.
+```html
 Simbologia: 
 * ||
 Terminologia:
 * or(ou)
-![image](https://user-images.githubusercontent.com/108890154/227275696-52eead72-393a-4edd-8b20-0355208c3cd3.png)
-O - Operando E - Expressão R- Resultado
+```
 
+![image](https://user-images.githubusercontent.com/108890154/227275696-52eead72-393a-4edd-8b20-0355208c3cd3.png)
+```html
+O - Operando E - Expressão R- Resultado
+```
 
 _Disjunção exclusiva:_ operação que só é verdade quando ambos os operando ou expressões são opostos.
+```html
 Simbologia: 
 * ^
 Terminologia:
 * xor
-![image](https://user-images.githubusercontent.com/108890154/227275566-e4f70470-4f30-4cb5-859a-2e866e2ec567.png)
-O - Operando E - Expressão R- Resultado
+```
 
+![image](https://user-images.githubusercontent.com/108890154/227275566-e4f70470-4f30-4cb5-859a-2e866e2ec567.png)
+
+```html
+O - Operando E - Expressão R- Resultado
+```
 
 _Negação:_ operação inverte o valor lógico de um operando ou expressão.
+```html
 Simbologia: 
 * !
 Terminologia:
 * inversão
+```
 ![image](https://user-images.githubusercontent.com/108890154/227275464-6318956b-ea72-4794-a0d9-d5ffea89d2b5.png)
+
+```html
 O - Operando E - Expressão R- Resultado
+```
+```html
 
 operador bitwise: & e |
 operador: shift: ~, >>, >>>, << (~ = vai inverter o bitwise,  >>, >>>, << =vai mexer com os zeros)
-
+```
 
 
 
@@ -520,7 +542,7 @@ Decisão: estrutura que avalia uma condição booleana ou variável para direcio
 
 Decisão: if, if-else, if-else-f
 
-```bash
+```html
 if (condição) {
 }
 
@@ -535,7 +557,7 @@ if (condição) {
 ```
 
 Decisão: Operador Ternário
-
+```html
 condição ? true: false;
 
 ligado ? desligar: ligar;
@@ -543,7 +565,7 @@ ligado ? desligar: ligar;
 condição  ? true : null;
 
 emMovimento ? freia: null;
-
+```
 
 Decisão: switch
 
@@ -558,22 +580,32 @@ default:
 break;
 }
 
-x Switch é para valores exatos e if para expressções booleanas;
-x Evitar usar o default do awitch para "cases genéricos" 
-x Evitar o efeito "flecha" dos if's
-x Evitar muitos if's aninhados
+<ul>
+    <li>
+        Switch é para valores exatos e if para expressções booleanas;
+    </li>
+    <li>
+         Evitar usar o default do awitch para "cases genéricos" 
+    </li>
+    <li>
+        Evitar o efeito "flecha" dos if's
+    </li>
+    <li>
+        Evitar muitos if's aninhados
+    </li>
+</ul>
+
 
 
 * Blocos
 É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação. Tipos: locais dentro de métodos, estátivos dentro de classes, instância dentro de classes.
 
+<h2 id="stale-prs">QUIZ - Blocos</h2>
+<p>1- Sobre controle de fluxo, é incorreto afirmar:</p>
+<p>R: switch avalia expressões booleanas.</p>
 
-QUIZ - Blocos
-1- Sobre controle de fluxo, é incorreto afirmar:
-R: switch avalia expressões booleanas.
-
-2- Dado o seguinte código é correto afirmar:
-```bash
+<p>2- Dado o seguinte código é correto afirmar:</p>
+```html
 if (!b2)
               System.out.println("Verdade");
 else {
@@ -584,7 +616,7 @@ else {
 R: como o "if" tem só uma linha, as "{" e "}" são opcionais.
 
 3- Avalie o código a seguir e marque a opção correta:
-```bash
+```html
 if ((10 + 15) < 20)
     System.out.println("Verdade");
 else
