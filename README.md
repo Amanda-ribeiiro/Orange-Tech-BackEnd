@@ -728,6 +728,7 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
         Quando o comando<code>continue</code> é executado, os comandos restantes da repetição são ignorados e programa volta a testar novamente ou não.
     </li>
 </ul>
+![image](https://user-images.githubusercontent.com/108890154/227617391-8661d023-cf89-4f78-b9aa-a79d2e5d669c.png)
 
 
 
