@@ -682,7 +682,6 @@ Qual operação é válida?
         Estrutura <code>for-each</code>
     </li>
 </ul>
-<ul>
 <b><code>Percurso</b>
     <li>
         Comando<code>while</code>
