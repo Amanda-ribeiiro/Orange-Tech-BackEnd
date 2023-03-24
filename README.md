@@ -706,7 +706,9 @@ Qual operação é válida?
 O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes. Cada repetição é chamada laço <code>loop</code> é um dos conceitos básicos da programação estruturada.
 </p>
 <p>
-**Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas condições sejam satisfeitas.*;
+**
+Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas condições sejam satisfeitas.
+*
 </p>
 
 
