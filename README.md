@@ -705,9 +705,7 @@ Qual operação é válida?
 <p>
 O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes. Cada repetição é chamada laço <code>loop</code> é um dos conceitos básicos da programação estruturada.
 </p>
-<p>
 ** Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas condições sejam satisfeitas. *
-</p>
 <b>As Estruturas de repetição podem ser classificadas em:</b>
 <ul>
     <li>
@@ -728,11 +726,17 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
         Quando o comando<code>continue</code> é executado, os comandos restantes da repetição são ignorados e programa volta a testar novamente ou não.
     </li>
 </ul>
+
 ![image](https://user-images.githubusercontent.com/108890154/227617391-8661d023-cf89-4f78-b9aa-a79d2e5d669c.png)
 
 ![image](https://user-images.githubusercontent.com/108890154/227617633-32d797bf-99c7-4d2e-a887-fcb44db9604a.png)
 
 
+
+<h4 id="arrays">Arrays</h4>
+<p>
+Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo. Permanecem com o mesmo tamanho depois de criados.
+</p>
 
 
 <br>Array Unidimensional</br>
