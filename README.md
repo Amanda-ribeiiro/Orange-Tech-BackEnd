@@ -48,7 +48,7 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
 #### *Introdução à plataforma Java*
 ##### *Introdução e Objetivos*
-Conhecer a estrutura, a história de criação e evolução da linguagem Java, além de suas plataformas, instalação e utilização de IDEs para desenvolvimento.
+Conhecer a estrutura, a história de criação e evolução da linguagem <code>Java</code>, além de suas plataformas, instalação e utilização de <code>IDEs</code> para desenvolvimento.
 [Java Fundamentos:](https://glysns.gitbook.io/java-basico/)
 
 ##### *O que é Java*
@@ -61,7 +61,7 @@ POO - Programação Orientada a Objetos:
 5. Polimorfismo
 
 Plataforma independente, robusta, 
-JVM (Java Virtual Machine)
+<code>JVM</code> (Java Virtual Machine)
 
 ##### *Java e sua história*
 A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em C e C ++ que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
