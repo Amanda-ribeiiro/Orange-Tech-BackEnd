@@ -670,16 +670,35 @@ Qual operação é válida?
 <li><a href="https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/febaaad5-ea57-4389-a960-2907fa40041c?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">Apresentação e Visão Geral</a></li>
 
 [Professora: Camila Cavalcante]()
-<p>Conhecer as estruturas de repetição</p>
-<p>Arrays na Linguagem Java</p>
-<p>Estrutura <code>for-each</code></p>
-   
-```html
-Comando<code>while</code>
-Comando<code>do-while</code>
-Comando<code>for</code>
-Controle de Repetição:<code>break</code>e<code>continue</code>
-```
+<b>Objetivo do Curso</b>
+<ul>
+    <li>
+        Conhecer as estruturas de repetição
+    </li>
+    <li>
+        Arrays na Linguagem Java
+    </li>
+     <li>
+        Estrutura <code>for-each</code>
+    </li>
+</ul>
+<ul>
+<b><code>Percurso</b>
+    <li>
+        Comando<code>while</code>
+    </li>
+    <li>
+        Comando<code>do-while</code>
+    </li>
+    <li>
+        Comando<code>for</code>
+    </li>
+     <li>
+        Controle de Repetição:<code>break</code>e<code>continue</code>
+    </li>
+</ul>    
+
+
 
 
 
