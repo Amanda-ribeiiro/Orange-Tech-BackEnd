@@ -742,6 +742,7 @@ Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
 
 
 <h5>Array Unidimensional</h5>
+
 ![image](https://user-images.githubusercontent.com/108890154/227620344-66e2a533-9c40-4347-aef7-cf82e33f0fa4.png)
 
 ```
@@ -751,7 +752,8 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 ```
 
 <h5>Array Multidimensional</h5>
-Primeiro conchete guarda a posição da linha e o segundo da coluna:
+<p>Primeiro conchete guarda a posição da linha e o segundo da coluna:</p>
+
 ```
 | Coluna 0    | coluna 1   | coluna 2  |
 | — — — — — — | — — — — —  | — — — — — |
