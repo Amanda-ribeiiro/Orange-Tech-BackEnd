@@ -725,13 +725,18 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
     </li>
     </li>
     <li>
-        Quando o comando<code>continue</code> é executado, os comandos restantes da repetição são ignorados e programa volta a testar novamente ou não.
+        Quando o comando<code>continue</code> é executado, os comandos restantes da repetição são ignorados e programa volta a testar novamente a condição.
     </li>
 </ul>
 
-![image](https://user-images.githubusercontent.com/108890154/227617391-8661d023-cf89-4f78-b9aa-a79d2e5d669c.png)
+<h4 id="fluxogramas">Fluxogramas</h4>
+<img src="https://i.ibb.co/gjXpxbt/Screenshot-from-2021-08-25-09-44-42.png" alt="Screenshot-from-2021-08-25-09-44-42" border="0">
+<h3> ➕/➖ OPERADORES DE INCREMENTO E DECREMENTO </h3>
+<img src="https://i.ibb.co/GTb9JNb/Screenshot-from-2021-08-23-10-56-10.png" alt="Screenshot-from-2021-08-23-10-56-10" border="0"
 
-![image](https://user-images.githubusercontent.com/108890154/227617633-32d797bf-99c7-4d2e-a887-fcb44db9604a.png)
+
+<h4 id="operacoes">Operações Aritméticas</h4>
+<img src="https://i.ibb.co/YQmbSsV/Screenshot-from-2021-08-23-10-56-24.png" alt="Screenshot-from-2021-08-23-10-56-24" border="0">
 
 
 
