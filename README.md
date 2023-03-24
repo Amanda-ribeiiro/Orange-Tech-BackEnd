@@ -605,6 +605,7 @@ break;
 <p>R: switch avalia expressões booleanas.</p>
 
 <p>2- Dado o seguinte código é correto afirmar:</p>
+
 ```html
 if (!b2)
               System.out.println("Verdade");
@@ -613,50 +614,46 @@ else {
            System.out.println("Mentira");
 }
 ```
-R: como o "if" tem só uma linha, as "{" e "}" são opcionais.
+<p>R: como o "if" tem só uma linha, as "{" e "}" são opcionais.</p>
 
-3- Avalie o código a seguir e marque a opção correta:
+<p>3- Avalie o código a seguir e marque a opção correta:</p>
+
 ```html
 if ((10 + 15) < 20)
     System.out.println("Verdade");
 else
     System.out.println("Mentira");
 ```   
-R: O texto "Mentira" deve ser exibido.
+<p>R: O texto "Mentira" deve ser exibido.</p>
 
+<p>4- Sobre operadores relacionais, qual das alternativas a seguir é a INCORRETA?</p>
+<p>R: "=" é o operador de igualdade.</p>
 
-4- Sobre operadores relacionais, qual das alternativas a seguir é a INCORRETA?
+<p>5-Sobre controle de fluxo, é correto afirmar:</p>
+<p>R: if não suporta expressões aritméticas.</p>
 
-R: "=" é o operador de igualdade.
+<p>6- Dadas as variáveis:</p>
 
-
-5-Sobre controle de fluxo, é correto afirmar:
-
-R: if não suporta expressões aritméticas.
-
-
-6- Dadas as variáveis:
+```html
 int i1 = 10; float f1 = 4.5f; char c1 = "x";
 boolean b1 = true;
 Qual operação é válida?
+```
+<p>R: c1>i1</p>
 
-R: c1>i1
+<p>7- Qual das expressões lógicas a seguir é válida?</p>
+<p>R: (10 > 15) && true</p>
 
-7- Qual das expressões lógicas a seguir é válida?
+<p>8- São tipos de operadores relacionais:</p>
+<p>R: Igualdade e menor</p>
 
-R: (10 > 15) && true
+<p>9- Avalie as expressões e marque a verdadeira.</p></p>
+<p>R: true || false é true</p>
 
+<p>10- Sobre operadores lógicos, é correto afirmar que:</p>
+<p>R: "!" corresponde a operação lógica "inversão"</p>
 
-8- São tipos de operadores relacionais:
-R: Igualdade e menor
-
-9- Avalie as expressões e marque a verdadeira.
-R: true || false é true
-
-10- Sobre operadores lógicos, é correto afirmar que:
-R: "!" corresponde a operação lógica "inversão"
-
-- [Certificado](https://hermes.digitalinnovation.one/certificates/27FC47B1.pdf?_gl=1*r6vxwo*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTU5ODk0MS4yNDcuMS4xNjc5NjAwMjQwLjYwLjAuMA..)
+[Certificado](https://hermes.digitalinnovation.one/certificates/27FC47B1.pdf?_gl=1*r6vxwo*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTU5ODk0MS4yNDcuMS4xNjc5NjAwMjQwLjYwLjAuMA..)
 
 
 
