@@ -683,6 +683,7 @@ Qual operação é válida?
     </li>
 </ul>
 <b><code>Percurso</b>
+<ul>
     <li>
         Comando<code>while</code>
     </li>
