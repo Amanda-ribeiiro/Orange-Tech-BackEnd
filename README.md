@@ -1,8 +1,10 @@
 # [Orange Tech + | BackEnd](https://web.dio.me/track/2aeff5aa-bb23-4141-8109-20fa42b58ff7)
+<p>
 O que falta para você se tornar um desenvolvedor Java e começar 2023 com uma formação completa? Inscreva-se já no Orange Tech+ Back-End e tenha mais de 80 horas para transformar sua carreira e conquistar as melhores vagas do mercado tech em 2023! Tenha acesso a módulos sobre a linguagem Java que vão desde o básico e introdução ao ambiente até códigos mais avançados e frameworks mais usados.
-
+</p>
+<p>    
 Módulos sobre a linguagem Java que vão desde o básico e introdução ao ambiente até códigos mais avançados e frameworks mais usados.
-
+</p>
 <h2>Módulos</h2>
 <ol>
     <li><a href="#prepare-se-para-a-jornada">Prepare-se para a Jornada</a></li>
