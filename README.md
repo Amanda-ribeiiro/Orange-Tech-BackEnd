@@ -720,10 +720,15 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
         repetição contada<code>for</code>
     </li>
     </li>
-     <li>
+    <li>
         O Comando<code>break</code> é utilizado para terminar de forma abrupta uma repetição.
     </li>
+    </li>
+    <li>
+        Quando o comando<code>continue</code> é executado, os comandos restantes da repetição são ignorados e programa volta a testar novamente ou não.
+    </li>
 </ul>
+
 
 
 
