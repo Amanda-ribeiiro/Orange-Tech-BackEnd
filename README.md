@@ -51,7 +51,7 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
 
-<h4 id="introducao-a-platforma-java">Introdução à plataforma Java</h4>
+<h3 id="introducao-a-platforma-java">Introdução à plataforma Java</h3>
 <h4 id="introducao-e-objetos">Introdução e Objetivos</h4>
 
 Conhecer a estrutura, a história de criação e evolução da linguagem <code>Java</code>, além de suas plataformas, instalação e utilização de <code>IDEs</code> para desenvolvimento.
@@ -60,19 +60,21 @@ Conhecer a estrutura, a história de criação e evolução da linguagem <code>J
 ##### *O que é Java*
 Linguagem Java é composta por um conjunto bem definido de funcionalidades (features).
 POO - Programação Orientada a Objetos:
+
 1. Classe e Objeto
 2. Encapsulamento
 3. Abstração
 4. Herança 
 5. Polimorfismo
 
+
 Plataforma independente, robusta, 
 <code>JVM</code> (Java Virtual Machine)
 
 ##### *Java e sua história*
-A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em C e C ++ que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
+A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em <code>C</code> e <code>C++</code> que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
 
-### QUIZ - 
+<h4>QUIZ - </h4>
 1-Como é chamado o conceito de execuções paralelas em uma aplicação?
 R: Multi-threading
 
@@ -106,56 +108,96 @@ R: James Gosling
 - [Certificado](chat.openai.com/auth/login)
 - [Link da apresentação do curso]()
 
-#### Ambiente de Desenvolvimento Java
-##### *Introdução a IDEs*
+<h2 id="ambiente-de-desenvolvimento">Ambiente de Desenvolvimento Java</h3>
+<h3 id="introducao-a-ides">Introdução a IDEs</h3>
+<p>
 IDE(Integrated Development Environment), capaz de prover vários mecanismo que dispõe de recursos que auxiliam muito no nosso desenvolvimento. Ex:
 - Aceleração de nossa escrita com *Auto-Complete* ou *IntelliSense*;
 - Formatação de palavras e blocos de códigos;
 - Análise de erro de sintaxe;
 - Compilação de programa;
 - Depuração (acompanhamento) de execução do programa.
-
+</p>
+<p>
 Cada IDE dispõe de recursos comuns ou plugins espec[ificos para te auxiliar na agilidade de desenvolvimento. Dentre elas temos o *Visual Sudio Code, NetBeans, Eclipse, Intellij*.
-
+</p>
+<p>
 - Eclipse: mais utilizada no ambiente corporativo com interface bem interativa.
 - NetBeans: Utilizada mais em ambiente acadêmico e com versão de menu e assistentes em português.
+</p>
+<p>
 - IntelliJ: Oferece muito recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas.
+</p>
+<p>
 - VS Code: Hoje muito utilizada para desenvolvedores que já atuam com NodeJs ou plataformas de front-end.
+</p>
+<p>
+<h4>QUIZ -  Java - Plataformas e Escolha sua IDE</h4>
 
-### QUIZ -  Java - Plataformas e Escolha sua IDE
 1- Qual dos itens citados NÃO é considerada uma IDE para desenvolver aplicações na linguagem Java?
 R: PyCharm
-
+<p>
 2- Qual a extensão de um arquivo que contém o código fonte da linguagem Java?
+</p>
+<p>
 R: .java
-
+</p>
+<p>
 3- Considerando os inúmeros recursos de uma IDE, qual do itens citados não é aplicado como uma funcionalidade do ambiente de desenvolvimento ?
+</p>
+<p>
 R: Integração contínua
-
+</p>
+<p>
 4- Qual plataforma contém recursos para desenvolvimento com recursos como páginas Web?
+</p>
+<p>
 R: Java EE
-
+</p>
+<p>
 5- Qual ferramenta tem o papel de converter o bytecode em um algoritmo que é interpretado pelo sistema operacional?
+</p>
+<p>
 R: JVM
-
+</p>
+<p>
 6- Após a compilação do código fonte na linguagem, qual a extensão do conteúdo gerado?
+</p>
+<p>
 R: .class
-
+</p>
+<p>
 7- Sabemos que uma das plataformas da linguagem Java contém uma biblioteca de componentes visuais, selecione esta plataforma.
+</p>
+<p>
 R: Java SE
-
+</p>
+<p>
 8- Quais são os componentes de instalação da plataforma Java?
+</p>
+<p>
 R: JDK/JRE
-
+</p>
+<p>
 9- A linguagem Java conta com 4 plataformas de desenvolvimento, qual das alternativas NÃO faz parte?
+</p>
+<p>
 R: Java IO
-
+</p>
+<p>
 10- Você disponibilizou uma aplicação compilada para seus clientes, qual componente será necessário estar instalado na máquina do seu cliente?
+</p>
+<p>
 R: JRE
-
+</p>
+<p>
+</p>
+<p>
 - [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
+</p>
+<p>
 - [Link da apresentação do curso]()
-
+</p>
 
 
 #### Aprendendo a Sintaxe Java
