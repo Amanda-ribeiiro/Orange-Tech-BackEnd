@@ -397,13 +397,13 @@ A variável é criada no primeiro acesso à ela, se tornando inacessível após 
 
 Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáveis) são declarados no corpo principal da Classe, sendo portando acessíveis por todos os métodos.
 
-##### *Palavras Reservadas*
+<h4 id="palavras-reserva-em-java">Palavras reservadas em Java</h4>  
 Palavras reservadas, são identidicadores de uma linguaem que já possuem uma finalidade específica, portanto, não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.
 <p>
 A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são classificadas com uma cor especial pela maioria das IDE's. Abaixo temos a lista de palavras agrupadas por suas finalidades.
 </p>
 
-<h4 id="palavras-reserva-em-java">Palavras reservadas em Java</h4>
+
 
 
 ```
@@ -419,11 +419,11 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 
 ![image](https://user-images.githubusercontent.com/108890154/226443762-37feb72f-808e-4e44-b23d-0b7daecf25b0.png)
 
-####### Controle de pacotes:
+*Controle de pacotes:*
 - import: importa pacotes ou classes para dentro do código;
 - package: especifica a que pacote, todas as classes de um arquivo pertencem.
 
-####### Modificadores de acesso:
+*Modificadores de acesso:*
 - public: acesso de qualquer classe;
 - private: acesso apenas dentro da classe;
 - protected: acesso por classes no mesmo pacote e subclasses.
