@@ -225,7 +225,7 @@ R: JRE
 
 [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 
-<h3 id="aprendendo-a-sintaxe-java">3.3Aprendendo a Sintaxe Java</h3>
+<h3 id="aprendendo-a-sintaxe-java">3.3 Aprendendo a Sintaxe Java</h3>
 <h4 id="introducao">Introdução</h4>
 Regras essenciais para a construção de códigos com base na linguagem Java.
 <h4 id="anatomia-das-classes">Anatomia das Classes</h4>
@@ -736,7 +736,7 @@ Qual operação é válida?
 <p></p>
 🔗 <a href= "https://www.github.com/cami-la/loops-e-arrays">Repositório</a>
 <p></p>
-<h4 id="objetivo-do-curso">Objetivo do Curso</h4>
+**Objetivo do Curso**
 <ul>
     <li>
         Conhecer as estruturas de repetição
@@ -749,7 +749,7 @@ Qual operação é válida?
     </li>
 </ul>
 <p></p>
-<h5 id="percurso">Percurso</h5>
+**Percurso**
 <ul>
     <li>
         Comando<code>while</code>
@@ -793,25 +793,25 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
     </li>
 </ul>
 
-<h5 id="fluxogramas">Fluxogramas</h5>
+**Fluxogramas**
 <img src="https://i.ibb.co/gjXpxbt/Screenshot-from-2021-08-25-09-44-42.png" alt="Screenshot-from-2021-08-25-09-44-42" border="0">
 <h3> ➕/➖ OPERADORES DE INCREMENTO E DECREMENTO </h3>
 <img src="https://i.ibb.co/GTb9JNb/Screenshot-from-2021-08-23-10-56-10.png" alt="Screenshot-from-2021-08-23-10-56-10" border="0"
 
 
-<h5 id="operacoes">Operações Aritméticas</h5>
+**Operações Aritméticas**
 <img src="https://i.ibb.co/YQmbSsV/Screenshot-from-2021-08-23-10-56-24.png" alt="Screenshot-from-2021-08-23-10-56-24" border="0">
 
 
 
-<h5 id="arrays">Arrays</h5>
+**>Arrays**
 <p>
 Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo. Permanecem com o mesmo tamanho depois de criados.
 </p>
 
 <img src="https://i.ibb.co/GVQVC4k/Screenshot-from-2021-08-25-09-11-48.png" alt="Screenshot-from-2021-08-25-09-11-48" border="0">
 
-<h5>Array Unidimensional</h5>
+**Array Unidimensional**
 
 ```
 Nome do array (c) {(c) é o nome do meu<code>array</code> nesse exemplo.}
@@ -819,7 +819,7 @@ Nome do array (c) {(c) é o nome do meu<code>array</code> nesse exemplo.}
 Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> está. Lembrando que as posições sempre começa do "0".}
 ```
 
-<h5>Array Multidimensional</h5>
+**Array Multidimensional**
 <p>Primeiro conchete guarda a posição da linha e o segundo da coluna:</p>
 
 ```
@@ -830,7 +830,7 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 ```
 
 <h4 id="conhecento-o-repositorio">Conhecendo o repositório</h4>
-<h5>🛑 Pré-requistos</h5>
+🛑 Pré-requistos
 - [x] Java JDK 11
 - [x] IDE para desenvolvimento Java 
 - [x] Conhecer a sintaxe Java
@@ -846,18 +846,14 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 🔗 <a href= "https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-20?from_action=save"> Lista de Exercícios Arrays Multidimensionais </a><br>
     
 
-<h4 id="exercicio-resolvido">Exercício Resolvido</h4>
+<h4 id="exercicio-resolvido-estrutura-de-repeticao">Exercício Resolvido: Estrutura de Repetição</h4>
 
-
-
-
-
-
-
+<h4 id="exercicio-resolvido-arrays">Exercício Resolvido: Arrays</h4>
 
 
 <h4>QUIZ - </h4>
 [Certificado]()
+
 <h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
 
 
