@@ -75,37 +75,70 @@ Plataforma independente, robusta,
 A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em <code>C</code> e <code>C++</code> que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
 
 <h4>QUIZ - </h4>
+<p>
 1-Como é chamado o conceito de execuções paralelas em uma aplicação?
+<p/>
+<p>
 R: Multi-threading
-
+<p/>
+<p>
 2-Qual foi o fato que contribuiu para que a linguagem se tornasse tão popular?
+<p/>
+<p>
 R: A Linguagem se popularizou pelo termo "White Once, Run Anywhere", que enaltece a interoperabilidade da plataforma java.
-
+<p/>
+<p>
 3-Qual dos itens citados NÃO faz parte do conjunto de funcionalidades (features) da linguagem Java?
+<p/>
+<p>
 R: Sem tipagem, ou seja, fracamente tipada.
-
+<p/>
+<p>
 4-Hoje sabemos que a linguagem Java é mantida pela empresa Oracle Inc, mas antes, que empresa tinha os direitos desta tecnologia?
+<p/>
+<p>
 R: Sun Microsystems
-
+<p/>
+<p>
 5-A linguagem Java é baseada sobre quais linguagens de programação?
+<p/>
+<p>
 R: C e C ++
-
+<p/>
+<p>
 6-Como é denominado o código originado da compilação de programas Java?
+<p/>
+<p>
 R: Bytecode
-
+<p/>
+<p>
 7-Qual dos itens citados NÃO faz parte dos 4 pilares da orientação a Objetos?
+<p/>
+<p>
 R: Sobrecarga
-
+<p/>
+<p>
 8-Para executar uma aplicação desenvolvida em Java, convertendo os bytecodes em código de máquina, é necessário ter disponível em nosso sistema operacional o recurso denominado de?
+<p/>
+<p>
 R: JVM, através e uma JDK ou JRE
-
+<p/>
+<p>
 9-Antes da linguagem receber o nome de Java, qual foi o primeiro nome escolhido pelo time de desenvolvimento?
+<p/>
+<p>
 R: Oak
-
+<p/>
+<p>
 10-Como se chama o desenvolvedor que liderou o projeto para criação da linguagem Java?
+<p/>
+<p>
 R: James Gosling
-
+<p/>
+<p>
 - [Certificado](chat.openai.com/auth/login)
+<p/>
+<p>
 - [Link da apresentação do curso]()
 
 <h2 id="ambiente-de-desenvolvimento">Ambiente de Desenvolvimento Java</h3>
