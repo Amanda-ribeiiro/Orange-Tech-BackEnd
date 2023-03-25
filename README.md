@@ -847,11 +847,58 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
     
 
 <h4 id="exercicio-resolvido-estrutura-de-repeticao">Exercício Resolvido: Estrutura de Repetição</h4>
+**Nome e Idade**
+```java
 
+
+```
+**Nota**
+```java
+
+
+```
+**Maior e Média**
+```java
+
+
+```
+**Par e Ímpar**
+```java
+
+
+```
+```java
+
+
+```**Tabuada**
+
+**Fatorial**
+```java
+
+
+```
 <h4 id="exercicio-resolvido-arrays">Exercício Resolvido: Arrays</h4>
+**Ordem Inversa**
+```java
 
 
-<h4>QUIZ - </h4>
+```
+**Consoantes**
+```java
+
+
+```
+**Números Aleatórios**
+```java
+
+
+```
+**Array Multidimensional**
+```java
+
+
+```
+<h4>QUIZ - Exercícios Resolvidos: Arrays </h4>
 [Certificado]()
 
 <h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
