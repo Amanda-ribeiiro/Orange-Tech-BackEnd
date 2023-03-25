@@ -222,9 +222,8 @@ R: JRE
 </p>
 <p>
 </p>
-<p>
-- [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
-</p>
+
+[Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 
 <h2 id="aprendendo-a-sintaxe-java">Aprendendo a Sintaxe Java</h2>
 <h3 id="introducao">Introdução</h3>
@@ -274,8 +273,10 @@ Java Beans: uma das maiores dificuldades na programação é escrever algoritmos
 
 <h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
 [Ebook](https://glysns.gitbook.io/java-basico/sintaxe/variaveis)
+<p>
 Na linguagem Java existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Esses tipos de dados são conhecidos como tipos primitivos (Primitive Types).
-````
+</p>  
+```
 Primitive Types:
 <p>
 • int (ex: *in* cep = 21070333; // se comecar com zer, talvez tenha que ser de outro tipo)
@@ -302,51 +303,53 @@ Primitive Types:
 • char 
 <p/>
 <p>
-````
+```
+<p>    
 Esses tipos não são considerados objetos, e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack).
+</p>
 ![imag e](https://user-images.githubusercontent.com/108890154/225970151-54b3aa9c-9d45-4775-9b5b-0a524aaad538.png)
 
 Variável x Constantes:
-* • variável é uma área de memória associado a um nome que pode armazenar valores de um determinado tipo. Um tipo de dado define um conjunto de valores e um conjunto de operações. Java é uma linguagem com rigidez de tipos, diferente do JavaScript onde declarar o tipo de variável não é obrigatorio.
-* • Já as constantes são valores armazenados em memória que não podem ser modificados depois de declarados. Em java, esses valores são representados pela reservada _final_, seguida do tipo.
+*  variável é uma área de memória associado a um nome que pode armazenar valores de um determinado tipo. Um tipo de dado define um conjunto de valores e um conjunto de operações. Java é uma linguagem com rigidez de tipos, diferente do JavaScript onde declarar o tipo de variável não é obrigatorio.
+*  Já as constantes são valores armazenados em memória que não podem ser modificados depois de declarados. Em java, esses valores são representados pela reservada _final_, seguida do tipo.
 Por convenção constantes são sempre escritas em CAIXA ALTA.
 
 
 <h4 id="operadores">Operadores</h4>
 São símbolos especiais que tem significado próprio para a linguagem e estão associados a determinadas operações.
 
-* • Atribuição representando pelo símbolo de = , atribuir um valor a uma determinada variável.
+* Atribuição representando pelo símbolo de = , atribuir um valor a uma determinada variável.
 
-* • Aritméticos é utilizado para realizar operações matemáticas entre valores númericos, podendo se tornar ou não uma expressao mais complexa.
+* Aritméticos é utilizado para realizar operações matemáticas entre valores númericos, podendo se tornar ou não uma expressao mais complexa.
 
-* • Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
+* Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
 
 ```bash
-- (+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
-- (-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
-- (++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
-- (!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
-- (%) resto da divisáo;
+(+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
+(-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
+(++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
+(!)  Operador unário lógico de negação: nega o valor de uma expressão booleana;
+(%) resto da divisáo;
  
 número ++; é a mesma coisa que número = número +1;
 ```
 
-* • Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
+* Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
 
 ``
 <Expressão Condicional> ? <caso condição seja tru> : <caso condição seja false>
 ``
 
 
-* • Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
+* Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
 
 ```bash
-- == quando desejamos verificar se uma variável é IGUAL A outra.
-- != quando desejamos verificar se uma variável é DIFERENTE da outra.
-- > quando quando desejamos verificar se uma variável MAIOR QUE a outra.
-- >= quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
-- < quando desejamos verificar se uma variável é MENOR QUE outra.
-- <= quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+== quando desejamos verificar se uma variável é IGUAL A outra.
+!= quando desejamos verificar se uma variável é DIFERENTE da outra.
+> quando quando desejamos verificar se uma variável MAIOR QUE a outra.
+>= quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+< quando desejamos verificar se uma variável é MENOR QUE outra.
+<= quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
 ```
 
 método equals compara conteúdo
@@ -358,8 +361,7 @@ método equals compara conteúdo
 ( || )operador lógico "OU"
 ```
 
-<h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
-##### *Métodos*
+<h4 id="metodos">Métodos</h4>
 Ponto de reflexão 
 1-Qual a proposta principal do método?
 Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
@@ -387,8 +389,8 @@ Critério de nomeação de métodos: não são obrigatórios, mas é recomendáv
 
 > Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.
 
-<h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
-##### *Escopo*
+<h4 id="escopos">Escopo</h4>
+
 O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
 
 A variável é criada no primeiro acesso à ela, se tornando inacessível após o interpretador sair do bloco de excecução ao qual ela pertence. Portando, esta variável não pode ser lida ou manipulada por rotinas e códigos que estão fora do seu bloco de declaraçã, ou seja, foa do escopo da variável.
@@ -397,60 +399,24 @@ Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáv
 
 ##### *Palavras Reservadas*
 Palavras reservadas, são identidicadores de uma linguaem que já possuem uma finalidade específica, portanto, não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.
-
+<p>
 A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são classificadas com uma cor especial pela maioria das IDE's. Abaixo temos a lista de palavras agrupadas por suas finalidades.
+</p>
 
-*Palavras reservadas em Java*
+<h4 id="palavras-reserva-em-java">Palavras reservadas em Java</h4>
 
-- abstract
-- continue
-- goto
-- package
-- synchronized
-- assert
-- default
-- if
-- private
-- this
-- boolean
-- do  
-- implements  
-- protected  
-- throw
-- break 
-- double 
-- import 
-- public 
-- throws
-- byte 
-- else 
-- instanceof 
-- return 
-- transient
-- case 
-- extends 
-- int 
-- short 
-- try
-- catch 
-- final 
-- interface 
-- static 
-- void
-- char 
-- finally 
-- long 
-- strictfp 
-- volatile
-- class 
-- float 
-- native 
-- super 
-- while
-- const 
-- for 
-- new 
-- switch
+
+```
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  | abstract |  continue |     goto  |   package  | synchronized |   assert  |   default |   if   | private |
+  | this     |  boolean  |     do    | implements |  protected   |   throw   |   break   | double | import  |  
+  | public   |  throws   |     byte  |    else    |  instanceof  |   return  | transient |  case  | extends |
+  |  int     |   short   |     try   |   catch    |   final      | interface |  static   |  void  |  char   |
+  | finally  |   long    |  strictfp |  volatile  |    class     |   float   |  native   | super  |   while |
+  |  const   |    for    |    new    |  switch    |              |           |           |        |         |
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+```
+
 ![image](https://user-images.githubusercontent.com/108890154/226443762-37feb72f-808e-4e44-b23d-0b7daecf25b0.png)
 
 ####### Controle de pacotes:
@@ -473,7 +439,7 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 - short: um inteiro de 32 bits (signed);
 - void: indica que o método não tem retorno *de valor*.
 
-*Java DOC*
+<h4 id="java-doc">Java DOC</h4>
 Tipos de comentários:
 ```html
 One Line: Inserir uma única linha nesse comentário. Informação não é copilada na linguagem ela é nível de usuário
@@ -497,25 +463,32 @@ Docymentation: Menciona aspecto de documentação
 * a nível de documentação
 */
 ```
-##### *Terminal e Argumentos*
+
+<h4 id="terminal-e-argumentos">Terminal e Argumento</h4>
+<p>
 Com o JVM devidamente configurada, nós podemos criar um executável do nosso programa e disponilizar o instalador para qualquer sistema operacional.
+</p>
 > Observe que nosso projeto Java criado por um IDE, ele terá uma pastada chama *bin*. É nesta pasa que ficarão os arquivos *.class*, o nosso bytecode.
 No terminal quando for executar colocar apenas "MinhaClasse" sem o ".class". 
 
  Quando executamos uma classe que contenha o método main, o mesmo permie que passemos um array [] de argumentos do tipo String. Logo podemos após a definição da classe a ser execuada informar estes parâmetros, exemplo:
+
+``
 > java MinhaClasse argumentoUm argumentoDois
+``
 
 Os parâmentros pode ser adicionados manualmente nos arquivos .json assim não temos que ficar passar passando toda outra no terminal.
 
 Classe Scanner proposta de ter melhor interação no que se refere aos inputs a entrada de dados que os nossos usuários vão querer realizar em nosso programa.
 Ex:
 
+``
 > Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 >
 > System.out.println("Digite sua idade");
 > 
 > int idade = scanner.nexIt();
-
+``
 
 QUIZ -  Aprendendo a Sintaxe Java
 1- Qual o tipo de dados seria mais recomendado para representar um CPF?
@@ -556,9 +529,8 @@ R: 12
 - [Certificado](https://hermes.digitalinnovation.one/certificates/06415E1C.pdf?_gl=1*ulx1g3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTUyMjgwNS4yNDUuMS4xNjc5NTI0NTM5LjYwLjAuMA..)
 - [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
 
-
-#### Lógica Condicional e Controle de Fluxos em Java
-* Operadores Relacionais 
+<h3 id="logica-condicional-e-controle-de-fluxos-em-java">Lógica Condicional e Controle de Fluxos em Java</h3>
+<h4 id="operadores-relacionais">Operadores Relacionais</h4> 
 São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado.
 Tipos:
 
@@ -566,7 +538,8 @@ Similaridade: (==) igualdade, (!=) diferente
 
 Tamanho: (>)maior, (>=) maior igual, (<) menor, (<=) menor igual 
 
-* Operadores Lógicos
+
+<h4 id="operadores-logicos">Operadores Lógicos</h4> 
 São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógico ou expressões e, em seguida, retornar um resultado.
 
 Tipos: Conjunção, Disjunção, Disjunção exclusiva e Negação.
@@ -623,13 +596,13 @@ O - Operando E - Expressão R- Resultado
 ```
 ```html
 
+
 operador bitwise: & e |
 operador: shift: ~, >>, >>>, << (~ = vai inverter o bitwise,  >>, >>>, << =vai mexer com os zeros)
 ```
 
 
-
-* Controle de Fluxo
+<h4 id="controle-de-fluxo">Controle de Fluxo</h4> 
 São estruturas que tem a capacidade de direcionar o fluxo de execução do código
 
 Tipos:
