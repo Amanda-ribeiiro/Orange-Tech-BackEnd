@@ -31,17 +31,6 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 
 ##### [Introdução](https://web.dio.me/course/introducao-ao-desenvolvimento-moderno-de-software/learning/64118d38-e7a0-4e98-becd-c5e52c993e08?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined)
 
-
-##### UX/UI Designer
-##### Front End
-##### Framework
-##### Back End
-##### Full Stack
-##### QA
-##### Infraestrutura
-##### Cloud
-##### Mobile
-
 <h2 id="conhencendo-a-linguagem-de-programacao">3- Conhencendo a Linguagem de Programação Java</h2>
 <h3 id="introducao-a-platforma-java">3.1Introdução à plataforma Java</h3> 
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
