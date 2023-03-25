@@ -856,38 +856,3 @@ QUIZ -
 #### Estendeno Métodos Java
 
 
-
-
-
-
-
-
-QUIZ - 
-- [Certificado]()
-- 
-### 4- DOMINANDO ALGORITMOS BÁSICOS COM DESAFIOS DE CÓDIGO JAVA
-[Professor: NOME](LINK)
-#### *NOME*
-##### *NOME*
-
-
-
-### 5- PROGRAMAÇÃO ORIENTADA A OBJETOS COM JAVA
-[Professor: NOME](LINK)
-#### *NOME*
-##### *NOME*
-
-### 6- GANHANDO PRODUTIVIDADE COM SPRING FRAMEWORK
-[Professor: NOME](LINK)
-#### *NOME*
-##### *NOME*
-
-### 7- DOMINANDO ALGORITIMOS INTERMEDIÁRIOS COM DESAFIOS DE CÓDIGO JAVA
-[Professor: NOME](LINK)
-#### *NOME*
-##### *NOME*
-
-
-
-
-   <li><a href="#develop-vs-master"><code>develop</code> vs <code>master</code></a></li>
