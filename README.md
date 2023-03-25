@@ -749,7 +749,7 @@ Qual operação é válida?
     </li>
 </ul>
 <p></p>
-<h4 id="percurso">Percurso</h4>
+<h5 id="percurso">Percurso</h5>
 <ul>
     <li>
         Comando<code>while</code>
@@ -765,7 +765,7 @@ Qual operação é válida?
         Controle de Repetição:<code>break</code>e<code>continue</code>
     </li>
 </ul>
-<h3 id="visao-geral">Visão Geral</h3>
+<h4 id="visao-geral">Visão Gera</h4>
 <p>
 O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes. Cada repetição é chamada laço <code>loop</code> é um dos conceitos básicos da programação estruturada.
 </p>
@@ -793,18 +793,18 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
     </li>
 </ul>
 
-<h4 id="fluxogramas">Fluxogramas</h4>
+<h5 id="fluxogramas">Fluxogramas</h5>
 <img src="https://i.ibb.co/gjXpxbt/Screenshot-from-2021-08-25-09-44-42.png" alt="Screenshot-from-2021-08-25-09-44-42" border="0">
 <h3> ➕/➖ OPERADORES DE INCREMENTO E DECREMENTO </h3>
 <img src="https://i.ibb.co/GTb9JNb/Screenshot-from-2021-08-23-10-56-10.png" alt="Screenshot-from-2021-08-23-10-56-10" border="0"
 
 
-<h4 id="operacoes">Operações Aritméticas</h4>
+<h5 id="operacoes">Operações Aritméticas</h5>
 <img src="https://i.ibb.co/YQmbSsV/Screenshot-from-2021-08-23-10-56-24.png" alt="Screenshot-from-2021-08-23-10-56-24" border="0">
 
 
 
-<h4 id="arrays">Arrays</h4>
+<h5 id="arrays">Arrays</h5>
 <p>
 Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo. Permanecem com o mesmo tamanho depois de criados.
 </p>
@@ -830,10 +830,7 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 ```
 
 <h4 id="conhecento-o-repositorio">Conhecendo o repositório</h4>
-<h5>
-🛑 Pré-requistos
-</h5>
-
+<h5>🛑 Pré-requistos</h5>
 - [x] Java JDK 11
 - [x] IDE para desenvolvimento Java 
 - [x] Conhecer a sintaxe Java
@@ -849,10 +846,18 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 🔗 <a href= "https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-20?from_action=save"> Lista de Exercícios Arrays Multidimensionais </a><br>
     
 
-<h4 id="objetivo-do-curso">Objetivo do Curso</h4>
-QUIZ - 
-- [Certificado]()
-- 
-<h3 id="entendento-o-metodo-java">3.1 Entendendo o Metodo Java</h3> 
+<h4 id="exercicio-resolvido">Exercício Resolvido</h4>
+
+
+
+
+
+
+
+
+
+<h4>QUIZ - </h4>
+[Certificado]()
+<h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
 
 
