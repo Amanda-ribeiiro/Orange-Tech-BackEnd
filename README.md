@@ -529,7 +529,7 @@ R: 12
 - [Certificado](https://hermes.digitalinnovation.one/certificates/06415E1C.pdf?_gl=1*ulx1g3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTUyMjgwNS4yNDUuMS4xNjc5NTI0NTM5LjYwLjAuMA..)
 - [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
 
-<h3 id="logica-condicional-e-controle-de-fluxos-em-java">3.4Lógica Condicional e Controle de Fluxos em Java</h3>
+<h3 id="logica-condicional-e-controle-de-fluxos-em-java">3.4 Lógica Condicional e Controle de Fluxos em Java</h3>
 <h4 id="operadores-relacionais">Operadores Relacionais</h4> 
 São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado.
 Tipos:
@@ -728,7 +728,7 @@ Qual operação é válida?
 [Certificado](https://hermes.digitalinnovation.one/certificates/27FC47B1.pdf?_gl=1*r6vxwo*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTU5ODk0MS4yNDcuMS4xNjc5NjAwMjQwLjYwLjAuMA..)
 
 
-<h3 id="estruturas-de-repeticao-e-arrays-em-java">Estruturas de Repetição e Arrays em Java</h3>
+<h3 id="estruturas-de-repeticao-e-arrays-em-java">3.5 Estruturas de Repetição e Arrays em Java</h3>
 
 <li><a href="https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/febaaad5-ea57-4389-a960-2907fa40041c?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">Apresentação e Visão Geral</a></li>
 
@@ -829,10 +829,10 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 | a [1] [0]   | a [1] [1]  | a [1] [2] |
 ```
 
-<h3 id="conhecento-o-repositorio">Conhecendo o repositório</h3>
-<h4>
+<h4 id="conhecento-o-repositorio">Conhecendo o repositório</h4>
+<h5>
 🛑 Pré-requistos
-</h4>
+</h5>
 
 - [x] Java JDK 11
 - [x] IDE para desenvolvimento Java 
@@ -849,10 +849,10 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 🔗 <a href= "https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-20?from_action=save"> Lista de Exercícios Arrays Multidimensionais </a><br>
     
 
-<h3 id="objetivo-do-curso">Objetivo do Curso</h3>
+<h4 id="objetivo-do-curso">Objetivo do Curso</h4>
 QUIZ - 
 - [Certificado]()
 - 
-#### Estendeno Métodos Java
+<h3 id="entendento-o-metodo-java">3.1 Entendendo o Metodo Java</h3> 
 
 
