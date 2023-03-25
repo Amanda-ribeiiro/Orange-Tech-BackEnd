@@ -217,10 +217,10 @@ A escrita de códigos de um programa é feito através da composição de palavr
 
 Padrão de nomenclatura
 Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algmas convenções de escrita. Esses padrões estão expressos nos itens abaixo:
-- *Arquivo Java*: Todo arquivo .java deve começar com a Letra MAIÚSCULA. Se a palavra for comporta, a segunda palavra deve também ser maiúscula, exemplo:
-Calculadora.java     CalculadoraCientifica.java
+- _Arquivo Java_: Todo arquivo <code>.java</code> deve começar com a Letra MAIÚSCULA. Se a palavra for comporta, a segunda palavra deve também ser maiúscula, exemplo:
+<code>Calculadora.java</code> <code>CalculadoraCientifica.java</code>
 
-- *Nome da classe no arquivo*: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
+- _Nome da classe no arquivo_: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
 ```
 1// arquivo CalculadoraCientifica.java
 
@@ -229,37 +229,43 @@ public class CalculadoraCientifica {
 }
 - void: executa mais não retorna nada.
 ```
-- *Nome de variável:* toda variável deve ser escrita com letra minúscula, porém se a palavra for comporta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase" 
+- _Nome de variável:_ toda variável deve ser escrita com letra minúscula, porém se a palavra for comporta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase" 
 
-- ve conter apenas letras, _ (underline), $ ou os números de 0 a 9.
-- ve obrigatoriamente se iniciar por uma letra(preferencialmente), - ou $, jamais com número
-- Deve iniciar com uma letra minúscula 
-- Não pode conter espaçoes
-- Não podemos usar palavras reservadas da linguagem
-- o nome deve ser único dentro de um escopo
+- [x] ve conter apenas letras, _ (underline), $ ou os números de 0 a 9.
+- [x] ve obrigatoriamente se iniciar por uma letra(preferencialmente), - ou $, jamais com número
+- [x] Deve iniciar com uma letra minúscula 
+- [x] Não pode conter espaçoes
+- [x] Não podemos usar palavras reservadas da linguagem
+- [x] o nome deve ser único dentro de um escopo
 
 Declarando variáveis e métodos: 
-• Declarar uma vari[avel em Java segue sempre a seguinte estrutura:
+• Declarar uma variável em Java segue sempre a seguinte estrutura:
+``
 Tipo NomeBemDefinido = Atribuição (opcional em alguns casos)
-
-• Declarando métodos em Java segue uma estrutura bem simples: (todos os metodos na linguagem Java costuma a ser no infinitvo)
+``
+Declarando métodos em Java segue uma estrutura bem simples: (todos os metodos na linguagem Java costuma a ser no infinitvo).
+``
 TipoRetorno NomeObjetoNoInfinito Parametro (s)
+``
 Casa parâmentro é separado por vírgula.
 
 Identação: é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim visualização e o entendimento do programa.
-
+``
 Organizando arquivos: packge + nomeDaPastaEmQueOArquivoEsta
-
+``
 Java Beans: uma das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere, através de convenções, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
 • Uma variável deve ser clara, sem abreviações ou definição sem sentido;
 • uma variáel é sempre no singular, exceto quando se referir a um array ou coleção;
 • Defina um idioma único para suas variáveis. Se você for declarar variáveis em inglês, defina todas em inglês.
 
 <h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
+
 [Ebook](https://glysns.gitbook.io/java-basico/sintaxe/variaveis)
+
 <p>
 Na linguagem Java existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Esses tipos de dados são conhecidos como tipos primitivos (Primitive Types).
 </p>  
+
 ```
 Primitive Types:
 <p>
@@ -291,6 +297,7 @@ Primitive Types:
 <p>    
 Esses tipos não são considerados objetos, e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack).
 </p>
+
 ![imag e](https://user-images.githubusercontent.com/108890154/225970151-54b3aa9c-9d45-4775-9b5b-0a524aaad538.png)
 
 Variável x Constantes:
