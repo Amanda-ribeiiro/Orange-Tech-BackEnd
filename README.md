@@ -502,16 +502,20 @@ R: 12
 <h4 id="operadores-relacionais">Operadores Relacionais</h4> 
 São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado.
 Tipos:
-
+```html
 Similaridade: (==) igualdade, (!=) diferente
+```
 
+```html
 Tamanho: (>)maior, (>=) maior igual, (<) menor, (<=) menor igual 
-
+```
 
 <h4 id="operadores-logicos">Operadores Lógicos</h4> 
 São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógico ou expressões e, em seguida, retornar um resultado.
 
+<p>
 Tipos: Conjunção, Disjunção, Disjunção exclusiva e Negação.
+</p>
 
 _Conjunção:_ operação lógica que só é verdadeira quando ambos os operando ou expressões envilvidas são verdadeiras.
 ```html
@@ -610,8 +614,9 @@ emMovimento ? freia: null;
 
 Decisão: switch
 
-variável: byte, short, char, int, enum, string
+variável: <code>byte</code>, <code>short</code>, <code>char</code>, <code>int</code>, <code>enum</code>, <code>string</code>
 
+```html
 switch (variável) {
 case 1:
 break;
@@ -620,6 +625,7 @@ break;
 default: 
 break;
 }
+```
 
 <ul>
     <li>
@@ -683,8 +689,9 @@ Qual operação é válida?
 <p>R: c1>i1</p>
 
 <p>7- Qual das expressões lógicas a seguir é válida?</p>
+```html
 <p>R: (10 > 15) && true</p>
-
+```
 <p>8- São tipos de operadores relacionais:</p>
 <p>R: Igualdade e menor</p>
 
@@ -705,7 +712,9 @@ Qual operação é válida?
 <p></p>
 🔗 <a href= "https://www.github.com/cami-la/loops-e-arrays">Repositório</a>
 <p></p>
+
 **Objetivo do Curso**
+
 <ul>
     <li>
         Conhecer as estruturas de repetição
@@ -718,7 +727,9 @@ Qual operação é válida?
     </li>
 </ul>
 <p></p>
-**Percurso*
+
+**Percurso**
+
 <ul>
     <li>
         Comando<code>while</code>
@@ -764,7 +775,9 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
 
 **Fluxogramas**
 <img src="https://i.ibb.co/gjXpxbt/Screenshot-from-2021-08-25-09-44-42.png" alt="Screenshot-from-2021-08-25-09-44-42" border="0">
+
 **OPERADORES DE INCREMENTO E DECREMENTO**
+
 <img src="https://i.ibb.co/GTb9JNb/Screenshot-from-2021-08-23-10-56-10.png" alt="Screenshot-from-2021-08-23-10-56-10" border="0"
 
 
@@ -773,7 +786,7 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
 
 
 
-**>Arrays**
+**Arrays**
 <p>
 Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo. Permanecem com o mesmo tamanho depois de criados.
 </p>
@@ -799,7 +812,8 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 ```
 
 <h4 id="conhecento-o-repositorio">Conhecendo o repositório</h4>
-🛑 Pré-requistos
+Pré-requistos
+
 - [x] Java JDK 11
 - [x] IDE para desenvolvimento Java 
 - [x] Conhecer a sintaxe Java
