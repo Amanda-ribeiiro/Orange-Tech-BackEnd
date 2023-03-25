@@ -138,8 +138,8 @@ R: James Gosling
 
 [Certificado](https://hermes.digitalinnovation.one/certificates/C089F2F6.pdf?_gl=1*8wyras*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTc2Mzk5NS4yNTQuMS4xNjc5NzY2Mzc2LjYwLjAuMA..)
 
-<h2 id="ambiente-de-desenvolvimento">3.2Ambiente de Desenvolvimento Java</h3>
-<h3 id="introducao-a-ides">Introdução a IDEs</h3>
+<h3 id="ambiente-de-desenvolvimento">3.2Ambiente de Desenvolvimento Java</h3>
+<h4 id="introducao-a-ides">Introdução a IDEs</h4>
 <p>
 IDE(Integrated Development Environment), capaz de prover vários mecanismo que dispõe de recursos que auxiliam muito no nosso desenvolvimento. Ex:
 - Aceleração de nossa escrita com *Auto-Complete* ou *IntelliSense*;
@@ -225,8 +225,8 @@ R: JRE
 
 [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 
-<h2 id="aprendendo-a-sintaxe-java">3.3Aprendendo a Sintaxe Java</h2>
-<h3 id="introducao">Introdução</h3>
+<h3 id="aprendendo-a-sintaxe-java">3.3Aprendendo a Sintaxe Java</h3>
+<h4 id="introducao">Introdução</h4>
 Regras essenciais para a construção de códigos com base na linguagem Java.
 <h4 id="anatomia-das-classes">Anatomia das Classes</h4>
 A escrita de códigos de um programa é feito através da composição de palavras pré-definidas  pela linguagem com as expressões que utilizam para determinar o nome do nossos arquivos, classes, atributos e métodos. É muito comum mesclarmos expressões no idioma amaericano com o nosso vocabulário. Nome de classe, métodos.
