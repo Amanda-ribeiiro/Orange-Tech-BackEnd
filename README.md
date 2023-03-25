@@ -48,11 +48,10 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 
 
 <h2 id="conhencendo-a-linguagem-de-programacao">3- Conhencendo a Linguagem de Programação Java</h2>
-
+<h3 id="introducao-a-platforma-java">Introdução à plataforma Java</h3> 
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
-
-<h3 id="introducao-a-platforma-java">Introdução à plataforma Java</h3>
 <h4 id="introducao-e-objetos">Introdução e Objetivos</h4>
+
 
 Conhecer a estrutura, a história de criação e evolução da linguagem <code>Java</code>, além de suas plataformas, instalação e utilização de <code>IDEs</code> para desenvolvimento.
 [Java Fundamentos:](https://glysns.gitbook.io/java-basico/)
@@ -75,7 +74,7 @@ Plataforma independente, robusta,
 <h4 id="java-e-sua-historia">Java e sua história</h4>
 A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em <code>C</code> e <code>C++</code> que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
 
-<h4>QUIZ - </h4>
+<h4>QUIZ - Introdução à Plataforma Java</h4>
 <p>
 1-Como é chamado o conceito de execuções paralelas em uma aplicação?
 <p/>
@@ -137,7 +136,7 @@ R: Oak
 R: James Gosling
 <p/>
 
-[Certificado]()
+[Certificado](https://hermes.digitalinnovation.one/certificates/C089F2F6.pdf?_gl=1*8wyras*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTc2Mzk5NS4yNTQuMS4xNjc5NzY2Mzc2LjYwLjAuMA..)
 
 <h2 id="ambiente-de-desenvolvimento">Ambiente de Desenvolvimento Java</h3>
 <h3 id="introducao-a-ides">Introdução a IDEs</h3>
