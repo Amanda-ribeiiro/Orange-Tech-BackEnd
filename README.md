@@ -87,7 +87,7 @@ R: Sun Microsystems
 5-A linguagem Java é baseada sobre quais linguagens de programação?
 <p/>
 <p>
-R: C e C ++
+ R: <code>C</code> e <code>C++</code>
 <p/>
 <p>
 6-Como é denominado o código originado da compilação de programas Java?
@@ -105,7 +105,7 @@ R: Sobrecarga
 8-Para executar uma aplicação desenvolvida em Java, convertendo os bytecodes em código de máquina, é necessário ter disponível em nosso sistema operacional o recurso denominado de?
 <p/>
 <p>
-R: JVM, através e uma JDK ou JRE
+ R: <code>JVM</code>, através e uma <code>JDK</code> ou <code>JRE</code>
 <p/>
 <p>
 9-Antes da linguagem receber o nome de Java, qual foi o primeiro nome escolhido pelo time de desenvolvimento?
