@@ -391,6 +391,7 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 
 
 ```
+  |                                    PALAVRAS RESERVADAS EM JAVA                                          |
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
   | abstract |  continue |     goto  |   package  | synchronized |   assert  |   default |   if   | private |
   | this     |  boolean  |     do    | implements |  protected   |   throw   |   break   | double | import  |  
@@ -400,8 +401,6 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
   |  const   |    for    |    new    |  switch    |              |           |           |        |         |
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ```
-
-![image](https://user-images.githubusercontent.com/108890154/226443762-37feb72f-808e-4e44-b23d-0b7daecf25b0.png)
 
 *Controle de pacotes:*
 - import: importa pacotes ou classes para dentro do código;
