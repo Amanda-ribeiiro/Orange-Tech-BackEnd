@@ -795,7 +795,7 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
 
 **Fluxogramas**
 <img src="https://i.ibb.co/gjXpxbt/Screenshot-from-2021-08-25-09-44-42.png" alt="Screenshot-from-2021-08-25-09-44-42" border="0">
-<h3> ➕/➖ OPERADORES DE INCREMENTO E DECREMENTO </h3>
+**OPERADORES DE INCREMENTO E DECREMENTO**
 <img src="https://i.ibb.co/GTb9JNb/Screenshot-from-2021-08-23-10-56-10.png" alt="Screenshot-from-2021-08-23-10-56-10" border="0"
 
 
