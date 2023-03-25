@@ -149,12 +149,12 @@ Cada IDE dispõe de recursos comuns ou plugins espec[ificos para te auxiliar na 
 <h4>QUIZ -  Java - Plataformas e Escolha sua IDE</h4>
 
 1- Qual dos itens citados NÃO é considerada uma IDE para desenvolver aplicações na linguagem Java?
-R: PyCharm
+R: <code>PyCharm</code>
 <p>
 2- Qual a extensão de um arquivo que contém o código fonte da linguagem Java?
 </p>
 <p>
-R: .java
+R: <code>.java</code>
 </p>
 <p>
 3- Considerando os inúmeros recursos de uma IDE, qual do itens citados não é aplicado como uma funcionalidade do ambiente de desenvolvimento ?
@@ -166,43 +166,43 @@ R: Integração contínua
 4- Qual plataforma contém recursos para desenvolvimento com recursos como páginas Web?
 </p>
 <p>
-R: Java EE
+R: <code>Java EE>/code>
 </p>
 <p>
 5- Qual ferramenta tem o papel de converter o bytecode em um algoritmo que é interpretado pelo sistema operacional?
 </p>
 <p>
-R: JVM
+    R: <code>JVM</code>
 </p>
 <p>
 6- Após a compilação do código fonte na linguagem, qual a extensão do conteúdo gerado?
 </p>
 <p>
-R: .class
+R: <code>.class</code>
 </p>
 <p>
 7- Sabemos que uma das plataformas da linguagem Java contém uma biblioteca de componentes visuais, selecione esta plataforma.
 </p>
 <p>
-R: Java SE
+ R: <code>Java SE1</code>
 </p>
 <p>
 8- Quais são os componentes de instalação da plataforma Java?
 </p>
 <p>
-R: JDK/JRE
+R: <code>JDK</code>/<code>JRE</code>
 </p>
 <p>
 9- A linguagem Java conta com 4 plataformas de desenvolvimento, qual das alternativas NÃO faz parte?
 </p>
 <p>
-R: Java IO
+    R: <code>Java IO</code>
 </p>
 <p>
 10- Você disponibilizou uma aplicação compilada para seus clientes, qual componente será necessário estar instalado na máquina do seu cliente?
 </p>
 <p>
-R: JRE
+R: <code>JRE</code>
 </p>
 <p>
 </p>
