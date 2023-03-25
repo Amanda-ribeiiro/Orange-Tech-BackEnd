@@ -778,7 +778,7 @@ O real poder dos computadores está na sua habilidade para repetir uma operaçã
 
 **OPERADORES DE INCREMENTO E DECREMENTO**
 
-<img src="https://i.ibb.co/GTb9JNb/Screenshot-from-2021-08-23-10-56-10.png" alt="Screenshot-from-2021-08-23-10-56-10" border="0"
+<img src="https://i.ibb.co/GTb9JNb/Screenshot-from-2021-08-23-10-56-10.png" alt="Screenshot-from-2021-08-23-10-56-10" border="0">
 
 
 **Operações Aritméticas**
