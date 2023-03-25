@@ -670,9 +670,10 @@ Qual operação é válida?
 <li><a href="https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/febaaad5-ea57-4389-a960-2907fa40041c?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">Apresentação e Visão Geral</a></li>
 
 [Professora: Camila Cavalcante](https://www.linkedin.com/in/cami-la/)
+<p></p>
 🔗 <a href= "https://www.github.com/cami-la/loops-e-arrays">Repositório</a>
 <p></p>
-<b>Objetivo do Curso</b>
+<h4 id="objetivo-do-curso">Objetivo do Curso</h4>
 <ul>
     <li>
         Conhecer as estruturas de repetição
@@ -685,7 +686,7 @@ Qual operação é válida?
     </li>
 </ul>
 <p></p>
-<b>Percurso</b>
+<h4 id="percurso">Percurso</h4>
 <ul>
     <li>
         Comando<code>while</code>
@@ -783,8 +784,9 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 🔗 <a href= "https://wiki.python.org.br/ExerciciosListas"> Lista de Exercícios Arrays Unidimensionais </a> - <a href="https://github.com/cami-la/listaDeExerciciosPythonBrasil/tree/master/exerciciosListas">Possíveis soluções</a><br>
 
 🔗 <a href= "https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-20?from_action=save"> Lista de Exercícios Arrays Multidimensionais </a><br>
+    
 
-
+<h3 id="objetivo-do-curso">Objetivo do Curso</h3>
 QUIZ - 
 - [Certificado]()
 - 
