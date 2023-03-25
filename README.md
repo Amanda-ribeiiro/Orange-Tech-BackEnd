@@ -166,7 +166,7 @@ R: Integração contínua
 4- Qual plataforma contém recursos para desenvolvimento com recursos como páginas Web?
 </p>
 <p>
-R: <code>Java EE>/code>
+    R: <code>Java EE</code>
 </p>
 <p>
 5- Qual ferramenta tem o papel de converter o bytecode em um algoritmo que é interpretado pelo sistema operacional?
