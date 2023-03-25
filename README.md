@@ -19,7 +19,7 @@ Módulos sobre a linguagem Java que vão desde o básico e introdução ao ambie
 
 
 <h2 id="prepare-se-para-a-jornada">1- Prepare-se para a Jornada (Onboarding)</h2>
-<h4 id="minha-carreira">Convite para "O Minha Carreira Tech - Orange Tech + | BackEnd</h4>
+<h3 id="minha-carreira">Convite para "O Minha Carreira Tech - Orange Tech + | BackEnd</h3>
 </p>
 Temas sobre empregaribilidade e um painel que será abordado sobre como se destacar mais no mercado de tecnologia e como é o dia a dia de um profissional dentro do Banco Inter 20/03/2023.
 </p>
@@ -232,11 +232,11 @@ R: JRE
 - [Link da apresentação do curso]()
 </p>
 
+<h2 id="aprendendo-a-sintaxe-java">Aprendendo a Sintaxe Java</h2>
+<h3 id="introducao">Introdução</h3>
 
-#### Aprendendo a Sintaxe Java
-##### *Introdução*
 Regras essenciais para a construção de códigos com base na linguagem Java.
-##### *Anatomia das Classes*
+<h4 id="anatomia-das-classes">Anatomia das Classes</h4>
 A escrita de códigos de um programa é feito através da composição de palavras pré-definidas  pela linguagem com as expressões que utilizam para determinar o nome do nossos arquivos, classes, atributos e métodos. É muito comum mesclarmos expressões no idioma amaericano com o nosso vocabulário. Nome de classe, métodos.
 
 Padrão de nomenclatura
@@ -245,13 +245,14 @@ Quando se trata de escrever códigos na linguagem Java, é recomendado seguir al
 Calculadora.java     CalculadoraCientifica.java
 
 - *Nome da classe no arquivo*: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
+```
 1// arquivo CalculadoraCientifica.java
 
 public class CalculadoraCientifica {
 
 }
 - void: executa mais não retorna nada.
-
+```
 - *Nome de variável:* toda variável deve ser escrita com letra minúscula, porém se a palavra for comporta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase" 
 
 - ve conter apenas letras, _ (underline), $ ou os números de 0 a 9.
@@ -735,9 +736,6 @@ Qual operação é válida?
 <p>R: "!" corresponde a operação lógica "inversão"</p>
 
 [Certificado](https://hermes.digitalinnovation.one/certificates/27FC47B1.pdf?_gl=1*r6vxwo*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTU5ODk0MS4yNDcuMS4xNjc5NjAwMjQwLjYwLjAuMA..)
-
-
-
 
 
 <h3 id="estruturas-de-repeticao-e-arrays-em-java">Estruturas de Repetição e Arrays em Java</h3>
