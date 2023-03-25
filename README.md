@@ -221,7 +221,7 @@ Quando se trata de escrever códigos na linguagem Java, é recomendado seguir al
 <code>Calculadora.java</code> <code>CalculadoraCientifica.java</code>
 
 - _Nome da classe no arquivo_: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
-```
+```java
 1// arquivo CalculadoraCientifica.java
 
 public class CalculadoraCientifica {
@@ -264,7 +264,7 @@ Java Beans: uma das maiores dificuldades na programação é escrever algoritmos
 Na linguagem Java existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Esses tipos de dados são conhecidos como tipos primitivos (Primitive Types).
 </p>  
 
-```
+```java
 Primitive Types:
 • int (ex: *in* cep = 21070333; // se comecar com zer, talvez tenha que ser de outro tipo)
 • byte (ex: *byte* idade = 45; )
@@ -296,7 +296,7 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 
 * Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
 
-```bash
+```java
 (+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
 (-)  Operador unário de valor negativo: nega um número ou expressão aritmética;
 (++) Operador unário de incrementar de valor: incrementa o valor em 1 unidade;
@@ -308,14 +308,14 @@ número ++; é a mesma coisa que número = número +1;
 
 * Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
 
-``
+````java
 <Expressão Condicional> ? <caso condição seja tru> : <caso condição seja false>
-``
+````
 
 
 * Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
 
-```bash
+```java
 == quando desejamos verificar se uma variável é IGUAL A outra.
 != quando desejamos verificar se uma variável é DIFERENTE da outra.
 > quando quando desejamos verificar se uma variável MAIOR QUE a outra.
@@ -328,7 +328,7 @@ método equals compara conteúdo
 
 • Lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões 
 
-```bash
+```java
 && operador lógico "E"
 ( || )operador lógico "OU"
 ```
@@ -409,11 +409,11 @@ A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são class
 
 <h4 id="java-doc">Java DOC</h4>
 Tipos de comentários:
-```html
+```java
 One Line: Inserir uma única linha nesse comentário. Informação não é copilada na linguagem ela é nível de usuário
 // exemplo de comentário one line
 ```
-```html
+```java
 Mult Line: comentário mais detalhado quando necessário
 /*
 *
@@ -422,7 +422,7 @@ Mult Line: comentário mais detalhado quando necessário
 */
 ```
 
-```html
+```java
 Docymentation: Menciona aspecto de documentação 
 / **
 * Está duas estrelinhas acima
@@ -441,7 +441,7 @@ No terminal quando for executar colocar apenas "MinhaClasse" sem o ".class".
 
  Quando executamos uma classe que contenha o método main, o mesmo permie que passemos um array [] de argumentos do tipo String. Logo podemos após a definição da classe a ser execuada informar estes parâmetros, exemplo:
 
-``
+``java
 > java MinhaClasse argumentoUm argumentoDois
 ``
 
@@ -450,7 +450,7 @@ Os parâmentros pode ser adicionados manualmente nos arquivos .json assim não t
 Classe Scanner proposta de ter melhor interação no que se refere aos inputs a entrada de dados que os nossos usuários vão querer realizar em nosso programa.
 Ex:
 
-``
+``java
 > Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 >
 > System.out.println("Digite sua idade");
@@ -464,7 +464,7 @@ Ex:
 R: long
 
 2- Encontre o erro no código abaixo:
-```bash
+```java
 public class Tv {
     int canal = 1;
     void mudarCanal(){
@@ -486,7 +486,7 @@ public String formatarCep(long cep){}
 R: Este método tem por finalidade formatar um número de cep para texto que represente um código postal legível.
 
 5- Qual é o valor impresso na execução do código abaixo ?
-```bash
+```java
 public static void main(String[] args) throws Exception {
       int numero1 = 1;
       String numero2 = "2";
@@ -502,11 +502,11 @@ R: 12
 <h4 id="operadores-relacionais">Operadores Relacionais</h4> 
 São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado.
 Tipos:
-```html
+```java
 Similaridade: (==) igualdade, (!=) diferente
 ```
 
-```html
+```java
 Tamanho: (>)maior, (>=) maior igual, (<) menor, (<=) menor igual 
 ```
 
@@ -518,18 +518,18 @@ Tipos: Conjunção, Disjunção, Disjunção exclusiva e Negação.
 </p>
 
 _Conjunção:_ operação lógica que só é verdadeira quando ambos os operando ou expressões envilvidas são verdadeiras.
-```html
+```java
 Simbologia: 
 * &&
 Terminologia:
 * and(e)
 ```
 ![image](https://user-images.githubusercontent.com/108890154/227273291-202b0fd1-4220-40d2-b7f3-567900293cf7.png)
-```html
+```java
 O - Operando E - Expressão R- Resultado
 ```
 _Disjunção:_ operação que só é falsa quando ambos os operando ou expressões envolvidas sçao falsos.
-```html
+```java
 Simbologia: 
 * ||
 Terminologia:
@@ -537,12 +537,12 @@ Terminologia:
 ```
 
 ![image](https://user-images.githubusercontent.com/108890154/227275696-52eead72-393a-4edd-8b20-0355208c3cd3.png)
-```html
+```java
 O - Operando E - Expressão R- Resultado
 ```
 
 _Disjunção exclusiva:_ operação que só é verdade quando ambos os operando ou expressões são opostos.
-```html
+```java
 Simbologia: 
 * ^
 Terminologia:
@@ -551,12 +551,12 @@ Terminologia:
 
 ![image](https://user-images.githubusercontent.com/108890154/227275566-e4f70470-4f30-4cb5-859a-2e866e2ec567.png)
 
-```html
+```java
 O - Operando E - Expressão R- Resultado
 ```
 
 _Negação:_ operação inverte o valor lógico de um operando ou expressão.
-```html
+```java
 Simbologia: 
 * !
 Terminologia:
@@ -564,10 +564,10 @@ Terminologia:
 ```
 ![image](https://user-images.githubusercontent.com/108890154/227275464-6318956b-ea72-4794-a0d9-d5ffea89d2b5.png)
 
-```html
+```java
 O - Operando E - Expressão R- Resultado
 ```
-```html
+```java
 
 
 operador bitwise: & e |
@@ -587,7 +587,7 @@ Decisão: estrutura que avalia uma condição booleana ou variável para direcio
 
 Decisão: if, if-else, if-else-f
 
-```html
+```java
 if (condição) {
 }
 
@@ -602,7 +602,7 @@ if (condição) {
 ```
 
 Decisão: Operador Ternário
-```html
+```java
 condição ? true: false;
 
 ligado ? desligar: ligar;
@@ -616,7 +616,7 @@ Decisão: switch
 
 variável: <code>byte</code>, <code>short</code>, <code>char</code>, <code>int</code>, <code>enum</code>, <code>string</code>
 
-```html
+```java
 switch (variável) {
 case 1:
 break;
@@ -653,7 +653,7 @@ break;
 
 <p>2- Dado o seguinte código é correto afirmar:</p>
 
-```html
+```java
 if (!b2)
               System.out.println("Verdade");
 else {
@@ -665,7 +665,7 @@ else {
 
 <p>3- Avalie o código a seguir e marque a opção correta:</p>
 
-```html
+```java
 if ((10 + 15) < 20)
     System.out.println("Verdade");
 else
@@ -681,7 +681,7 @@ else
 
 <p>6- Dadas as variáveis:</p>
 
-```html
+```java
 int i1 = 10; float f1 = 4.5f; char c1 = "x";
 boolean b1 = true;
 Qual operação é válida?
@@ -689,7 +689,7 @@ Qual operação é válida?
 <p>R: c1>i1</p>
 
 <p>7- Qual das expressões lógicas a seguir é válida?</p>
-```html
+```java
 <p>R: (10 > 15) && true</p>
 ```
 <p>8- São tipos de operadores relacionais:</p>
