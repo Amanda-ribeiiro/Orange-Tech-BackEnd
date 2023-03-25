@@ -48,7 +48,7 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 
 
 <h2 id="conhencendo-a-linguagem-de-programacao">3- Conhencendo a Linguagem de Programação Java</h2>
-<h3 id="introducao-a-platforma-java">Introdução à plataforma Java</h3> 
+<h3 id="introducao-a-platforma-java">3.1Introdução à plataforma Java</h3> 
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
 <h4 id="introducao-e-objetos">Introdução e Objetivos</h4>
 
@@ -138,7 +138,7 @@ R: James Gosling
 
 [Certificado](https://hermes.digitalinnovation.one/certificates/C089F2F6.pdf?_gl=1*8wyras*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTc2Mzk5NS4yNTQuMS4xNjc5NzY2Mzc2LjYwLjAuMA..)
 
-<h2 id="ambiente-de-desenvolvimento">Ambiente de Desenvolvimento Java</h3>
+<h2 id="ambiente-de-desenvolvimento">3.2Ambiente de Desenvolvimento Java</h3>
 <h3 id="introducao-a-ides">Introdução a IDEs</h3>
 <p>
 IDE(Integrated Development Environment), capaz de prover vários mecanismo que dispõe de recursos que auxiliam muito no nosso desenvolvimento. Ex:
@@ -225,7 +225,7 @@ R: JRE
 
 [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 
-<h2 id="aprendendo-a-sintaxe-java">Aprendendo a Sintaxe Java</h2>
+<h2 id="aprendendo-a-sintaxe-java">3.3Aprendendo a Sintaxe Java</h2>
 <h3 id="introducao">Introdução</h3>
 Regras essenciais para a construção de códigos com base na linguagem Java.
 <h4 id="anatomia-das-classes">Anatomia das Classes</h4>
@@ -529,7 +529,7 @@ R: 12
 - [Certificado](https://hermes.digitalinnovation.one/certificates/06415E1C.pdf?_gl=1*ulx1g3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTUyMjgwNS4yNDUuMS4xNjc5NTI0NTM5LjYwLjAuMA..)
 - [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
 
-<h3 id="logica-condicional-e-controle-de-fluxos-em-java">Lógica Condicional e Controle de Fluxos em Java</h3>
+<h3 id="logica-condicional-e-controle-de-fluxos-em-java">3.4Lógica Condicional e Controle de Fluxos em Java</h3>
 <h4 id="operadores-relacionais">Operadores Relacionais</h4> 
 São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado.
 Tipos:
