@@ -57,7 +57,8 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 Conhecer a estrutura, a história de criação e evolução da linguagem <code>Java</code>, além de suas plataformas, instalação e utilização de <code>IDEs</code> para desenvolvimento.
 [Java Fundamentos:](https://glysns.gitbook.io/java-basico/)
 
-##### *O que é Java*
+
+<h4 id="o-que-e-java">O que é Java</h4>
 Linguagem Java é composta por um conjunto bem definido de funcionalidades (features).
 POO - Programação Orientada a Objetos:
 
@@ -71,7 +72,7 @@ POO - Programação Orientada a Objetos:
 Plataforma independente, robusta, 
 <code>JVM</code> (Java Virtual Machine)
 
-##### *Java e sua história*
+<h4 id="java-e-sua-historia">Java e sua história</h4>
 A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em <code>C</code> e <code>C++</code> que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
 
 <h4>QUIZ - </h4>
@@ -135,11 +136,8 @@ R: Oak
 <p>
 R: James Gosling
 <p/>
-<p>
-- [Certificado](chat.openai.com/auth/login)
-<p/>
-<p>
-- [Link da apresentação do curso]()
+
+[Certificado]()
 
 <h2 id="ambiente-de-desenvolvimento">Ambiente de Desenvolvimento Java</h3>
 <h3 id="introducao-a-ides">Introdução a IDEs</h3>
@@ -228,13 +226,9 @@ R: JRE
 <p>
 - [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 </p>
-<p>
-- [Link da apresentação do curso]()
-</p>
 
 <h2 id="aprendendo-a-sintaxe-java">Aprendendo a Sintaxe Java</h2>
 <h3 id="introducao">Introdução</h3>
-
 Regras essenciais para a construção de códigos com base na linguagem Java.
 <h4 id="anatomia-das-classes">Anatomia das Classes</h4>
 A escrita de códigos de um programa é feito através da composição de palavras pré-definidas  pela linguagem com as expressões que utilizam para determinar o nome do nossos arquivos, classes, atributos e métodos. É muito comum mesclarmos expressões no idioma amaericano com o nosso vocabulário. Nome de classe, métodos.
