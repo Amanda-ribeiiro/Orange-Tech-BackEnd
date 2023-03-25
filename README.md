@@ -240,22 +240,20 @@ public class CalculadoraCientifica {
 
 Declarando variáveis e métodos: 
 • Declarar uma variável em Java segue sempre a seguinte estrutura:
-``
-Tipo NomeBemDefinido = Atribuição (opcional em alguns casos)
-``
-Declarando métodos em Java segue uma estrutura bem simples: (todos os metodos na linguagem Java costuma a ser no infinitvo).
-``
-TipoRetorno NomeObjetoNoInfinito Parametro (s)
-``
-Casa parâmentro é separado por vírgula.
+<code>Tipo NomeBemDefinido = Atribuição</code> (opcional em alguns casos)
+
+Declarando métodos em Java segue uma estrutura bem simples: (todos os metodos na linguagem Java costuma a ser no infinitvo). Cada parâmentro é separado por vírgula.
+<code>TipoRetorno NomeObjetoNoInfinito Parametro (s)</code>
 
 Identação: é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim visualização e o entendimento do programa.
-``
-Organizando arquivos: packge + nomeDaPastaEmQueOArquivoEsta
-``
+Organizando arquivos: <code>packge + nomeDaPastaEmQueOArquivoEsta</code>
+
 Java Beans: uma das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere, através de convenções, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+
 • Uma variável deve ser clara, sem abreviações ou definição sem sentido;
+
 • uma variáel é sempre no singular, exceto quando se referir a um array ou coleção;
+
 • Defina um idioma único para suas variáveis. Se você for declarar variáveis em inglês, defina todas em inglês.
 
 <h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
@@ -268,31 +266,14 @@ Na linguagem Java existem algumas palavras reservadas para a representação dos
 
 ```
 Primitive Types:
-<p>
 • int (ex: *in* cep = 21070333; // se comecar com zer, talvez tenha que ser de outro tipo)
-<p/>
-<p>
 • byte (ex: *byte* idade = 45; )
-<p/>
-<p>
 • shot (ex: *shot* ano = 2023; )
-<p/>
-<p>
 • long (ex: *long* cpf = 4563285788400L; // precisa ser encerrado com um "L" para representar que o numero não è inteiro è do tipo longo. Se comecar com zer, talvez tenha que ser de outro tipo).
-<p/>
-<p>
 • float (ex: *float* pi = 3.14F; tem que ter "f")
-<p/>
-<p>
 • double (ex: *double* salario = 1275.33; )
-<p/>
-<p>
 • boolean
-<p/>
-<p>
 • char 
-<p/>
-<p>
 ```
 <p>    
 Esses tipos não são considerados objetos, e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack).
@@ -393,9 +374,6 @@ Palavras reservadas, são identidicadores de uma linguaem que já possuem uma fi
 <p>
 A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são classificadas com uma cor especial pela maioria das IDE's. Abaixo temos a lista de palavras agrupadas por suas finalidades.
 </p>
-
-
-
 
 ```
   |                                    PALAVRAS RESERVADAS EM JAVA                                          |
