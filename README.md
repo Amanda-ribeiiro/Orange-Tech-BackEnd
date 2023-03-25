@@ -42,11 +42,6 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 ##### Cloud
 ##### Mobile
 
-### QUIZ - 
-- [Certificado]()
-- [Link da apresentação do curso]()
-
-
 <h2 id="conhencendo-a-linguagem-de-programacao">3- Conhencendo a Linguagem de Programação Java</h2>
 <h3 id="introducao-a-platforma-java">3.1Introdução à plataforma Java</h3> 
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
@@ -490,7 +485,8 @@ Ex:
 > int idade = scanner.nexIt();
 ``
 
-QUIZ -  Aprendendo a Sintaxe Java
+<h4 id="quiz">QUIZ -  Aprendendo a Sintaxe Java</h4>
+
 1- Qual o tipo de dados seria mais recomendado para representar um CPF?
 R: long
 
@@ -672,7 +668,7 @@ break;
 * Blocos
 É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação. Tipos: locais dentro de métodos, estátivos dentro de classes, instância dentro de classes.
 
-<h2 id="quiz">QUIZ - Blocos</h2>
+<h4 id="quiz">QUIZ - Blocos</h4>
 <p>1- Sobre controle de fluxo, é incorreto afirmar:</p>
 <p>R: switch avalia expressões booleanas.</p>
 
