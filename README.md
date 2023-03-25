@@ -733,7 +733,7 @@ Qual operação é válida?
     </li>
 </ul>
 <p></p>
-**Percurso**
+**Percurso*
 <ul>
     <li>
         Comando<code>while</code>
