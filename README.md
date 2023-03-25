@@ -279,35 +279,54 @@ Java Beans: uma das maiores dificuldades na programação é escrever algoritmos
 • uma variáel é sempre no singular, exceto quando se referir a um array ou coleção;
 • Defina um idioma único para suas variáveis. Se você for declarar variáveis em inglês, defina todas em inglês.
 
-##### *Tipos e variáveis*
+<h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
 [Ebook](https://glysns.gitbook.io/java-basico/sintaxe/variaveis)
 Na linguagem Java existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Esses tipos de dados são conhecidos como tipos primitivos (Primitive Types).
-
+````
 Primitive Types:
+<p>
 • int (ex: *in* cep = 21070333; // se comecar com zer, talvez tenha que ser de outro tipo)
+<p/>
+<p>
 • byte (ex: *byte* idade = 45; )
+<p/>
+<p>
 • shot (ex: *shot* ano = 2023; )
-• long (ex: *long* cpf = 4563285788400L; // precisa ser encerrado com um "L" para representar que o numero não è inteiro è do tipo longo. Se comecar com zer, talvez tenha que ser de outro tipo)
+<p/>
+<p>
+• long (ex: *long* cpf = 4563285788400L; // precisa ser encerrado com um "L" para representar que o numero não è inteiro è do tipo longo. Se comecar com zer, talvez tenha que ser de outro tipo).
+<p/>
+<p>
 • float (ex: *float* pi = 3.14F; tem que ter "f")
+<p/>
+<p>
 • double (ex: *double* salario = 1275.33; )
+<p/>
+<p>
 • boolean
+<p/>
+<p>
 • char 
+<p/>
+<p>
+````
 Esses tipos não são considerados objetos, e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack).
 ![imag e](https://user-images.githubusercontent.com/108890154/225970151-54b3aa9c-9d45-4775-9b5b-0a524aaad538.png)
 
 Variável x Constantes:
-• variável é uma área de memória associado a um nome que pode armazenar valores de um determinado tipo. Um tipo de dado define um conjunto de valores e um conjunto de operações. Java é uma linguagem com rigidez de tipos, diferente do JavaScript onde declarar o tipo de variável não é obrigatorio.
-• Já as constantes são valores armazenados em memória que não podem ser modificados depois de declarados. Em java, esses valores são representados pela reservada _final_, seguida do tipo.
+* • variável é uma área de memória associado a um nome que pode armazenar valores de um determinado tipo. Um tipo de dado define um conjunto de valores e um conjunto de operações. Java é uma linguagem com rigidez de tipos, diferente do JavaScript onde declarar o tipo de variável não é obrigatorio.
+* • Já as constantes são valores armazenados em memória que não podem ser modificados depois de declarados. Em java, esses valores são representados pela reservada _final_, seguida do tipo.
 Por convenção constantes são sempre escritas em CAIXA ALTA.
 
-##### *Operadores*
+
+<h4 id="operadores">Operadores</h4>
 São símbolos especiais que tem significado próprio para a linguagem e estão associados a determinadas operações.
 
-• Atribuição representando pelo símbolo de = , atribuir um valor a uma determinada variável.
+* • Atribuição representando pelo símbolo de = , atribuir um valor a uma determinada variável.
 
-• Aritméticos é utilizado para realizar operações matemáticas entre valores númericos, podendo se tornar ou não uma expressao mais complexa.
+* • Aritméticos é utilizado para realizar operações matemáticas entre valores númericos, podendo se tornar ou não uma expressao mais complexa.
 
-• Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
+* • Unário são aplicados juntamento com um outro operador aritmético e eles realizam alguns trabalhos básicos como incrementar. decrementar, inverter valores númericos e booleanos.
 
 ```bash
 - (+)  Operador unário de valor positivo: número são positivos sem esse operador explicitamente;
@@ -319,11 +338,14 @@ São símbolos especiais que tem significado próprio para a linguagem e estão 
 número ++; é a mesma coisa que número = número +1;
 ```
 
-• Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
+* • Ternário é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF norma, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. O operador ternário é representado pelo símbolo ?: utilizados na seguinte estrutura de sintaxe:
 
+``
 <Expressão Condicional> ? <caso condição seja tru> : <caso condição seja false>
+``
 
-• Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
+
+* • Relacionais avaliam a relação entre duas variáveis ou expressões. NEste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual da direita, retornando um valor booleano como resultado.
 
 ```bash
 - == quando desejamos verificar se uma variável é IGUAL A outra.
@@ -343,6 +365,7 @@ método equals compara conteúdo
 ( || )operador lógico "OU"
 ```
 
+<h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
 ##### *Métodos*
 Ponto de reflexão 
 1-Qual a proposta principal do método?
@@ -371,6 +394,7 @@ Critério de nomeação de métodos: não são obrigatórios, mas é recomendáv
 
 > Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.
 
+<h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
 ##### *Escopo*
 O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
 
