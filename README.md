@@ -1285,7 +1285,9 @@ System.out.print(nomes.length);
 
 
 [Certificado](https://hermes.digitalinnovation.one/certificates/CD2A6B2E.pdf?_gl=1*1k6qbiw*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDUzMzU1Ni4yNTcuMS4xNjgwNTM1MjYxLjYwLjAuMA..)
+
 [SLIDES DA AULA](https://drive.google.com/file/d/1xNzZ3dQMATP11Dk3HWsAWdEuJfVDpnN_/view)
+
 [Repositorio GitHub](https://github.com/cami-la/loops-e-arrays)
 
 <h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
