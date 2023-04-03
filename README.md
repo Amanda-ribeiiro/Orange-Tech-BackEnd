@@ -1291,5 +1291,8 @@ System.out.print(nomes.length);
 [Repositorio GitHub](https://github.com/cami-la/loops-e-arrays)
 
 <h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
+<h4 id="criacao">Criação</h4>
+<h4 id="sobrecarga">Sobrecarga</h4>
+<h4 id="retornos">Retornos</h4>
 
 
