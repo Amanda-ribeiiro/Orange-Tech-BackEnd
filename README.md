@@ -1213,8 +1213,75 @@ public static void main(String[] args) {
 import java.util.Scanner;
 
 ```
+
 <h4>QUIZ - Exercícios Resolvidos: Arrays </h4>
+<p>1- As estruturas de repetição podem ser classificadas em:</p>
+<p>R: Repetição com teste de início <code>while</code>, repetição de teste no final <code>do-while</code>, repetição contada <code>for</code></p>
+<p>2- 
+``JAVA
+int num = 5, count = 1;
+        while(count <= 3) {
+            ++count;
+            num += count;
+        }
+        System.out.println(num);
+``
+
+Dado o código acima, o que será impresso no console?
+</p>
+<p>R: 14</p>
+<p>3- Sobre arrays, marque a alternativa correta.</p>
+<p>R: Permanecem com o mesmo tamanho em que foram criados.</p>
+<p>4- 
+`` java
+int i, num = 5;
+        for (i = 0; i < 3; i++) {
+            num += i;
+            System.out.print(i);
+        }
+``JAVA  
+Dado o código acima, o que será impresso no console?
+</p>
+<p>R: 012</p>
+<p>5- “É um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.”
+Acima definimos:</p>
+<p>R: array</p>
+<p>6- Sobre Estruturas de repetição, julgue a alternativa INCORRETA:</p>
+<p>R: As estruturas de repetição podem ser classificadas em: "while", "do-while", e "array"</p>
+<p>7- Como podemos definir “Estruturas de repetição”:</p>
+<p>R: Uma estrutura que permite a execução de uma sequência repetidamente, caso determinadas condições sejam satisfeitas.</p>
+<p>8- 
+``JAVA
+int num = 5, count = 1;
+        do {
+            num += count;
+            System.out.println(num);
+        } while (count <= 3);
+``
+Dado o código acima, o que será impresso no console?
+</p>
+<p>R: lopping infinito</p>
+<p>9- 
+``JAVA
+int[][] numeros = {{4, 9, 8, 5}, {3, 0, 1, 5}, {1, 2, 7, 4}};
+System.out.print(numeros[2][2]);
+``
+Dado o código acima, o que será impresso no console?
+</p>
+<p>R: 7</p>
+<p>10- 
+``JAVA
+String[] nomes = {"Camila", "Venilton", "Leonardo", "Renan", "Rafael"};
+System.out.print(nomes.length);
+``
+Dado o código acima, o que será impresso no console?
+</p>
+<p>R: 5</p>
+
+
 [Certificado]()
+[SLIDES DA AULA](https://drive.google.com/file/d/1xNzZ3dQMATP11Dk3HWsAWdEuJfVDpnN_/view)
+[Repositorio GitHub](https://github.com/cami-la/loops-e-arrays)
 
 <h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
 
