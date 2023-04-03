@@ -1457,7 +1457,7 @@ converterParaInteiro();
 <h4 id="retornos">Retornos</h4>
 <p>É uma estrução de interrupção</p>
 
-*Simbologia: return
+Simbologia: <code>return</code>
 
 __Funcionamento__
 <p>O método executa seu retorno quando:</p>
