@@ -1378,6 +1378,6 @@ public void verifica(int i) {
 <p>R: Os parênteses são opcionais na definição de métodos.</p>
 
 
-[certificado]()
+[certificado](https://hermes.digitalinnovation.one/certificates/4C7B7412.pdf?_gl=1*1be38hh*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDU1MTA5OS4yNjAuMS4xNjgwNTYwMTA4LjYwLjAuMA..)
 
 
