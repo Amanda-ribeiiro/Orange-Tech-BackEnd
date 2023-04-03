@@ -1217,7 +1217,7 @@ import java.util.Scanner;
 <h4>QUIZ - Exercícios Resolvidos: Arrays </h4>
 <p>1- As estruturas de repetição podem ser classificadas em:</p>
 <p>R: Repetição com teste de início <code>while</code>, repetição de teste no final <code>do-while</code>, repetição contada <code>for</code></p>
-<p>2- 
+<p>2- </p>
 ```java
 int num = 5, count = 1;
         while(count <= 3) {
@@ -1227,12 +1227,11 @@ int num = 5, count = 1;
         System.out.println(num);
 ```
 
-Dado o código acima, o que será impresso no console?
-</p>
+<p>Dado o código acima, o que será impresso no console?</p>
 <p>R: 14</p>
 <p>3- Sobre arrays, marque a alternativa correta.</p>
 <p>R: Permanecem com o mesmo tamanho em que foram criados.</p>
-<p>4- 
+<p>4- </p>
 ```java
 int i, num = 5;
         for (i = 0; i < 3; i++) {
@@ -1240,8 +1239,7 @@ int i, num = 5;
             System.out.print(i);
         }
 ```
-Dado o código acima, o que será impresso no console?
-</p>
+<p>Dado o código acima, o que será impresso no console?</p>
 <p>R: 012</p>
 <p>5- “É um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.”
 Acima definimos:</p>
@@ -1250,7 +1248,7 @@ Acima definimos:</p>
 <p>R: As estruturas de repetição podem ser classificadas em: "while", "do-while", e "array"</p>
 <p>7- Como podemos definir “Estruturas de repetição”:</p>
 <p>R: Uma estrutura que permite a execução de uma sequência repetidamente, caso determinadas condições sejam satisfeitas.</p>
-<p>8- 
+<p>8- </p>
 ```java
 int num = 5, count = 1;
         do {
@@ -1258,24 +1256,22 @@ int num = 5, count = 1;
             System.out.println(num);
         } while (count <= 3);
 ```
-Dado o código acima, o que será impresso no console?
+<p>Dado o código acima, o que será impresso no console?</p>
 </p>
 <p>R: lopping infinito</p>
-<p>9- 
+<p>9- </p>
 ```java
 int[][] numeros = {{4, 9, 8, 5}, {3, 0, 1, 5}, {1, 2, 7, 4}};
 System.out.print(numeros[2][2]);
 ```
-Dado o código acima, o que será impresso no console?
-</p>
+<p>Dado o código acima, o que será impresso no console?</p>
 <p>R: 7</p>
-<p>10- 
+<p>10- </p>
 ```java
 String[] nomes = {"Camila", "Venilton", "Leonardo", "Renan", "Rafael"};
 System.out.print(nomes.length);
 ```
-Dado o código acima, o que será impresso no console?
-</p>
+<p>Dado o código acima, o que será impresso no console?</p>
 <p>R: 5</p>
 
 
