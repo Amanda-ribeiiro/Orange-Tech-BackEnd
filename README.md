@@ -1375,7 +1375,7 @@ public void verifica(int i) {
 <p>R: Ocorre um erro de compilação, pois métodos <code>void</code> não tem retorno.</p>
 
 <p>10- Sobre métodos, marque o que for INCORRETO:</p>
-<p>R: Os parenteses</p>
+<p>R: Os parênteses são opcionais na definição de métodos.</p>
 
 
 [certificado]()
