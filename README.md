@@ -1350,7 +1350,10 @@ Passa-se uma mensagem através de uma classe ou objeto.
 __Particularidades__
 
 <p>Assinatua é a forma de identificar unicamente o método:</code>
-<p> Ass = nome + parâmetros </code>
+
+````
+Ass = nome + parâmetros
+````
 
 Método:
 
@@ -1365,9 +1368,9 @@ calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3)
 ````
 
 <p>Exercícios:</p>
--Tente ao máximo criar métodos que trabalhem sozinhos ou conjunto;
--Pode chamar um método dentro de outro;
--Pode passar como parâmetro, a chamada de um outro método.
+- Tente ao máximo criar métodos que trabalhem sozinhos ou conjunto;
+- Pode chamar um método dentro de outro;
+- Pode passar como parâmetro, a chamada de um outro método.
 
 ````java
 
@@ -1398,7 +1401,10 @@ calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3)
 
 __Criação__
 <p> Alterar a assinatura do método:</p>
-<p>Ass = nome + parâmetros</p>
+
+````
+Ass = nome + parâmetros
+````
 
 ````java
 converterParaInteiro(float f);
@@ -1412,6 +1418,7 @@ converterParaInteiro(RoundType rd, String s);
 converterParaInteiro();
 ````
 <p>Exemplo</p>
+
 ![image](https://user-images.githubusercontent.com/108890154/229647812-d4f3176a-eaa3-4067-906e-2911470b957c.png)
 
 <p>Exemplo</p>
