@@ -1292,16 +1292,19 @@ System.out.print(nomes.length);
 
 <h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
 <h4 id="criacao">Criação</h4>
-<p>Conceituação</p>
+
+__Conceituação__
+
 <p>É uma porção de códigos (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.</p>
 
-<p> Padrão de definição: </p>
+__Padrão de definição:__
 
 ````
 <?visibilidade?><?tipo><?modificador?>retorno nome(<?parâmentros?>)<?exceções?>corpo
 ````
 
-<p> Onde: </p>
+__Onde:__
+
 __V:__ "public", "protected" ou "private"
 
 T: concreto ou abstrato
@@ -1332,7 +1335,7 @@ public Relatorio gerarDadosAnaliticos(Cliente cliente, List<Compra>compras){...}
 public static R N(P) {...}
 ````
 
-<p>Utilização</p>
+__Utilização__
 Passa-se uma mensagem através de uma classe ou objeto.
 
 <code>nome_da_classe.nome_do_metodo();</code> ou <code>nome_da_classe.nome_do_metodo(...);</code>
@@ -1342,7 +1345,8 @@ Passa-se uma mensagem através de uma classe ou objeto.
 
 
 
-<p>Particularidades</p>
+__Particularidades__
+
 <p>Assinatua é a forma de identificar unicamente o método:</code>
 <p> Ass = nome + parâmetros </code>
 
@@ -1407,8 +1411,11 @@ converterParaInteiro();
 ````
 <p>Exemplo</p>
 ![image](https://user-images.githubusercontent.com/108890154/229647812-d4f3176a-eaa3-4067-906e-2911470b957c.png)
+
 <p>Exemplo</p>
+
 ![image](https://user-images.githubusercontent.com/108890154/229647875-d61e2e34-6ebf-4823-8a87-ec1c28927730.png)
+
 <p>Exercícios:</p>
 <p>Crie uma aplicação que calcula a área dos 3 quadriláteros notáveis: quadrado, retângulo e trapézio. (Obs: use sobrecarga.)</p>
 ````java
