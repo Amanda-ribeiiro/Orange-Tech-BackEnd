@@ -1292,6 +1292,78 @@ System.out.print(nomes.length);
 
 <h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
 <h4 id="criacao">Criação</h4>
+<p>Conceituação</p>
+<p>É uma porção de códigos (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.</p>
+
+<p> Padrão de definição: </p>
+
+````
+<?visibilidade?><?tipo><?modificador?>retorno nome(<?parâmentros?>)<?exceções?>corpo
+````
+
+<p> Onde: </p>
+__V:__ "public", "protected" ou "private"
+
+T: concreto ou abstrato
+
+M: "static" ou "final"
+
+__R:__ tipo de dado ou "void" // não retorna nada só
+
+__N:___ nome que é fornecido ao método // padrão
+
+__P:__ parâmetros que pode receber // se o método for usado de ficar dentro do parâmetro ou parâmetro vazio
+
+E: exceções que pode lançar 
+
+__C:__ código que possui ou vazio
+
+
+<p>Exemplos</p>
+
+````Java
+public String getNome() {...} // retorna uma nome
+public double calcularTotalNota() {...}
+public int verificarDistancia(int cordenada1, int cordenada2) {....}
+public abstract void executar(); // corpo vazio do m[etodo
+public void alterarFabricante(Fabricante fabricante) {...}
+public Relatorio gerarDadosAnaliticos(Cliente cliente, List<Compra>compras){...} // como passar mais de um parâmentro.
+
+public static R N(P) {...}
+````
+
+<p>Utilização</p>
+Passa-se uma mensagem através de uma classe ou objeto.
+
+<code>nome_da_classe.nome_do_metodo();</code> ou <code>nome_da_classe.nome_do_metodo(...);</code>
+
+<code>Math.random();</code> ou <code>Math.sqrt(4);</code>
+<code>usuario.getEMail();</code> ou <code>usuario.alterarEndereco(endereco);</code>
+
+
+
+<p>Particularidades</p>
+<p>Assinatua é a forma de identificar unicamente o método:</code>
+<p> Ass = nome + parâmetros </code>
+
+Método:
+
+````JAVA
+public double calcularTotalVenda (double precoItem1, double precoItem2, double precoItem3) {....}
+````
+
+Assinatura:
+
+````JAVA
+calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3)
+````
+
+<p>Exercícios:</p>
+-Tente ao máximo criar métodos que trabalhem sozinhos ou conjunto;
+-Pode chamar um método dentro de outro;
+-Pode passar como parâmetro, a chamada de um outro método.
+
+````java
 
 
 
@@ -1301,8 +1373,146 @@ System.out.print(nomes.length);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
 <h4 id="sobrecarga">Sobrecarga</h4>
+<p> É a capacidade de definir método para diferentes contextos, mas preservando seu nome.</p>
+
+__Criação__
+<p> Alterar a assinatura do método:</p>
+<p>Ass = nome + parâmetros</p>
+
+````java
+converterParaInteiro(float f);
+converterParaInteiro(double d);
+converterParaInteiro(String s);
+converterParaInteiro(float f, RoundType rd);
+converterParaInteiro(double d, RoundType rd);
+converterParaInteiro(String s, RoundType rd);
+
+converterParaInteiro(RoundType rd, String s);
+converterParaInteiro();
+````
+<p>Exemplo</p>
+![image](https://user-images.githubusercontent.com/108890154/229647812-d4f3176a-eaa3-4067-906e-2911470b957c.png)
+<p>Exemplo</p>
+![image](https://user-images.githubusercontent.com/108890154/229647875-d61e2e34-6ebf-4823-8a87-ec1c28927730.png)
+<p>Exercícios:</p>
+<p>Crie uma aplicação que calcula a área dos 3 quadriláteros notáveis: quadrado, retângulo e trapézio. (Obs: use sobrecarga.)</p>
+````java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
+
 <h4 id="retornos">Retornos</h4>
+<p>É uma estrução de interrupção</p>
+*Simbologia: return
+
+__Funcionamento__
+<p>O método executa seu retorno quando:</p>
+- Completa todas suas instruções internas;
+- Chega a uma declaração explícita de retorno;
+- Lança uma exceção.
+
+__Considerações__
+- O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
+- O tipo de dado do return deve ser compatível com o do método;
+- Se o método for sem retorno<code>void</code>, pode ou náo ter um <code>return</code> para encerrar sua execução.
+
+__Exemplos__
+
+````java
+public String getMensagem(){
+    return "Ola!";
+}
+````
+
+````java
+public double getJuros() {
+    return 2.36;
+}
+````
+
+````java
+public int getParcelas(){
+    return 1.36f;
+}
+````
+
+````java
+public void setIdade(...){
+    return 10;
+}
+````
+
+````java
+public void executar() {
+    ...
+    return;
+    ....
+}
+````
+
+
+<p>Exercícios:</p>
+<p>Recrie aplicação que calcula a área dos 3 quadriláteros notáveis. Agora faça os métodos retornarem valores.</p>
+````java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
+
 <h4>QUIZ - Retornos</h4>
 <p>1- Sobre métodos, marque o que for INCORRETO:</p>
 <p>R: Métodos só podem ser utilizados a partir de classes, de forma estática.</p>
