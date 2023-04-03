@@ -1305,6 +1305,8 @@ __Padrão de definição:__
 
 __Onde:__
 
+
+````
 __V:__ "public", "protected" ou "private"
 
 T: concreto ou abstrato
@@ -1320,7 +1322,7 @@ __P:__ parâmetros que pode receber // se o método for usado de ficar dentro do
 E: exceções que pode lançar 
 
 __C:__ código que possui ou vazio
-
+````
 
 <p>Exemplos</p>
 
@@ -1418,6 +1420,7 @@ converterParaInteiro();
 
 <p>Exercícios:</p>
 <p>Crie uma aplicação que calcula a área dos 3 quadriláteros notáveis: quadrado, retângulo e trapézio. (Obs: use sobrecarga.)</p>
+
 ````java
 
 
@@ -1495,7 +1498,6 @@ public void executar() {
 
 <p>Exercícios:</p>
 <p>Recrie aplicação que calcula a área dos 3 quadriláteros notáveis. Agora faça os métodos retornarem valores.</p>
-````java
 
 
 
@@ -1504,21 +1506,6 @@ public void executar() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-````
 
 <h4>QUIZ - Retornos</h4>
 <p>1- Sobre métodos, marque o que for INCORRETO:</p>
