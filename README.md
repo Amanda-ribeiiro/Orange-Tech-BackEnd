@@ -1593,6 +1593,6 @@ public void verifica(int i) {
 
 [certificado](https://hermes.digitalinnovation.one/certificates/4C7B7412.pdf?_gl=1*1be38hh*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDU1MTA5OS4yNjAuMS4xNjgwNTYwMTA4LjYwLjAuMA..) 
 
-(Slide)[https://docs.google.com/presentation/d/1InCKAqx_Vocw9BxN95JTtcDpPnredEOa/edit#slide=id.g1dab0d043ad_1_1605]
+[Slide](https://docs.google.com/presentation/d/1InCKAqx_Vocw9BxN95JTtcDpPnredEOa/edit#slide=id.g1dab0d043ad_1_1605)
 
 
