@@ -1337,6 +1337,7 @@ public int verifica(int i) {return 0;} // é uma implementação válida.
 public int avaliar()
 ````
 <p>R:</p>
+
 ````Java
 public int avaliar(double i)
 ````
