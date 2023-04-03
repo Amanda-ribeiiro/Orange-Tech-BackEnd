@@ -1308,6 +1308,7 @@ System.out.print(nomes.length);
 <p>R: Métodos só podem ser utilizados a partir de classes, de forma estática.</p>
 
 <p>Tendo o método a seguir, marque o que for INCORRETO:</p>
+
 ````Java
 public double calcularTotalNota() {…}
 ````
@@ -1317,10 +1318,12 @@ public double calcularTotalNota() {…}
 <p>R: Todo método deve ter um nome.</p>
 
 <p>A partir do método a seguir, marque a alternativa CORRETA:</p>
+
 ````Java
 public int verifica(int i) {...}
 ````
 <p>R:</p>
+
 ````Java
 public int verifica(int i) {return 0;} // é uma implementação válida.
 ````
@@ -1329,6 +1332,7 @@ public int verifica(int i) {return 0;} // é uma implementação válida.
 <p>R: É constituída do nome e lista de parâmetros do método.</p>
 
 <p>Tendo o método a seguir, qual não é uma sobrecarga válida?</p>
+
 ````Java
 public int avaliar()
 ````
@@ -1337,6 +1341,7 @@ public int avaliar()
 public int avaliar(double i)
 ````
 <p>Avalie o método a seguir e marque a alternativa INCORRETA:</p>
+
 ````Java
 public String verifica(int idade) 
    if (idade > 18) {
@@ -1350,11 +1355,13 @@ public String verifica(int idade)
 <p>Um método deve ser público, sem retorno, se chamar xpto, tem um int como parâmetro  e ter corpo vazio. 
 Baseado nessa especificação, qual é a definição correta?</p>
 <p>R:</p>
+
 ````Java
 public void xpto(int i){}
 ````
 
 <p>Avalie o método a seguir e marque a alternativa CORRETA:</p>
+
 ````Java
 public void verifica(int i) {
    if (i > 1) {
