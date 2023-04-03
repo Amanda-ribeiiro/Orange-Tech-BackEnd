@@ -1248,7 +1248,7 @@ int i, num = 5;
 Acima definimos:</p>
 <p>R: array</p>
 <p>6- Sobre Estruturas de repetição, julgue a alternativa INCORRETA:</p>
-<p>R: As estruturas de repetição podem ser classificadas em: "while", "do-while", e "array"</p>
+<p>R: As estruturas de repetição podem ser classificadas em: <code>while</code>, <code>do-while</code>, e <code>array</code></p>
 <p>7- Como podemos definir “Estruturas de repetição”:</p>
 <p>R: Uma estrutura que permite a execução de uma sequência repetidamente, caso determinadas condições sejam satisfeitas.</p>
 <p>8- </p>
@@ -1292,7 +1292,84 @@ System.out.print(nomes.length);
 
 <h3 id="entendento-o-metodo-java">3.5 Entendendo o Metodo Java</h3> 
 <h4 id="criacao">Criação</h4>
+
+
+
+
+
+
+
+
+
 <h4 id="sobrecarga">Sobrecarga</h4>
 <h4 id="retornos">Retornos</h4>
+<h4>QUIZ - Retornos</h4>
+<p>Sobre métodos, marque o que for INCORRETO:</p>
+<p>R: Métodos só podem ser utilizados a partir de classes, de forma estática.</p>
+
+<p>Tendo o método a seguir, marque o que for INCORRETO:</p>
+````Java
+public double calcularTotalNota() {…}
+````
+<p>R: Ele pode retornar um valor do tipo texto.</p>
+
+<p>Sobre métodos, marque o que for VERDADE:</p>
+<p>R: Todo método deve ter um nome.</p>
+
+<p>A partir do método a seguir, marque a alternativa CORRETA:</p>
+````Java
+public int verifica(int i) {...}
+````
+<p>R:</p>
+````Java
+public int verifica(int i) {return 0;} // é uma implementação válida.
+````
+
+<p>Em relação a assinatura de um método, marque o CORRETO:</p>
+<p>R: É constituída do nome e lista de parâmetros do método.</p>
+
+<p>Tendo o método a seguir, qual não é uma sobrecarga válida?</p>
+````Java
+public int avaliar()
+````
+<p>R:</p>
+````Java
+public int avaliar(double i)
+````
+<p>Avalie o método a seguir e marque a alternativa INCORRETA:</p>
+````Java
+public String verifica(int idade) 
+   if (idade > 18) {
+     return “Maior de idade”;
+   } else {
+     return “Menor de idade”;   
+   }
+````
+<p>R: O corpo do método está definido corretamente.</p>
+
+<p>Um método deve ser público, sem retorno, se chamar xpto, tem um int como parâmetro  e ter corpo vazio. 
+Baseado nessa especificação, qual é a definição correta?</p>
+<p>R:</p>
+````Java
+public void xpto(int i){}
+````
+
+<p>Avalie o método a seguir e marque a alternativa CORRETA:</p>
+````Java
+public void verifica(int i) {
+   if (i > 1) {
+     return “Maior”;
+   } else {
+     return “Menor”;   
+   }
+}
+````
+<p>R: Ocorre um erro de compilação, pois métodos <code>void</code> não tem retorno.</p>
+
+<p>Sobre métodos, marque o que for INCORRETO:</p>
+<p>R: Os parenteses</p>
+
+
+[certificado]()
 
 
