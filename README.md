@@ -1368,6 +1368,7 @@ calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3)
 ````
 
 <p>Exercícios:</p>
+
 - Tente ao máximo criar métodos que trabalhem sozinhos ou conjunto;
 - Pode chamar um método dentro de outro;
 - Pode passar como parâmetro, a chamada de um outro método.
@@ -1455,6 +1456,7 @@ converterParaInteiro();
 
 <h4 id="retornos">Retornos</h4>
 <p>É uma estrução de interrupção</p>
+
 *Simbologia: return
 
 __Funcionamento__
