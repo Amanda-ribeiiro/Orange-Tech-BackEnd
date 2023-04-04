@@ -1508,6 +1508,9 @@ public void executar() {
 <p>Exercícios:</p>
 <p>Recrie aplicação que calcula a área dos 3 quadriláteros notáveis. Agora faça os métodos retornarem valores.</p>
 
+````java
+
+````
 
 
 
