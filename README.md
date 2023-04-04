@@ -1667,7 +1667,9 @@ public class DownloadPacotes {
     }
 }
 ````
+
 <h4 id="desafio-leitura">Desafio - Leitura de Gertrudes</h4>
+
 ````java
 import java.util.Scanner;
 
@@ -1697,9 +1699,8 @@ public class Leitura {
         }
     }
 }
-
-
 ````
+
 <h4 id="desafio-lojinha">Desafio - Lojinha de doces</h4>
 
 ````java
@@ -1716,10 +1717,7 @@ A entrada será a quantidade de dinheiro que cada cliente, um por vez, possui.
 
 Saída
 A saída deverá ser a quantidade de doces que cada cliente conseguiu obter. (sem as aspas)
-
-
-
- */
+*/
 
 public class Lojinha {
     public static void main(String[] args) {
@@ -1734,6 +1732,7 @@ public class Lojinha {
 
 
 ````
+
 <h4 id="desafio-multa">Desafio - Industria da multa</h4>
 
 ````java
