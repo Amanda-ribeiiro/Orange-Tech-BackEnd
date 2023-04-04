@@ -1701,6 +1701,7 @@ public class Leitura {
 
 ````
 <h4 id="desafio-lojinha">Desafio - Lojinha de doces</h4>
+
 ````java
 import java.util.Scanner;
 
@@ -1734,6 +1735,7 @@ public class Lojinha {
 
 ````
 <h4 id="desafio-multa">Desafio - Industria da multa</h4>
+
 ````java
 import java.util.Scanner;
 
