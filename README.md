@@ -1598,8 +1598,8 @@ public void verifica(int i) {
 
 [Slide](https://docs.google.com/presentation/d/1InCKAqx_Vocw9BxN95JTtcDpPnredEOa/edit#slide=id.g1dab0d043ad_1_1605)
 
-<h3 id="dominando-algoritmos-basicos-com-desafios-de-codigo-em-java">4- Dominando algoritmos básicos com desafios de códigos em Java</h3> 
-<h4 id="desafio-mesada">4.1 Desafio - Mesada do Sobrinho</h4>
+<h2 id="dominando-algoritmos-basicos-com-desafios-de-codigo-em-java">4- Dominando algoritmos básicos com desafios de códigos em Java</h3> 
+<h3 id="desafio-mesada">4.1 Desafio - Mesada do Sobrinho</h4>
 
 ````java
 import java.util.Scanner;
@@ -1634,7 +1634,7 @@ public class MesadaSobrinho {
     }
 }
 ````
-<h4 id="desafio-download">4.2 Desafio - Download de Pacotes </h4>
+<h3 id="desafio-download">4.2 Desafio - Download de Pacotes </h4>
 
 ````java
 import java.util.Scanner; 
@@ -1668,7 +1668,7 @@ public class DownloadPacotes {
 }
 ````
 
-<h4 id="desafio-leitura">4.3 Desafio - Leitura de Gertrudes</h4>
+<h3 id="desafio-leitura">4.3 Desafio - Leitura de Gertrudes</h4>
 
 ````java
 import java.util.Scanner;
@@ -1701,7 +1701,7 @@ public class Leitura {
 }
 ````
 
-<h4 id="desafio-lojinha">4.4 Desafio - Lojinha de doces</h4>
+<h3 id="desafio-lojinha">4.4 Desafio - Lojinha de doces</h4>
 
 ````java
 import java.util.Scanner;
@@ -1733,7 +1733,7 @@ public class Lojinha {
 
 ````
 
-<h4 id="desafio-multa">4.5 Desafio - Industria da multa</h4>
+<h3 id="desafio-multa">4.5 Desafio - Industria da multa</h4>
 
 ````java
 import java.util.Scanner;
