@@ -1822,5 +1822,6 @@ ctrl + .
 
 Outra forma seria clicar com o botão direito selecionar o ``Source Action...`` ``Generate Getters and Setters...`` e depois selecionar quais atributos precisa ser gerado.
 
+``sout``<code>System.out.println()</code>
 
 
