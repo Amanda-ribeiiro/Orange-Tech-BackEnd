@@ -1809,3 +1809,5 @@ _Paradigma Imperativo:_
 - Paradigma Lógico
 
 
+<h4>Cofiguração do Ambiente</h4>
+[site Git Ignore](https://www.toptal.com/developers/gitignore)
