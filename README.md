@@ -1811,3 +1811,6 @@ _Paradigma Imperativo:_
 
 <h4>Cofiguração do Ambiente</h4>
 [site Git Ignore](https://www.toptal.com/developers/gitignore)
+
+![image](https://user-images.githubusercontent.com/108890154/229956229-8892f391-cd7a-43f4-9302-e658cd71a962.png)
+
