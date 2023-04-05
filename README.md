@@ -1795,8 +1795,11 @@ Podem ser classificadas:
 - Tipo de execução.
 
 __Paradigma de Linguagem de Programação__: É um conjunto de características que podem ser utilizado para categorizar determiado grupo de linguagens. Um paradigma pode oferecer técnins apropriadas para uma aplicação específica.
+
 <p>Paradigmas Principais e seus Subparadigmas:</p>
+
 *Paradigma Imperativo:*
+
 - Paradigma Estruturado
 - Paradigma Concorrente
 - Paradigma OO (Orientação à Objeto)
