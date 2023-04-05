@@ -1798,7 +1798,7 @@ __Paradigma de Linguagem de Programação__: É um conjunto de características 
 
 <p>Paradigmas Principais e seus Subparadigmas:</p>
 
-*Paradigma Imperativo:*
+_Paradigma Imperativo:_
 
 - Paradigma Estruturado
 - Paradigma Concorrente
