@@ -1814,8 +1814,13 @@ _Paradigma Imperativo:_
 
 ![image](https://user-images.githubusercontent.com/108890154/229956229-8892f391-cd7a-43f4-9302-e658cd71a962.png)
 
-Atalho para gerar os métodos getters e setters no VSCode (Visual Studio Code) de forma rápida.
+Atalho para gerar os métodos getters e setters no VSCode (Visual Studio Code): 
+
 ``
 ctrl + .
 ``
+
+Outra forma seria clicar com o botão direito selecionar o ``Source Action...`` ``Generate Getters and Setters...`` e depois selecionar quais atributos precisa ser gerado.
+
+
 
