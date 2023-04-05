@@ -1776,3 +1776,32 @@ public class Multa{
 <h3 >5.3 Debugging Java</h4>
 <h3 >5.4 Tratamento de Exceções em Java</h4>
 <h3 >5.5 Abstraindo um Bootcamp Usando Orientação a Objetos em Java</h4>
+<h4>Apresentação e visão geral de POO - Programação Orientada a Objetos</h4>
+__POO__
+
+- Paradigma: Modelo, exemplo a ser seguido;
+- Programação: Desenvolvimento de uma aplicação;
+- Orientada: Aquilo que é regido segue uma orientação;
+- Objeto: Um molde que represena uma determinada classe.
+
+__Paradigma de Programação Orientada a Objetos:__ É um modelo de desenvolvimento de aplicações, sendo este modelo construído acerca do conceito de objetos.
+
+__Linguagem de programação__: É uma linguagem formal que, através de uma série de instruções, permite que um programador escreva um conjunto de ordens, açoes consecutivas, dados de algoritmos para criar programas.
+Podem ser classificadas:
+- Níveis de abstração;
+- Paradigma de programação;
+- Arquitetura de aplicação;
+- Tipo de execução.
+
+__Paradigma de Linguagem de Programação__: É um conjunto de características que podem ser utilizado para categorizar determiado grupo de linguagens. Um paradigma pode oferecer técnins apropriadas para uma aplicação específica.
+<p>Paradigmas Principais e seus Subparadigmas:</p>
+*Paradigma Imperativo:*
+[x] Paradigma Estruturado
+[x] Paradigma Concorrente
+[x] Paradigma OO (Orientação à Objeto)
+
+*Paradigma Declarativo:*
+[x] Paradigma Funcional
+[x] Paradigma Lógico
+
+
