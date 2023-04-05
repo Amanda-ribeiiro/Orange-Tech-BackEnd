@@ -1777,6 +1777,7 @@ public class Multa{
 <h3 >5.4 Tratamento de Exceções em Java</h4>
 <h3 >5.5 Abstraindo um Bootcamp Usando Orientação a Objetos em Java</h4>
 <h4>Apresentação e visão geral de POO - Programação Orientada a Objetos</h4>
+
 __POO__
 
 - Paradigma: Modelo, exemplo a ser seguido;
@@ -1796,12 +1797,12 @@ Podem ser classificadas:
 __Paradigma de Linguagem de Programação__: É um conjunto de características que podem ser utilizado para categorizar determiado grupo de linguagens. Um paradigma pode oferecer técnins apropriadas para uma aplicação específica.
 <p>Paradigmas Principais e seus Subparadigmas:</p>
 *Paradigma Imperativo:*
-[x] Paradigma Estruturado
-[x] Paradigma Concorrente
-[x] Paradigma OO (Orientação à Objeto)
+- Paradigma Estruturado
+- Paradigma Concorrente
+- Paradigma OO (Orientação à Objeto)
 
 *Paradigma Declarativo:*
-[x] Paradigma Funcional
-[x] Paradigma Lógico
+- Paradigma Funcional
+- Paradigma Lógico
 
 
