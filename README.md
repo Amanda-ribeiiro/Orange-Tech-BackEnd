@@ -1828,7 +1828,23 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 
 <h2 id="ganhando-produtividade-com-spring-fremework">6- Ganhando Produtividade com Spring Fremework</h2> 
 <h3>6.1 Principais Protocolos de Comunicação da Internet</h3>
+
+
+
 <h3>6.2 Gerenciamento de Dependências e Buil em Java com Maven</h3>
+<h4>Introdução, definição e instalação</h4>
+<h4>Primeiro Projeto e Conceitos</h4>
+<h4>POM, dependências e repositórios</h4>
+<h4>Gerenciando dependências</h4>
+<h4>Maven Build Lifecycle</h4>
+<h4>Projetos Multi-módulos</h4>
+<h4>Plugins</h4>
+<h4>Conclusão</h4>
+
+
+
+
+
 <h3>6.3 Imersão no Spring Framework com Spring Boot</h3>
 <h3>6.4 Criando uma API REST Documentada com Spring Web e Swagger</h3>
 <h3>6.5 Explorndo Padrões de Projetos na Prática com Java</h3>
