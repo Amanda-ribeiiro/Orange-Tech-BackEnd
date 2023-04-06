@@ -32,7 +32,7 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 ##### [Introdução](https://web.dio.me/course/introducao-ao-desenvolvimento-moderno-de-software/learning/64118d38-e7a0-4e98-becd-c5e52c993e08?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined)
 
 <h2 id="conhencendo-a-linguagem-de-programacao">3- Conhencendo a Linguagem de Programação Java</h2>
-<h3 id="introducao-a-platforma-java">3.1Introdução à plataforma Java</h3> 
+<h3 id="introducao-a-platforma-java">3.1 Introdução à plataforma Java</h3> 
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
 <h4 id="introducao-e-objetos">Introdução e Objetivos</h4>
 
@@ -1827,8 +1827,8 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 
 
 <h2 id="ganhando-produtividade-com-spring-fremework">6- Ganhando Produtividade com Spring Fremework</h2> 
-<h3 id="principais-protocolos-de-comunicação-da-internet">6.1 Principais Protocolos de Comunicação da Internet</h3>
-<h3>6.1 Gerenciamento de Dependências e Buil em Java com Maven</h3>
-<h3>6.1 Imersão no Spring Framework com Spring Boot</h3>
-<h3>6.1 Criando uma API REST Documentada com Spring Web e Swagger</h3>
-<h3>6.1 Explorndo Padrões de Projetos na Prática com Java</h3>
+<h3>6.1 Principais Protocolos de Comunicação da Internet</h3>
+<h3>6.2 Gerenciamento de Dependências e Buil em Java com Maven</h3>
+<h3>6.3 Imersão no Spring Framework com Spring Boot</h3>
+<h3>6.4 Criando uma API REST Documentada com Spring Web e Swagger</h3>
+<h3>6.5 Explorndo Padrões de Projetos na Prática com Java</h3>
