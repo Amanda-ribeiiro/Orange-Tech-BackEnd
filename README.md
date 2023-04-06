@@ -1836,16 +1836,16 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 <h4>Introdução, definição e instalação</h4>
 
 __Apresentação Inicial do Curso__
-• Criar um Projeto utilizando a ferramenta; 
-• Entender os Principais conceitos por trás do Maven;
-• Gerenciar dependências do seu projeto;
-• Configurar plugins e projetos com necessidades específicas.
+- Criar um Projeto utilizando a ferramenta; 
+- Entender os Principais conceitos por trás do Maven;
+- Gerenciar dependências do seu projeto;
+- Configurar plugins e projetos com necessidades específicas.
 
 __O que é Apache Mave__
-<p> Ferramenta para gerenciar build e dependências de um projeto. Primeira versão foi em julho de 2004, mantido pela __Apache Software Foundation__ .</p>
-• Endereça como o Software foi constrído e suas dependências através do POM (Project Object Model);
-• Facilitar a compreensão do desenvolvedor;
-• Fornecer informações de qualidade.
+<p> Ferramenta para gerenciar build e dependências de um projeto. Primeira versão foi em julho de 2004, mantido pela Apache Software Foundation.</p>
+- Endereça como o Software foi constrído e suas dependências através do POM (Project Object Model);
+- Facilitar a compreensão do desenvolvedor;
+- Fornecer informações de qualidade.
     
 [Documentação Maven](https://maven.apache.org/what-is-maven.html)
 
