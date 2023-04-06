@@ -1824,8 +1824,10 @@ Outra forma seria clicar com o botão direito selecionar o ``Source Action...`` 
 
 digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.println()</code>
 
-<h2 id="ganhando-produtividade-com-spring-fremework">6- Ganhando Produtividade com Spring Fremework</h4> 
-<h3>6.1 Principais Protocolos de Comunicação da Internet</h3>
+
+
+<h2 id="ganhando-produtividade-com-spring-fremework">6- Ganhando Produtividade com Spring Fremework</h2> 
+<h3 id="principais-protocolos-de-comunicação-da-internet">6.1 Principais Protocolos de Comunicação da Internet</h3>
 <h3>6.1 Gerenciamento de Dependências e Buil em Java com Maven</h3>
 <h3>6.1 Imersão no Spring Framework com Spring Boot</h3>
 <h3>6.1 Criando uma API REST Documentada com Spring Web e Swagger</h3>
