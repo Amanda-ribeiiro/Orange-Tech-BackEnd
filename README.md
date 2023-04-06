@@ -7,7 +7,7 @@ Módulos sobre a linguagem Java que vão desde o básico e introdução ao ambie
 </p>
 <h2>Módulos</h2>
 <ol>
-    <li><a href=["#prepare-se-para-a-jornada"](https://web.dio.me/track/2aeff5aa-bb23-4141-8109-20fa42b58ff7)>Prepare-se para a Jornada</a></li>
+    <li><a href="#prepare-se-para-a-jornada">Prepare-se para a Jornada</a></li>
     <li><a href="#principios-de-desenvolvimento-de-software">Princípios de Desenvolvimento de Software</a></li>
     <li><a href="#conhecendo-a-linguagem-java">Conhecendo a Linguagem Java</a></li>
     <li><a href="#dominando-algoritmos-básicos">Dominando Algoritmos básicos </a></li>
