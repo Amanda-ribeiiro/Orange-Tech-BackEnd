@@ -1843,6 +1843,7 @@ __Apresentação Inicial do Curso__
 
 __O que é Apache Mave__
 <p> Ferramenta para gerenciar build e dependências de um projeto. Primeira versão foi em julho de 2004, mantido pela Apache Software Foundation.</p>
+
 - Endereça como o Software foi constrído e suas dependências através do POM (Project Object Model);
 - Facilitar a compreensão do desenvolvedor;
 - Fornecer informações de qualidade.
@@ -1850,6 +1851,29 @@ __O que é Apache Mave__
 [Documentação Maven](https://maven.apache.org/what-is-maven.html)
 
 __Instalação: Windows__
+
+(Site Maven para instalação)[https://maven.apache.org/]
+
+
+![image](https://user-images.githubusercontent.com/108890154/230464929-2ff9badc-0232-48ca-8891-14096b077107.png)
+
+Download
+![image](https://user-images.githubusercontent.com/108890154/230467706-276b05e1-c431-4bd2-a97b-e3d886abd888.png)
+
+Extrair 
+![image](https://user-images.githubusercontent.com/108890154/230468523-38e423eb-054f-442a-b829-8cfd6b2a62fd.png)
+
+
+[x] Necessário ter a versão 11.0 do <code>JDK</code>
+
+>  Importante verificar no prompt de comando se o JDK está instalado <code>javac -version</code>
+
+
+
+
+
+
+
 
 __Instalação: Linux__
 <h4>Primeiro Projeto e Conceitos</h4>
