@@ -1864,18 +1864,53 @@ Extrair
 ![image](https://user-images.githubusercontent.com/108890154/230468523-38e423eb-054f-442a-b829-8cfd6b2a62fd.png)
 
 
-[x] Necessário ter a versão 11.0 do <code>JDK</code>
+- [x] Necessário ter a versão 11.0 do <code>JDK</code>
 
->  Importante verificar no prompt de comando se o JDK está instalado <code>javac -version</code>
+> **Note**
+> Importante verificar no prompt de comando se o JDK está instalado <code>javac -version</code>
 
+Painel de controle > Sistema e Segurança > Sistema > Configuração avançada de Sistema >  variáveis de ambiente > variável de sistema > Path > novo
 
+Iremos adicionar manualmente no Path utilitarios que o Windows enxerga em seu ambiente para execução o caminho da pasta "maven" que fizemos o download para assim ser possível em independente do caminho ao ser executado na linha de comando ser aberto.
 
-
-
-
-
+``
+Verificar novamente no prompt de comando se o MVN foi instalado e está funcionando corretamente:
+<code>mvn --version</code>
+``
 
 __Instalação: Linux__
+[Site Maven para instalação](https://maven.apache.org/)
+
+
+![image](https://user-images.githubusercontent.com/108890154/230464929-2ff9badc-0232-48ca-8891-14096b077107.png)
+
+Download
+![image](https://user-images.githubusercontent.com/108890154/230504626-f996e470-0e43-446f-b007-c56cdbd87e24.png)
+
+Abra o terminal acesse a pasta de Download e descompacta o arquivo, comando <code>tar xf nomeDaPasta</code>.
+
+> **Note**
+> Importante verificar no prompt de comando se o JDK está instalado <code>javac -version</code>
+
+O arquivo bashrc é um script em shell que roda todas as vezes que abrimos o terminal. 
+
+Para adicionar o caminho no Path do sistema:
+
+Abra um editor de texto de sua preferência e acesse o arquivo <code>.bashrc</code> 
+e no final do arquivo coloque:
+
+> **Note**
+> O arquivo <code>.bashrc</code> é um arquivo oculto então para acessar aperte: <code>ctrl+h</code>
+
+``
+export PATH=/localEmqueAPastaEsta:$PATH
+``
+
+``
+Verificar novamente no prompt de comando se o MVN foi instalado e está funcionando corretamente:
+<code>mvn --version</code>
+``
+
 <h4>Primeiro Projeto e Conceitos</h4>
 <h4>POM, dependências e repositórios</h4>
 <h4>Gerenciando dependências</h4>
