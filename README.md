@@ -1844,7 +1844,7 @@ __Apresentação Inicial do Curso__
 __O que é Apache Mave__
 <p> Ferramenta para gerenciar build e dependências de um projeto. Primeira versão foi em julho de 2004, mantido pela Apache Software Foundation.</p>
 
-- Endereça como o Software foi constrído e suas dependências através do POM (Project Object Model);
+- Endereça como o Software foi constrído e suas dependências através do (POM)[https://maven.apache.org/pom.html] (Project Object Model);
 - Facilitar a compreensão do desenvolvedor;
 - Fornecer informações de qualidade.
     
@@ -1912,6 +1912,15 @@ Verificar novamente no prompt de comando se o MVN foi instalado e está funciona
 ``
 
 <h4>Primeiro Projeto e Conceitos</h4>
+
+
+
+
+
+
+
+
+
 <h4>POM, dependências e repositórios</h4>
 <h4>Gerenciando dependências</h4>
 <h4>Maven Build Lifecycle</h4>
