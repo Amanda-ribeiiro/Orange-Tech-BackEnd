@@ -33,6 +33,7 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 
 <h2 id="conhencendo-a-linguagem-de-programacao">3- Conhencendo a Linguagem de Programação Java</h2>
 <h3 id="introducao-a-platforma-java">3.1 Introdução à plataforma Java</h3> 
+
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
 <h4 id="introducao-e-objetos">Introdução e Objetivos</h4>
 
@@ -375,17 +376,20 @@ Palavras reservadas, são identidicadores de uma linguaem que já possuem uma fi
 A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são classificadas com uma cor especial pela maioria das IDE's. Abaixo temos a lista de palavras agrupadas por suas finalidades.
 </p>
 
-```
-  |                                    PALAVRAS RESERVADAS EM JAVA                                          |
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+__PALAVRAS RESERVADAS EM JAVA__
+  -----------------------------------------------------------------------------------------------------------  
+  |          |           |           |            |              |           |           |        |         |
+  | ---------|-----------|-----------|------------|--------------|-----------|-----------|--------|---------|    
   | abstract |  continue |     goto  |   package  | synchronized |   assert  |   default |   if   | private |
-  | this     |  boolean  |     do    | implements |  protected   |   throw   |   break   | double | import  |  
+  | this     |  boolean  |     do    | implements |  protected   |   throw   |   break   | double | import  | 
   | public   |  throws   |     byte  |    else    |  instanceof  |   return  | transient |  case  | extends |
   |  int     |   short   |     try   |   catch    |   final      | interface |  static   |  void  |  char   |
   | finally  |   long    |  strictfp |  volatile  |    class     |   float   |  native   | super  |   while |
   |  const   |    for    |    new    |  switch    |              |           |           |        |         |
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-```
+  ----------------------------------------------------------------------------------------------------------
+  
+  
+
 
 *Controle de pacotes:*
 - import: importa pacotes ou classes para dentro do código;
@@ -2274,18 +2278,97 @@ mvn javadoc:javadoc
     
 </h3>
     
-[Professor: Gleyson Sampaio](    
+[Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
 <h4>Apresenção Inicial</h4>
-<h5>Apresenção e visão geral do cusro</h5>       
+<h5>Apresenção e visão geral do cusro</h5>
+    - Criar um projeto Web;
+    - Configurar Controllers;
+    - Documentar a API com Swagger;
+    - Tratamento de exceções com Handlers;
 <h4>Projeto Springboot</h4>
-<h5>Criando uma REST API</h5>     
+<h5>Criando uma REST API</h5>
+    *SPRING WEB*
+- REST e RESTful
+- Controllers
+- Swagger
+- Exception Handler
+    
+<p>Implementar recursos <code>HTTP</code> para interação de arquivos <code>json</code> pelas aplicações.</p>
+<p>O que é uma API?</p>
+<p>Uma API (interface application program) é um código programável que faz a "ponte" de comunicação entre duas aplicações distintas.</p>   
+<p>REST e RESTful</p>
+<p>A API REST(representational state transfer) é como um guia de boas práticas e RESTful é a capacidade de determinado sistema aplicar os princípios de REST.</p>       
+<p>Princípios</p>  
+<p>Para que uma arquitetura seja RESTful, é necessário ter uma série de princípios ou padrões:</p>      
+- ☑️ cliente-servidor : siginifica aprimorar a portabilidade entre várias plataformas de interface do usuário e do servidor, permitindo uma evolução independente do sitema;    
+- ☑️ interface uniforma: representa uma interação uniforme entre clientes e servidor. Para isso, é preciso ter uma interface que identifique e represente recursos, mensagens autodescritivas, bem com hypermedia(HATEOAS);
+- ☑️ stateless: indica que a cada inteção via API tem acesso a dados completos e compreensíveis;
+- ☑️  cache - necessário para reduzir o tempo médio de resposta, melhorar eficiência, desempenho e escalabilidade da comunicação;
+- ☑️  camadas - permite que a arquitetura seja menos compleza e altamente flexível.
+
+__Nível de Maturidade__
+<p> Para padronizar e facilitar o desenvolvimento de APIs REST, Leonardo Richardson propôs um modelo de maturidade para esse tipo de API, definido em 4 níveis:   
+![image](https://user-images.githubusercontent.com/108890154/230740562-714f8768-f54f-42e3-aceb-19505a2185d3.png)
+
+_Nível 0: Ausência de Regras_
+    <p>Esse é consiferado o nível mais básico de uma API, quem implementa apenas esse nível não pode ser considerada REST pois não segue qualquer padrão.</p>   
+ 
+----------------------------------------------------    
+|Verbo HTTP  |       URI       |    Operação       |
+-------------|-----------------|-------------------|
+|POST        | /getUsuario     | Pesquisar Usuario |
+|POST        | /salvarUsuario  | Salvar            |
+|POST        | /alterarUsuario | Alterar           |
+|POST        | /excluirUsuario | Deletar           |
+----------------------------------------------------
+    
+> Um único verbo com nomes que não seguem nenhum padrão    
+    
+_Nível 1: Aplicação de Recursos_
+    <p>Observe que o nome dos recursos foram equalizados e para não gerar ambiguidade é necessário definir o verblo apropriadamente.</p>   
+    
+----------------------------------------------------    
+|Verbo HTTP  |       URI       |    Operação       |
+-------------|-----------------|-------------------|
+|GET         | /usuarios/1     | Pesquisar Usuario |
+|POST        | /usuarios       | Salvar            |
+|PUT         | /usuarios/1     | Alterar           |
+|DELETE      | /usuarios/1     | Deletar           |
+----------------------------------------------------
+    
+_Nível 2: Implementação de verbos HTTP_
+    <p>Como a definição dos verbos já foi requisitada no Nível 1, o Nível 2 s encarrega de validar a aplicabilidade dos verbos para finalizades específicas como:</p>  
+    
+--------------------------------    
+|Verbo HTTP  |      Função     |
+-------------|-----------------|
+|GET         | Retornar dados  | 
+|POST        | Grava dados     |
+|PUT         | Alterar dados   |
+|DELETE      | Remove dados    | 
+-------------------------------- 
+    
+> **Note**
+> Existe uma discussão quando precisamos retornar dados, através de parâmentos via body, recebidos pelo método POST.
+
+_Nível 3: HATEOAS_
+    <p>HATEOAS significa _Hypermedia as the Engine of Applications State_ . Uma API que implementa esse nível fornece aos seus clientes links que indicarão como poderá ser feita a navegação entre seus recursos. Ou seja, quem for consumir API precisará saber apenas a rota principal e a resposta dessa requisição terá todas as demais rotas possíveis.</p>  
+
+> **Note**
+> O nível 3 é sem dúvidas o menos explorado, muitas APIs existentes no mercado não implementam esse nível.   
+    
+![image](https://user-images.githubusercontent.com/108890154/230741875-e3f76eef-90e8-42ca-9b09-2c3e222ef210.png)
+   <p>No exemplo acima, podemos ver o resultado de uma API que implementa HATEAOS, veja que na resposta dessa API há uma coleção "link", cada link aponta para uma rota dessa API. No caso desse exemplo, temos um link para a própria rota, um link para alterar um cliente e outra para excluir. 
+       
+[Passo a passo para criar seu primeiro projeto Spring Boot e maven.]([https://start.spring.io/](https://glysns.gitbook.io/spring-framework/primeiro-projeto))
+    
 <h5>RestController</h5>   
 <h5>Documentando nossa API com SWAGGER</h5>   
 <h5>Habilitando o tratamento de exeções de negócios com handlers</h5>     
 <h4>Conclusão</h4>      
  
 <h4>📝 QUIZ - </h4>
-- 🗂️📑[slides]
+- 🗂️📑[slides](https://glysns.gitbook.io/spring-framework/spring-web/introducao)
 - ✅     
 <h3>6.5 Explorndo Padrões de Projetos na Prática com Java</h3>
 <h4>📝 QUIZ - </h4>
