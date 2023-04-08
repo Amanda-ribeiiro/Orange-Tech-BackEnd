@@ -2366,11 +2366,51 @@ _Nível 3: HATEOAS_
 <h5>Documentando nossa API com SWAGGER</h5>   
 <h5>Habilitando o tratamento de exeções de negócios com handlers</h5>     
 <h4>Conclusão</h4>      
- 
-<h4>📝 QUIZ - </h4>
+- 🚀[REST e RESTful](https://becode.com.br/o-que-e-api-rest-e-restful/)
+- 🚀[API REST e RESTful](https://4success.com.br/api-rest-e-restful/)
+- 🚀[Handling](https://www.baeldung.com/exception-handling-for-rest-with-spring)
+- 🚀[Exception handler](https://www.theserverside.com/definition/exception-handler)
+    
+<h4>📝 QUIZ - Criando uma API REST Documentada com Spring Web e Swagger</h4>
+<p>1- "Um manipulador de exceção é o código que estipula o que um programa fará quando um evento anômalo interromper o fluxo normal das instruções deste programa."
+
+A afirmativa acima, se trata do conceito de:</p>
+<R: Exception Handler</p>  
+    
+<p>2- O que você entende por Swagger:</p> 
+<R: É uma linguagem de descrição de interface para descrever APIs RESTful expressas usando JSON. O Swagger é usado junto com um conjunto de ferramentas de software de códigos abertos para projetar, contruir, documentar e usar serviços da Web RESTful.</p> 
+    
+<p>3- O que é o Postman?</p>   
+<R: É uma ferramenta que provê uma interface para o consumo de endpoints REST. Além disso, permite a documentação das requisições HTTP em questão.</p> 
+    
+<p>4- O endpoint  “/usuarios/1“ seguindo o padrão RESTful, é comumente utilizado com alguns métodos HTTP, exceto:</p>  
+<R: POST</p> 
+    
+<p>5- O que significa o acrônimo CRUD?</p>
+<R: CRU(create, read, update, delete)</p> 
+    
+<p>6- Seguindo a metodologia RESTful,  para que serve o método HTTP “GET”?</p>  
+<R: Obter dados.</p> 
+    
+<p>7- “É a camada da aplicação que lida com as requisições dos usuários.”
+Estamos falando de qual camada?</p>   
+<R: Controller</p> 
+    
+<p>8- Qual a função da anotação @RestController?</p>
+<R: Responsável por designar o bean do componente que suporta requisições HTTP com base na arquitetura REST.</p> 
+    
+<p>9- Como podemos definir uma API?</p>  
+<R: É um código programável que faz a "ponte" de comunicação entre duas aplicações distintas.</p> 
+    
+<p>10- “É a URL onde seu serviço pode ser acessado por uma aplicação cliente.“. Na frase citada, simplificamos o conceito de:</p>    
+<R: Endpoint</p>     
+    
+    
+    
+    
 - 🗂️📑[slides](https://glysns.gitbook.io/spring-framework/spring-web/introducao)
-- ✅     
+- ✅ [Certificado - Criando uma API REST documentada com Sprig Web e Swagger](https://hermes.digitalinnovation.one/certificates/D20DB0DF.pdf?_gl=1*1m31urb*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDk4OTYwMy4yODEuMS4xNjgwOTk1NzU4LjYwLjAuMA..)    
 <h3>6.5 Explorndo Padrões de Projetos na Prática com Java</h3>
 <h4>📝 QUIZ - </h4>
 - 🗂️📑[slides]
-- ✅ 
+- ✅ [Certificado]( 
