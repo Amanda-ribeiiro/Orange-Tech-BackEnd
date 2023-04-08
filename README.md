@@ -2266,15 +2266,24 @@ mvn javadoc:javadoc
 <h4>📝 QUIZ - </h4>
 - 🗂️📑[slides]
 - ✅ 
-<h3>6.4 Criando uma API REST Documentada com Spring Web e Swagger</h3>
+
+  
+<h3>
     
+[6.4 Criando uma API REST Documentada com Spring Web e Swagger](https://web.dio.me/course/criando-uma-api-rest-documentada-com-spring-web-e-swagger/learning/3f1916d5-4837-488a-8359-17ba9099d71c?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined)
     
+</h3>
     
-    
-    
-    
-    
-    
+[Professor: Gleyson Sampaio](    
+<h4>Apresenção Inicial</h4>
+<h5>Apresenção e visão geral do cusro</h5>       
+<h4>Projeto Springboot</h4>
+<h5>Criando uma REST API</h5>     
+<h5>RestController</h5>   
+<h5>Documentando nossa API com SWAGGER</h5>   
+<h5>Habilitando o tratamento de exeções de negócios com handlers</h5>     
+<h4>Conclusão</h4>      
+ 
 <h4>📝 QUIZ - </h4>
 - 🗂️📑[slides]
 - ✅     
