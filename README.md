@@ -2281,10 +2281,10 @@ mvn javadoc:javadoc
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
 <h4>Apresenção Inicial</h4>
 <h5>Apresenção e visão geral do cusro</h5>
-    - Criar um projeto Web;
-    - Configurar Controllers;
-    - Documentar a API com Swagger;
-    - Tratamento de exceções com Handlers;
+    ▫ Criar um projeto Web;
+    ▫ Configurar Controllers;
+    ▫ Documentar a API com Swagger;
+    ▫ Tratamento de exceções com Handlers;
 <h4>Projeto Springboot</h4>
 <h5>Criando uma REST API</h5>
     *SPRING WEB*
@@ -2299,11 +2299,16 @@ mvn javadoc:javadoc
 <p>REST e RESTful</p>
 <p>A API REST(representational state transfer) é como um guia de boas práticas e RESTful é a capacidade de determinado sistema aplicar os princípios de REST.</p>       
 <p>Princípios</p>  
-<p>Para que uma arquitetura seja RESTful, é necessário ter uma série de princípios ou padrões:</p>      
+<p>Para que uma arquitetura seja RESTful, é necessário ter uma série de princípios ou padrões:</p>     
+    
 - ☑️ cliente-servidor : siginifica aprimorar a portabilidade entre várias plataformas de interface do usuário e do servidor, permitindo uma evolução independente do sitema;    
+    
 - ☑️ interface uniforma: representa uma interação uniforme entre clientes e servidor. Para isso, é preciso ter uma interface que identifique e represente recursos, mensagens autodescritivas, bem com hypermedia(HATEOAS);
+    
 - ☑️ stateless: indica que a cada inteção via API tem acesso a dados completos e compreensíveis;
+    
 - ☑️  cache - necessário para reduzir o tempo médio de resposta, melhorar eficiência, desempenho e escalabilidade da comunicação;
+    
 - ☑️  camadas - permite que a arquitetura seja menos compleza e altamente flexível.
 
 __Nível de Maturidade__
@@ -2365,10 +2370,24 @@ _Nível 3: HATEOAS_
 <h5>RestController</h5>   
 <h5>Documentando nossa API com SWAGGER</h5>   
 <h5>Habilitando o tratamento de exeções de negócios com handlers</h5>     
-<h4>Conclusão</h4>      
+<h4>Conclusão</h4>   
+
+✔ Criamos de um projeto Web;
+    
+✔ Estrurturamos nossos Controllers;
+    
+✔ Documentamos nossa API;
+    
+✔ Habilitamos tratamento de exceções;
+    
+✔ Interafimos com a API via Postman.
+    
 - 🚀 [REST e RESTful](https://becode.com.br/o-que-e-api-rest-e-restful/)
+    
 - 🚀 [API REST e RESTful](https://4success.com.br/api-rest-e-restful/)
+    
 - 🚀 [Handling](https://www.baeldung.com/exception-handling-for-rest-with-spring)
+    
 - 🚀 [Exception handler](https://www.theserverside.com/definition/exception-handler)
     
 <h4>📝 QUIZ - Criando uma API REST Documentada com Spring Web e Swagger</h4>
