@@ -1913,6 +1913,26 @@ Verificar novamente no prompt de comando se o MVN foi instalado e está funciona
 
 <h4>Primeiro Projeto e Conceitos</h4>
 
+__Criando um projeto via linha de comando__ 
+
+Criando o primeiro projeto pelo terminal prompt de comando: 
+
+``
+<code>mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false</code>
+``
+
+O comando "mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false" é usado para gerar um novo projeto Maven usando o arquétipo Quickstart.
+
+Veja o que cada parâmetro significa:
+
+"mvn" é o comando para executar o Maven.
+"arquétipo:gerar" é o objetivo do Maven que gera um novo projeto a partir de um arquétipo.
+"-DgroupId=one.digitalinnovation" define o ID do Grupo para o novo projeto como "one.digitalinnovation".
+"-DartifactId=quick-start-maven" define a ID do Artefato para o novo projeto como "quick-start-maven".
+"-Darchetype=maven-archetype-quickstart" especifica que o arquétipo de início rápido deve ser usado para gerar o projeto.
+"-DinteractiveMode=false" especifica que o Maven não deve solicitar a entrada do usuário durante o processo de geração do projeto.
+Quando você executar esse comando, o Maven criará um novo diretório chamado "quick-start-maven" no diretório atual. Esse diretório conterá um projeto Maven esqueleto baseado no arquétipo de início rápido, com a ID do Grupo definida como "one.digitalinnovation" e a ID do Artefato definida como "quick-start-maven".
+
 
 
 
@@ -1927,8 +1947,6 @@ Verificar novamente no prompt de comando se o MVN foi instalado e está funciona
 <h4>Projetos Multi-módulos</h4>
 <h4>Plugins</h4>
 <h4>Conclusão</h4>
-
-
 
 
 
