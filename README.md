@@ -1974,10 +1974,16 @@ E adicione no <code>pom.xml</code> abaixo das
 </dependency>
 
 ``
-
 depois volte no terminal e copile o projeto <code>mvn compile</code>.
 
 <h4>POM, dependências e repositórios</h4>
+__Tipos de dependência__
+<code>mvn install</code>
+
+Direta: dependências declaradas no pom.xml
+Transitiva: dependências obrigatórias das dependências declaradas no pom.xml
+
+
 <h4>Gerenciando dependências</h4>
 <h4>Maven Build Lifecycle</h4>
 <h4>Projetos Multi-módulos</h4>
