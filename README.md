@@ -2427,3 +2427,10 @@ Estamos falando de qual camada?</p>
 <h4>📝 QUIZ - </h4>
 - 🗂️📑[slides]
 - ✅ [Certificado]( 
+
+<h2>7 - Dominando Algoritmos Intermediarios com Desafios de Codigo Java</h2>   
+<h3>7.1 Desafio - Salvando Músicas</h4>
+<h3>7.2 Desafio - Pntos na carteira</h4>
+<h3>7.3 Desafio - Imóvel Diponíveis</h4>
+<h3>7.4 Desafio - Dc Monals</h4>
+<h3>7.5 Desafio - Camarote do Blue Cold Ice Cubes</h4>    
