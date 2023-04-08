@@ -1947,9 +1947,26 @@ Referências](http://www.tutorials.jenkov.com/maven/maven-commands.html) .
 __Criando diferentes tipos de projeto__
 - Maven archetype: template que possibilita a personalização e a configuração de como um projeto construído. Neste arquivo definimos versão de componentes, quais componentes vão inseridos automaticamente.
 
-[archetype](http://www.mvnrepository.com.br
+[archetype](https://mvnrepository.com/)
 
+__POM__
+POM (project object model) unidade fundamental de trabalho ele é em formato XML ele que vai detalha o projeto, como construir o projeto. Maven sempre procura pela pom.xml para realizar sua execução.
 
+__Repositório__
+[repositorio de configuração](https://repo.maven.apache.org/maven2/)
+
+__Como adicionar dependências__
+Entre nesse [site](https://mvnrepository.com/) e procure por "Hibernate-validator":
+
+![image](https://user-images.githubusercontent.com/108890154/230730215-7796d872-7254-4b6b-bec3-fc3122800aca.png)
+
+Clique na última versão:
+![image](https://user-images.githubusercontent.com/108890154/230730274-0ec28603-d91f-4353-b46e-df3c859c7d44.png)
+
+Copie o código:
+![image](https://user-images.githubusercontent.com/108890154/230730317-39a044ef-2b09-40e0-a60f-b8a853402755.png)
+
+E adicione no <code>pom.xml</code> abaixo das <code><dependencies></dependency></code>, depois volte no terminal e copile o projeto <code>mvn compile</code>.
 
 <h4>POM, dependências e repositórios</h4>
 <h4>Gerenciando dependências</h4>
