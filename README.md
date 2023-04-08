@@ -1917,9 +1917,7 @@ __Criando um projeto via linha de comando__
 
 Criando o primeiro projeto pelo terminal prompt de comando: 
 
-``
 <code>mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false</code>
-``
 
 O comando "mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false" é usado para gerar um novo projeto Maven usando o arquétipo Quickstart.
 
@@ -1933,11 +1931,23 @@ Veja o que cada parâmetro significa:
 "-DinteractiveMode=false" especifica que o Maven não deve solicitar a entrada do usuário durante o processo de geração do projeto.
 Quando você executar esse comando, o Maven criará um novo diretório chamado "quick-start-maven" no diretório atual. Esse diretório conterá um projeto Maven esqueleto baseado no arquétipo de início rápido, com a ID do Grupo definida como "one.digitalinnovation" e a ID do Artefato definida como "quick-start-maven".
 
+__Comando que auxiliar no dia a dia__
+- Compilar: compile <code>mvn compile</code>
+Ao executar o código <code>mvn compile</code> todos os códigos Java da aplicação são automaticamente compilados e inseridos na pasta <code>target</code>
+- Testar: test <code>mvn test</code>
+É possivel que mv encontre todas as classes de teste que existe no projeto e execute as respectivas validações que existe dentro de cada uma delas.
+- Empacotar: package <code>mvn package</code>
+Cria o <code>Jar</code> da aplicação e fica dentro da pasta <code>target</code>
+- Limpar diretório de trabalho: Clean <code>mvn clear</code>
 
+[Referências](http://www.baeldung.com/maven-compiler-plugin) |
+[Referências](http://www.mkyong.com/maven/how-to-run-unit-test-with-maven/) |
+Referências](http://www.tutorials.jenkov.com/maven/maven-commands.html) .
 
+__Criando diferentes tipos de projeto__
+- Maven archetype: template que possibilita a personalização e a configuração de como um projeto construído. Neste arquivo definimos versão de componentes, quais componentes vão inseridos automaticamente.
 
-
-
+[archetype](http://www.mvnrepository.com.br
 
 
 
