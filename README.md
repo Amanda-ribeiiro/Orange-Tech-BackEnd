@@ -2372,23 +2372,17 @@ _Nível 3: HATEOAS_
 <h5>Habilitando o tratamento de exeções de negócios com handlers</h5>     
 <h4>Conclusão</h4>   
 
-✔ Criamos de um projeto Web;
+✅ Criamos de um projeto Web;
     
-✔ Estrurturamos nossos Controllers;
+✅ Estrurturamos nossos Controllers;
     
-✔ Documentamos nossa API;
+✅ Documentamos nossa API;
     
-✔ Habilitamos tratamento de exceções;
+✅ Habilitamos tratamento de exceções;
     
-✔ Interafimos com a API via Postman.
+✅ Interafimos com a API via Postman.
     
-- 🚀 [REST e RESTful](https://becode.com.br/o-que-e-api-rest-e-restful/)
-    
-- 🚀 [API REST e RESTful](https://4success.com.br/api-rest-e-restful/)
-    
-- 🚀 [Handling](https://www.baeldung.com/exception-handling-for-rest-with-spring)
-    
-- 🚀 [Exception handler](https://www.theserverside.com/definition/exception-handler)
+🚀 [REST e RESTful](https://becode.com.br/o-que-e-api-rest-e-restful/) | [API REST e RESTful](https://4success.com.br/api-rest-e-restful/) | [Handling](https://www.baeldung.com/exception-handling-for-rest-with-spring) | [Exception handler](https://www.theserverside.com/definition/exception-handler)
     
 <h4>📝 QUIZ - Criando uma API REST Documentada com Spring Web e Swagger</h4>
 <p>1- "Um manipulador de exceção é o código que estipula o que um programa fará quando um evento anômalo interromper o fluxo normal das instruções deste programa."
