@@ -2109,13 +2109,11 @@ Utilizado quando o componente que você usa compartilha uma biblioteca que você
 - Cada ciclo possui fases (Maven Phases)
 - Cada fase possui objetivos (Maven Goals)
 
-
-    
-__como é o ciclo de vida__   
+    <p></p>
+ __como é o ciclo de vida__   
     
 ![image](https://user-images.githubusercontent.com/108890154/230734118-64c3107d-94d2-416c-8ee8-e436b05a09e2.png)
-    
-    
+       
 __Default lifecycle__
     
 ![image](https://user-images.githubusercontent.com/108890154/230734132-721e397b-b8c5-4998-bd77-a9e3007152f1.png)
@@ -2131,10 +2129,6 @@ Principal ciclo responsável pelo deploy local e é composto por 23 fases:
 - install
 - deploy   
     
-
-
-
-
     
 __Clean lifecycle__
     
@@ -2146,9 +2140,6 @@ Ciclo intermediário responsável pela limpeza do projeto e é composto por 3 fa
 - clean
 - post-clean
     
-
-
-
     
 __Site lifecycle__  
     
@@ -2162,9 +2153,110 @@ Ciclo final responsável pela criação do site de documentação do projeto com
     
     
 <h4>Projetos Multi-módulos</h4>
-<h4>Plugins</h4>
-<h4>Conclusão</h4>
+![image](https://user-images.githubusercontent.com/108890154/230734769-6bec850a-608b-47c8-a07f-d46843d13fc9.png)
 
+``
+mvn archetype:generate -DgroupId=one.digital.innovation -Dartifact=projec-parent -Darchetype=maven-quick-star
+``   
+    
+> Define value for property 'version' 1.0-SNAPSHOT: :
+
+Entre no arquivo pom e inclua o <code>packaging</code>:
+    
+![image](https://user-images.githubusercontent.com/108890154/230735164-bc6a803d-918a-4788-8549-cb42301f585a.png)
+
+Feito isso volte ao terminal entre nesse pasta e execute os seguintes comando:
+
+``
+// criar o projeto "core"
+mvn archetype:generate -DgroupId=one.digital.innovation -Dartifact=core Darchetype=maven-quick-star -DinteractiveMode=false  
+    
+// criar o projeto "service"
+mvn archetype:generate -DgroupId=one.digital.innovation -Dartifact=service Darchetype=maven-quick-star -DinteractiveMode=false      
+
+// criar o projeto "controller"
+mvn archetype:generate -DgroupId=one.digital.innovation -Dartifact=controller Darchetype=maven-quick-star -DinteractiveMode=false
+
+``    
+
+<h4>Plugins</h4>
+A maioria das funcionalidades são providas por plugis, estilo arquitetural para extensibilidade (criar seu próprio plugin). Escrito prioritariamente em Java e disponibilizados comumente como JARs.
+    
+__Plugins Maven__
+    
+![image](https://user-images.githubusercontent.com/108890154/230735629-6bec2ce3-bd09-489b-985b-48e4dfc6e092.png)
+
+    
+__Principais Plugins__
+- eclipse      - war
+- jacoco       - compile
+- ear          - clean
+- checkstyle   - javadoc
+    
+    
+__Uso do Puglin__
+
+``
+// formato:    
+mvn [plugin-name]:[goal-name]
+
+// exemplo:    
+mvn javadoc:javadoc    
+``
+
+    <p>A configuração de um plugin é sempre feita pela tag <code>build</code></p>
+
+````java
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.0</version>
+            <configuration>
+                <release>11</release>
+            </configuration>
+        </plugin>        
+    </plugins>    
+````
+
+[documentação maven plugins](https://maven.apache.org/plugins/index.html)    
+    
+<h4>Conclusão</h4>
+    
+<h4>QUIZ - Conclusão Maven</h4>
+<p>1- Quando o Maven executa algum tarefa e não encontra a dependência no repositório local o que acontece ?</p>
+<p>R: O Maven busca a dependência em um reposiório e faz download e armazena o componente no repositório local</p> 
+    
+<p>2- Sobre o pom.xml, não é correto afirmar:</p>
+<p>R: É um arquivo de configuração do Maven</p>
+    
+<p>3- Quais são os comandos para testar, empacotar, compilar e limpar o projeto, respectivamente ?</p>
+<p>R: mvn test, mvn package, mvn compile, mvn clean</p>
+    
+<p>4- O Maven proporciona uma forma automatizada de criar projetos. Qual o nome do recurso e comando é utilizado para executar esta tarefa ?</p>
+<p>R: O recurso é Maven Archetype. O comando é mvn archetype:generate</p>
+    
+<p>5- Qual comando no maven possibilita verificar dependências que não estão sendo utilizadas ?</p>
+<p>R: mvn dependency:analyze</p>   
+    
+<p>6- Quais são os escopos de dependência que existem ? Qual é o escopo padrão ?</p>
+<p>R: Os escopos são compile, provided, runtime, test, system, import. O escopo padrão é compile.</p>    
+
+<p>7- Quais são os três ciclos de vida integrados do Maven para construir e distribuir um projeto?</p>
+<p>R: </p>    
+    
+<p>8- :</p>
+<p>R: </p>    
+    
+<p>9- :</p>
+<p>R: </p>
+    
+<p>10- :</p>
+<p>R: </p>    
+    
+[slides](https://docs.google.com/presentation/d/1wudqWaBDK40QnBAYjuh4Q65dcC2wqLW_/edit)
+    
 <h3>6.3 Imersão no Spring Framework com Spring Boot</h3>
 <h3>6.4 Criando uma API REST Documentada com Spring Web e Swagger</h3>
 <h3>6.5 Explorndo Padrões de Projetos na Prática com Java</h3>
