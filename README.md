@@ -58,7 +58,7 @@ Plataforma independente, robusta,
 <h4 id="java-e-sua-historia">Java e sua história</h4>
 A empresa Sun Microsystems financiou uma pesquisa com condinome Green em 1991 que resultado no desenvolvimento baseada em <code>C</code> e <code>C++</code> que seu criador James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que crescia na janela do seu escritório. Porém o nome Oak já ixistia e o nome Java foi de uma cafeteria. Com a explosão da World Wide Web em 1993 a Sun potencializou Java para criar páginas da Web.
 
-<h4>QUIZ - Introdução à Plataforma Java</h4>
+<h4>📝 QUIZ - Introdução à Plataforma Java</h4>
 <p>
 1-Como é chamado o conceito de execuções paralelas em uma aplicação?
 <p/>
@@ -120,7 +120,7 @@ R: Oak
 R: James Gosling
 <p/>
 
-[Certificado](https://hermes.digitalinnovation.one/certificates/C089F2F6.pdf?_gl=1*8wyras*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTc2Mzk5NS4yNTQuMS4xNjc5NzY2Mzc2LjYwLjAuMA..)
+✅ [Certificado](https://hermes.digitalinnovation.one/certificates/C089F2F6.pdf?_gl=1*8wyras*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTc2Mzk5NS4yNTQuMS4xNjc5NzY2Mzc2LjYwLjAuMA..)
 
 <h3 id="ambiente-de-desenvolvimento">3.2Ambiente de Desenvolvimento Java</h3>
 <h4 id="introducao-a-ides">Introdução a IDEs</h4>
@@ -146,7 +146,7 @@ Cada IDE dispõe de recursos comuns ou plugins espec[ificos para te auxiliar na 
 - VS Code: Hoje muito utilizada para desenvolvedores que já atuam com NodeJs ou plataformas de front-end.
 </p>
 <p>
-<h4>QUIZ -  Java - Plataformas e Escolha sua IDE</h4>
+<h4>📝QUIZ -  Java - Plataformas e Escolha sua IDE</h4>
 
 1- Qual dos itens citados NÃO é considerada uma IDE para desenvolver aplicações na linguagem Java?
 R: <code>PyCharm</code>
@@ -207,7 +207,7 @@ R: <code>JRE</code>
 <p>
 </p>
 
-[Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
+✅ [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 
 <h3 id="aprendendo-a-sintaxe-java">3.3 Aprendendo a Sintaxe Java</h3>
 <h4 id="introducao">Introdução</h4>
@@ -647,7 +647,7 @@ break;
 * Blocos
 É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação. Tipos: locais dentro de métodos, estátivos dentro de classes, instância dentro de classes.
 
-<h4 id="quiz">QUIZ - Blocos</h4>
+<h4 id="quiz">📝 QUIZ - Blocos</h4>
 <p>1- Sobre controle de fluxo, é incorreto afirmar:</p>
 <p>R: switch avalia expressões booleanas.</p>
 
@@ -701,7 +701,7 @@ Qual operação é válida?
 <p>10- Sobre operadores lógicos, é correto afirmar que:</p>
 <p>R: "!" corresponde a operação lógica "inversão"</p>
 
-[Certificado](https://hermes.digitalinnovation.one/certificates/27FC47B1.pdf?_gl=1*r6vxwo*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTU5ODk0MS4yNDcuMS4xNjc5NjAwMjQwLjYwLjAuMA..)
+✅ [Certificado](https://hermes.digitalinnovation.one/certificates/27FC47B1.pdf?_gl=1*r6vxwo*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTU5ODk0MS4yNDcuMS4xNjc5NjAwMjQwLjYwLjAuMA..)
 
 
 <h3 id="estruturas-de-repeticao-e-arrays-em-java">3.5 Estruturas de Repetição e Arrays em Java</h3>
@@ -1214,7 +1214,7 @@ import java.util.Scanner;
 
 ```
 
-<h4>QUIZ - Exercícios Resolvidos: Arrays </h4>
+<h4>📝 QUIZ - Exercícios Resolvidos: Arrays </h4>
 <p>1- As estruturas de repetição podem ser classificadas em:</p>
 <p>R: Repetição com teste de início <code>while</code>, repetição de teste no final <code>do-while</code>, repetição contada <code>for</code></p>
 <p>2- </p>
@@ -1284,7 +1284,7 @@ System.out.print(nomes.length);
 <p>R: 5</p>
 
 
-[Certificado](https://hermes.digitalinnovation.one/certificates/CD2A6B2E.pdf?_gl=1*1k6qbiw*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDUzMzU1Ni4yNTcuMS4xNjgwNTM1MjYxLjYwLjAuMA..)
+✅ [Certificado](https://hermes.digitalinnovation.one/certificates/CD2A6B2E.pdf?_gl=1*1k6qbiw*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDUzMzU1Ni4yNTcuMS4xNjgwNTM1MjYxLjYwLjAuMA..)
 
 [SLIDES DA AULA](https://drive.google.com/file/d/1xNzZ3dQMATP11Dk3HWsAWdEuJfVDpnN_/view)
 
@@ -1519,7 +1519,7 @@ public void executar() {
 
 
 
-<h4>QUIZ - Retornos</h4>
+<h4>📝 QUIZ - Retornos</h4>
 <p>1- Sobre métodos, marque o que for INCORRETO:</p>
 <p>R: Métodos só podem ser utilizados a partir de classes, de forma estática.</p>
 
@@ -1594,7 +1594,7 @@ public void verifica(int i) {
 <p>R: Os parênteses são opcionais na definição de métodos.</p>
 
 
-[certificado](https://hermes.digitalinnovation.one/certificates/4C7B7412.pdf?_gl=1*1be38hh*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDU1MTA5OS4yNjAuMS4xNjgwNTYwMTA4LjYwLjAuMA..) 
+✅ [certificado](https://hermes.digitalinnovation.one/certificates/4C7B7412.pdf?_gl=1*1be38hh*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDU1MTA5OS4yNjAuMS4xNjgwNTYwMTA4LjYwLjAuMA..) 
 
 [Slide](https://docs.google.com/presentation/d/1InCKAqx_Vocw9BxN95JTtcDpPnredEOa/edit#slide=id.g1dab0d043ad_1_1605)
 
@@ -2256,6 +2256,7 @@ mvn javadoc:javadoc
 <p>R: Ferramenta para gerenciar build e dependências de um projeto</p>    
     
 🗂️📑[slides](https://docs.google.com/presentation/d/1wudqWaBDK40QnBAYjuh4Q65dcC2wqLW_/edit)
+    
 ✅ [certificado](https://hermes.digitalinnovation.one/certificates/30B1513C.pdf?_gl=1*5gzeqp*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDk2MzEyMi4yNzguMS4xNjgwOTc3OTM3LjYwLjAuMA..)    
     
 <h3>6.3 Imersão no Spring Framework com Spring Boot</h3>
