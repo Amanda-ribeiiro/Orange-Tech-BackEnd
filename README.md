@@ -2224,7 +2224,7 @@ mvn javadoc:javadoc
     
 <h4>Conclusão</h4>
     
-<h4>QUIZ - Conclusão Maven</h4>
+<h4>📝 QUIZ - Conclusão Maven</h4>
 <p>1- Quando o Maven executa algum tarefa e não encontra a dependência no repositório local o que acontece ?</p>
 <p>R: O Maven busca a dependência em um reposiório e faz download e armazena o componente no repositório local</p> 
     
@@ -2244,18 +2244,19 @@ mvn javadoc:javadoc
 <p>R: Os escopos são compile, provided, runtime, test, system, import. O escopo padrão é compile.</p>    
 
 <p>7- Quais são os três ciclos de vida integrados do Maven para construir e distribuir um projeto?</p>
-<p>R: </p>    
+<p>R:default, clean, site </p>    
     
-<p>8- :</p>
-<p>R: </p>    
+<p>8- O que são repositórios para o Maven ?</p>
+<p>R: Um repositório no Maven contém artefatos de construção e dependências de vários tipos.</p>    
     
-<p>9- :</p>
-<p>R: </p>
+<p>9- Qual o nome dado para dependências que são herdadas indiretamente quando passamos a utilizar um novo componente ?</p>
+<p>R: Dependências transitivas</p>
     
-<p>10- :</p>
-<p>R: </p>    
+<p>10- O que é o Maven ?</p>
+<p>R: Ferramenta para gerenciar build e dependências de um projeto</p>    
     
-[slides](https://docs.google.com/presentation/d/1wudqWaBDK40QnBAYjuh4Q65dcC2wqLW_/edit)
+🗂️📑[slides](https://docs.google.com/presentation/d/1wudqWaBDK40QnBAYjuh4Q65dcC2wqLW_/edit)
+✅ [certificado](https://hermes.digitalinnovation.one/certificates/30B1513C.pdf?_gl=1*5gzeqp*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDk2MzEyMi4yNzguMS4xNjgwOTc3OTM3LjYwLjAuMA..)    
     
 <h3>6.3 Imersão no Spring Framework com Spring Boot</h3>
 <h3>6.4 Criando uma API REST Documentada com Spring Web e Swagger</h3>
