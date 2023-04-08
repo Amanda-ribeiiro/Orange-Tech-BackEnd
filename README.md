@@ -1841,7 +1841,7 @@ __Apresentação Inicial do Curso__
 - Gerenciar dependências do seu projeto;
 - Configurar plugins e projetos com necessidades específicas.
 
-__O que é Apache Mave__
+<h5>O que é Apache Mave</h5>
 <p> Ferramenta para gerenciar build e dependências de um projeto. Primeira versão foi em julho de 2004, mantido pela Apache Software Foundation.</p>
 
 - Endereça como o Software foi constrído e suas dependências através do (POM)[https://maven.apache.org/pom.html] (Project Object Model);
@@ -1850,7 +1850,7 @@ __O que é Apache Mave__
     
 [Documentação Maven](https://maven.apache.org/what-is-maven.html)
 
-__Instalação: Windows__
+<h5>Instalação: Windows</h5>
 
 [Site Maven para instalação](https://maven.apache.org/)
 
@@ -1878,7 +1878,7 @@ Verificar novamente no prompt de comando se o MVN foi instalado e está funciona
 <code>mvn --version</code>
 ``
 
-__Instalação: Linux__
+<h5>Instalação: Linux</h5>
 [Site Maven para instalação](https://maven.apache.org/)
 
 
@@ -1913,7 +1913,7 @@ Verificar novamente no prompt de comando se o MVN foi instalado e está funciona
 
 <h4>Primeiro Projeto e Conceitos</h4>
 
-__Criando um projeto via linha de comando__ 
+<h5>Criando um projeto via linha de comando</h5>
 
 Criando o primeiro projeto pelo terminal prompt de comando: 
 
@@ -1931,7 +1931,7 @@ Veja o que cada parâmetro significa:
 "-DinteractiveMode=false" especifica que o Maven não deve solicitar a entrada do usuário durante o processo de geração do projeto.
 Quando você executar esse comando, o Maven criará um novo diretório chamado "quick-start-maven" no diretório atual. Esse diretório conterá um projeto Maven esqueleto baseado no arquétipo de início rápido, com a ID do Grupo definida como "one.digitalinnovation" e a ID do Artefato definida como "quick-start-maven".
 
-__Comando que auxiliar no dia a dia__
+<h5>Comando que auxiliar no dia a dia</h5>
 - Compilar: compile <code>mvn compile</code>
 Ao executar o código <code>mvn compile</code> todos os códigos Java da aplicação são automaticamente compilados e inseridos na pasta <code>target</code>
 - Testar: test <code>mvn test</code>
@@ -1949,13 +1949,13 @@ __Criando diferentes tipos de projeto__
 
 [archetype](https://mvnrepository.com/)
 
-__POM__
+<h5>POM</h5>
 POM (project object model) unidade fundamental de trabalho ele é em formato XML ele que vai detalha o projeto, como construir o projeto. Maven sempre procura pela pom.xml para realizar sua execução.
 
-__Repositório__
+<h5>Repositório</h5>
 [repositorio de configuração](https://repo.maven.apache.org/maven2/)
 
-__Como adicionar dependências__
+<h5>Como adicionar dependências</h5>
 Entre nesse [site](https://mvnrepository.com/) e procure por "Hibernate-validator":
 
 ![image](https://user-images.githubusercontent.com/108890154/230730215-7796d872-7254-4b6b-bec3-fc3122800aca.png)
@@ -1977,12 +1977,127 @@ E adicione no <code>pom.xml</code> abaixo das
 depois volte no terminal e copile o projeto <code>mvn compile</code>.
 
 <h4>POM, dependências e repositórios</h4>
-__Tipos de dependência__
+<h5>Tipos de dependência__
 <code>mvn install</code>
 
 Direta: dependências declaradas no pom.xml
 Transitiva: dependências obrigatórias das dependências declaradas no pom.xml
 
+<h5>Transitividades e Escopos</h5>
+O Maven 
+
+- Runtime (tempo de execução)
+- Test (teste)
+- Compile (compilar)
+
+_Escopo Compile_
+- escopo default
+- Disponível em todos os <code>classpaths</code>
+- É transitivo
+
+_Escopo probided_
+
+- Indica que a dependência será fornecida em tempo de execução por uma implementação na JDK ou via container.
+- Exemplos: Servlet API, Java EE APIs
+- A dependência com esse escopo é adicionado no classpath usado para compilação(compile) e teste(test) mas não em runtime;
+- Não é transitiva.
+
+``
+<scope>provided</scope>
+``
+
+_Escopo runtime_
+- Indica que a dependência é necessária para execução e não para compilação
+- Maven inclui no classpath dos escopos de runtime e test
+
+``
+<dependency>
+    <groupId>msql</groupId>
+    <artifactId>msql-connector-java</artifactId>
+    <version>6.0.6</version>
+    <scope>provided</scope>
+</dependency>
+``
+
+_Escopo test_
+- Disponível somente para compilação e execução de testes;
+- Não é transitivo.
+
+``
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupier-engine</artifactId>
+    <version>${junit.jupiter.version}</version>
+    <scope>test</scope>
+</dependency>
+``
+
+_Escopo system_
+- Similar ao escopo provided exceto por ser necessário prover o JAR explicitamente;
+- A dependência com esse escopo é adicionado no classpath usado para compilação(compile) e teste(test) mas não em rutime;
+- Não é transitiva.
+
+``
+<dependency>
+    <groupId>com.baeldung</groupId>
+    <artifactId>custom-dependency</artifactId>
+    <version>1.3.2</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/libs/costom-dependency-1.3.2.jar</systemPath>
+</dependency>
+``
+
+_Escopo import_
+- Este escopo é disponível apenas com uma dependência do tipo pom e com tag<dependencyManagement>
+- Indica um processo de reutilizar dependências de um projeto.
+
+``
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.programmergirl</groupId>
+            <artifactId>my-project</artifactId>
+            <version>1.1</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+``
+
+<h5>Dicas sobre escopos, dependências opcionais e exclusions</h5>
+Como ver o classpath
+
+``
+mvn dependency:build-classpath -DincludeScope=complie
+mvn dependency:build-classpath -DincludeScope=teste
+mvn dependency:build-classpath -DincludeScope=runtime
+``
+
+_dependências opcionais_
+Utilizado quando uma dependência não é necessária para os projetos que irão reutilizar seu componente.
+
+``
+ <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.8</version>
+      <optional>true</optional>
+ </dependency>
+
+
+_Exclusions_
+Utilizado quando o componente que você usa compartilha uma biblioteca que você já tem ou não quer ter disponívell.
+
+``
+<dependcy> 
+....
+    <exclusions>
+        <exclusion>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </exclusion>
+    </exclusions>
 
 <h4>Gerenciando dependências</h4>
 <h4>Maven Build Lifecycle</h4>
