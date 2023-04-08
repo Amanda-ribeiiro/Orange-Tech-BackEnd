@@ -1835,7 +1835,7 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 [Professor: Willyan Guimarães Caetano][https://www.linkedin/in/willyancaetanodev]
 <h4>Introdução, definição e instalação</h4>
 
-__Apresentação Inicial do Curso__
+<h5>Apresentação Inicial do Curso</h5>
 - Criar um Projeto utilizando a ferramenta; 
 - Entender os Principais conceitos por trás do Maven;
 - Gerenciar dependências do seu projeto;
@@ -1873,10 +1873,8 @@ Painel de controle > Sistema e Segurança > Sistema > Configuração avançada d
 
 Iremos adicionar manualmente no Path utilitarios que o Windows enxerga em seu ambiente para execução o caminho da pasta "maven" que fizemos o download para assim ser possível em independente do caminho ao ser executado na linha de comando ser aberto.
 
-``
-Verificar novamente no prompt de comando se o MVN foi instalado e está funcionando corretamente:
-<code>mvn --version</code>
-``
+> Verificar novamente no prompt de comando se o MVN foi instalado e está funcionando corretamente:
+> <code>mvn --version</code>
 
 <h5>Instalação: Linux</h5>
 [Site Maven para instalação](https://maven.apache.org/)
@@ -1902,14 +1900,15 @@ e no final do arquivo coloque:
 > **Note**
 > O arquivo <code>.bashrc</code> é um arquivo oculto então para acessar aperte: <code>ctrl+h</code>
 
-``
+
+``  
 export PATH=/localEmqueAPastaEsta:$PATH
 ``
 
-``
-Verificar novamente no prompt de comando se o MVN foi instalado e está funcionando corretamente:
-<code>mvn --version</code>
-``
+
+> Verificar novamente no prompt de comando se o MVN foi instalado e está funcionando corretamente:
+> <code>mvn --version</code>
+
 
 <h4>Primeiro Projeto e Conceitos</h4>
 
@@ -1917,7 +1916,9 @@ Verificar novamente no prompt de comando se o MVN foi instalado e está funciona
 
 Criando o primeiro projeto pelo terminal prompt de comando: 
 
-<code>mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false</code>
+````java
+mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+````
 
 O comando "mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false" é usado para gerar um novo projeto Maven usando o arquétipo Quickstart.
 
@@ -1944,11 +1945,12 @@ Cria o <code>Jar</code> da aplicação e fica dentro da pasta <code>target</code
 [Referências](http://www.mkyong.com/maven/how-to-run-unit-test-with-maven/) |
 Referências](http://www.tutorials.jenkov.com/maven/maven-commands.html) .
 
-__Criando diferentes tipos de projeto__
+<h5>Criando diferentes tipos de projeto</h5>
 - Maven archetype: template que possibilita a personalização e a configuração de como um projeto construído. Neste arquivo definimos versão de componentes, quais componentes vão inseridos automaticamente.
 
 [archetype](https://mvnrepository.com/)
 
+<h4>POM, dependências e repositórios</h4>
 <h5>POM</h5>
 POM (project object model) unidade fundamental de trabalho ele é em formato XML ele que vai detalha o projeto, como construir o projeto. Maven sempre procura pela pom.xml para realizar sua execução.
 
@@ -1976,8 +1978,8 @@ E adicione no <code>pom.xml</code> abaixo das
 ``
 depois volte no terminal e copile o projeto <code>mvn compile</code>.
 
-<h4>POM, dependências e repositórios</h4>
-<h5>Tipos de dependência__
+<h4>Gerenciando dependências</h4>
+<h5>Tipos de dependência</h5>
 <code>mvn install</code>
 
 Direta: dependências declaradas no pom.xml
@@ -2010,34 +2012,34 @@ _Escopo runtime_
 - Indica que a dependência é necessária para execução e não para compilação
 - Maven inclui no classpath dos escopos de runtime e test
 
-``
+```java
 <dependency>
     <groupId>msql</groupId>
     <artifactId>msql-connector-java</artifactId>
     <version>6.0.6</version>
     <scope>provided</scope>
 </dependency>
-``
+```
 
 _Escopo test_
 - Disponível somente para compilação e execução de testes;
 - Não é transitivo.
 
-``
+```java
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupier-engine</artifactId>
     <version>${junit.jupiter.version}</version>
     <scope>test</scope>
 </dependency>
-``
+```
 
 _Escopo system_
 - Similar ao escopo provided exceto por ser necessário prover o JAR explicitamente;
 - A dependência com esse escopo é adicionado no classpath usado para compilação(compile) e teste(test) mas não em rutime;
 - Não é transitiva.
 
-``
+```java
 <dependency>
     <groupId>com.baeldung</groupId>
     <artifactId>custom-dependency</artifactId>
@@ -2045,13 +2047,13 @@ _Escopo system_
     <scope>system</scope>
     <systemPath>${project.basedir}/libs/costom-dependency-1.3.2.jar</systemPath>
 </dependency>
-``
+```
 
 _Escopo import_
 - Este escopo é disponível apenas com uma dependência do tipo pom e com tag<dependencyManagement>
 - Indica um processo de reutilizar dependências de um projeto.
 
-``
+```java
 <dependencyManagement>
     <dependencies>
         <dependency>
@@ -2063,7 +2065,7 @@ _Escopo import_
         </dependency>
     </dependencies>
 </dependencyManagement>
-``
+```
 
 <h5>Dicas sobre escopos, dependências opcionais e exclusions</h5>
 Como ver o classpath
@@ -2077,29 +2079,29 @@ mvn dependency:build-classpath -DincludeScope=runtime
 _dependências opcionais_
 Utilizado quando uma dependência não é necessária para os projetos que irão reutilizar seu componente.
 
-``
+```java
  <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>2.8.8</version>
       <optional>true</optional>
  </dependency>
-
+```
 
 _Exclusions_
 Utilizado quando o componente que você usa compartilha uma biblioteca que você já tem ou não quer ter disponívell.
 
-``
-<dependcy> 
-....
-    <exclusions>
+```java
+<dependency> 
+        <exclusions>
         <exclusion>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
         </exclusion>
     </exclusions>
-
-<h4>Gerenciando dependências</h4>
+</dependency>  
+```  
+    
 <h4>Maven Build Lifecycle</h4>
 <h4>Projetos Multi-módulos</h4>
 <h4>Plugins</h4>
