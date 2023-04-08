@@ -258,7 +258,7 @@ Java Beans: uma das maiores dificuldades na programação é escrever algoritmos
 
 <h4 id="tipos-de-variaveis">Tipos e variáveis</h4>
 
-[Ebook](https://glysns.gitbook.io/java-basico/sintaxe/variaveis)
+🗂️📑[Ebook](https://glysns.gitbook.io/java-basico/sintaxe/variaveis)
 
 <p>
 Na linguagem Java existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Esses tipos de dados são conhecidos como tipos primitivos (Primitive Types).
@@ -495,8 +495,8 @@ public static void main(String[] args) throws Exception {
 ```
 R: 12
 
-✅ [Certificado](https://hermes.digitalinnovation.one/certificates/06415E1C.pdf?_gl=1*ulx1g3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTUyMjgwNS4yNDUuMS4xNjc5NTI0NTM5LjYwLjAuMA..)
-- [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
+- ✅ [Certificado](https://hermes.digitalinnovation.one/certificates/06415E1C.pdf?_gl=1*ulx1g3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTUyMjgwNS4yNDUuMS4xNjc5NTI0NTM5LjYwLjAuMA..)
+- 🗂️📑 [Link da apresentação do curso](https://docs.google.com/presentation/d/1UCNtQfyKPnei-1Xs_pVyku8CPEMXRPbc/edit#slide=id.p4)
 
 <h3 id="logica-condicional-e-controle-de-fluxos-em-java">3.4 Lógica Condicional e Controle de Fluxos em Java</h3>
 <h4 id="operadores-relacionais">Operadores Relacionais</h4> 
@@ -1284,9 +1284,9 @@ System.out.print(nomes.length);
 <p>R: 5</p>
 
 
-✅ [Certificado](https://hermes.digitalinnovation.one/certificates/CD2A6B2E.pdf?_gl=1*1k6qbiw*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDUzMzU1Ni4yNTcuMS4xNjgwNTM1MjYxLjYwLjAuMA..)
+- ✅ [Certificado](https://hermes.digitalinnovation.one/certificates/CD2A6B2E.pdf?_gl=1*1k6qbiw*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDUzMzU1Ni4yNTcuMS4xNjgwNTM1MjYxLjYwLjAuMA..)
 
-[SLIDES DA AULA](https://drive.google.com/file/d/1xNzZ3dQMATP11Dk3HWsAWdEuJfVDpnN_/view)
+- 🗂️📑[SLIDES DA AULA](https://drive.google.com/file/d/1xNzZ3dQMATP11Dk3HWsAWdEuJfVDpnN_/view)
 
 [Repositorio GitHub](https://github.com/cami-la/loops-e-arrays)
 
@@ -1594,9 +1594,9 @@ public void verifica(int i) {
 <p>R: Os parênteses são opcionais na definição de métodos.</p>
 
 
-✅ [certificado](https://hermes.digitalinnovation.one/certificates/4C7B7412.pdf?_gl=1*1be38hh*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDU1MTA5OS4yNjAuMS4xNjgwNTYwMTA4LjYwLjAuMA..) 
+- ✅ [certificado](https://hermes.digitalinnovation.one/certificates/4C7B7412.pdf?_gl=1*1be38hh*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDU1MTA5OS4yNjAuMS4xNjgwNTYwMTA4LjYwLjAuMA..) 
 
-[Slide](https://docs.google.com/presentation/d/1InCKAqx_Vocw9BxN95JTtcDpPnredEOa/edit#slide=id.g1dab0d043ad_1_1605)
+- 🗂️📑[Slide](https://docs.google.com/presentation/d/1InCKAqx_Vocw9BxN95JTtcDpPnredEOa/edit#slide=id.g1dab0d043ad_1_1605)
 
 <h2 id="dominando-algoritmos-basicos-com-desafios-de-codigo-em-java">4- Dominando algoritmos básicos com desafios de códigos em Java</h3> 
 <h3 id="desafio-mesada">4.1 Desafio - Mesada do Sobrinho</h4>
@@ -2166,8 +2166,9 @@ Entre no arquivo pom e inclua o <code>packaging</code>:
 ![image](https://user-images.githubusercontent.com/108890154/230735164-bc6a803d-918a-4788-8549-cb42301f585a.png)
 
 Feito isso volte ao terminal entre nesse pasta e execute os seguintes comando:
+    
 
-``
+````java
 // criar o projeto "core"
 mvn archetype:generate -DgroupId=one.digital.innovation -Dartifact=core Darchetype=maven-quick-star -DinteractiveMode=false  
     
@@ -2177,7 +2178,7 @@ mvn archetype:generate -DgroupId=one.digital.innovation -Dartifact=service Darch
 // criar o projeto "controller"
 mvn archetype:generate -DgroupId=one.digital.innovation -Dartifact=controller Darchetype=maven-quick-star -DinteractiveMode=false
 
-``    
+````    
 
 <h4>Plugins</h4>
 A maioria das funcionalidades são providas por plugis, estilo arquitetural para extensibilidade (criar seu próprio plugin). Escrito prioritariamente em Java e disponibilizados comumente como JARs.
@@ -2255,9 +2256,9 @@ mvn javadoc:javadoc
 <p>10- O que é o Maven ?</p>
 <p>R: Ferramenta para gerenciar build e dependências de um projeto</p>    
     
-🗂️📑[slides](https://docs.google.com/presentation/d/1wudqWaBDK40QnBAYjuh4Q65dcC2wqLW_/edit)
+- 🗂️📑[slides](https://docs.google.com/presentation/d/1wudqWaBDK40QnBAYjuh4Q65dcC2wqLW_/edit)
     
-✅ [certificado](https://hermes.digitalinnovation.one/certificates/30B1513C.pdf?_gl=1*5gzeqp*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDk2MzEyMi4yNzguMS4xNjgwOTc3OTM3LjYwLjAuMA..)    
+- ✅ [certificado](https://hermes.digitalinnovation.one/certificates/30B1513C.pdf?_gl=1*5gzeqp*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDk2MzEyMi4yNzguMS4xNjgwOTc3OTM3LjYwLjAuMA..)    
     
 <h3>6.3 Imersão no Spring Framework com Spring Boot</h3>
 <h3>6.4 Criando uma API REST Documentada com Spring Web e Swagger</h3>
