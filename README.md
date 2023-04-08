@@ -2301,15 +2301,15 @@ mvn javadoc:javadoc
 <p>Princípios</p>  
 <p>Para que uma arquitetura seja RESTful, é necessário ter uma série de princípios ou padrões:</p>     
     
-- ☑️ cliente-servidor : siginifica aprimorar a portabilidade entre várias plataformas de interface do usuário e do servidor, permitindo uma evolução independente do sitema;    
+☑️ cliente-servidor : siginifica aprimorar a portabilidade entre várias plataformas de interface do usuário e do servidor, permitindo uma evolução independente do sitema;    
     
-- ☑️ interface uniforma: representa uma interação uniforme entre clientes e servidor. Para isso, é preciso ter uma interface que identifique e represente recursos, mensagens autodescritivas, bem com hypermedia(HATEOAS);
+☑️ interface uniforma: representa uma interação uniforme entre clientes e servidor. Para isso, é preciso ter uma interface que identifique e represente recursos, mensagens autodescritivas, bem com hypermedia(HATEOAS);
     
-- ☑️ stateless: indica que a cada inteção via API tem acesso a dados completos e compreensíveis;
+☑️ stateless: indica que a cada inteção via API tem acesso a dados completos e compreensíveis;
     
-- ☑️  cache - necessário para reduzir o tempo médio de resposta, melhorar eficiência, desempenho e escalabilidade da comunicação;
+☑️  cache - necessário para reduzir o tempo médio de resposta, melhorar eficiência, desempenho e escalabilidade da comunicação;
     
-- ☑️  camadas - permite que a arquitetura seja menos compleza e altamente flexível.
+☑️  camadas - permite que a arquitetura seja menos compleza e altamente flexível.
 
 __Nível de Maturidade__
 <p> Para padronizar e facilitar o desenvolvimento de APIs REST, Leonardo Richardson propôs um modelo de maturidade para esse tipo de API, definido em 4 níveis:   
