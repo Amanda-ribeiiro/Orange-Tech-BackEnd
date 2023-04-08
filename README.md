@@ -1966,7 +1966,16 @@ Clique na última versão:
 Copie o código:
 ![image](https://user-images.githubusercontent.com/108890154/230730317-39a044ef-2b09-40e0-a60f-b8a853402755.png)
 
-E adicione no <code>pom.xml</code> abaixo das  <dependencies></dependency>, depois volte no terminal e copile o projeto <code>mvn compile</code>.
+E adicione no <code>pom.xml</code> abaixo das  
+
+``
+<dependencies> 
+<dependency>
+</dependency>
+
+``
+
+depois volte no terminal e copile o projeto <code>mvn compile</code>.
 
 <h4>POM, dependências e repositórios</h4>
 <h4>Gerenciando dependências</h4>
