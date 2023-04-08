@@ -2224,6 +2224,8 @@ mvn javadoc:javadoc
 [documentação maven plugins](https://maven.apache.org/plugins/index.html)    
     
 <h4>Conclusão</h4>
+- 🔗[documentação](https://maven.apache.org/guides/)
+- 📕[livro - Apache Maven 3 Cookbook](https://www.amazon.com.br/Apache-Maven-3-Cookbook-Srirangan/dp/1849512442)  
     
 <h4>📝 QUIZ - Conclusão Maven</h4>
 <p>1- Quando o Maven executa algum tarefa e não encontra a dependência no repositório local o que acontece ?</p>
@@ -2261,5 +2263,22 @@ mvn javadoc:javadoc
 - ✅ [certificado](https://hermes.digitalinnovation.one/certificates/30B1513C.pdf?_gl=1*5gzeqp*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MDk2MzEyMi4yNzguMS4xNjgwOTc3OTM3LjYwLjAuMA..)    
     
 <h3>6.3 Imersão no Spring Framework com Spring Boot</h3>
+<h4>📝 QUIZ - </h4>
+- 🗂️📑[slides]
+- ✅ 
 <h3>6.4 Criando uma API REST Documentada com Spring Web e Swagger</h3>
+    
+    
+    
+    
+    
+    
+    
+    
+<h4>📝 QUIZ - </h4>
+- 🗂️📑[slides]
+- ✅     
 <h3>6.5 Explorndo Padrões de Projetos na Prática com Java</h3>
+<h4>📝 QUIZ - </h4>
+- 🗂️📑[slides]
+- ✅ 
