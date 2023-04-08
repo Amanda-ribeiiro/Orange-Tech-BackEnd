@@ -2109,15 +2109,19 @@ Utilizado quando o componente que você usa compartilha uma biblioteca que você
 - Cada ciclo possui fases (Maven Phases)
 - Cada fase possui objetivos (Maven Goals)
 
+
     
-__como é o ciclo de vida__    
+__como é o ciclo de vida__   
+    
 ![image](https://user-images.githubusercontent.com/108890154/230734118-64c3107d-94d2-416c-8ee8-e436b05a09e2.png)
     
     
 __Default lifecycle__
-Principal ciclo responsável pelo deploy local e é composto por 23 fases:
+    
 ![image](https://user-images.githubusercontent.com/108890154/230734132-721e397b-b8c5-4998-bd77-a9e3007152f1.png)
-
+    
+Principal ciclo responsável pelo deploy local e é composto por 23 fases:
+    
 - validate
 - compile
 - test-compile
@@ -2125,27 +2129,37 @@ Principal ciclo responsável pelo deploy local e é composto por 23 fases:
 - integration-tes
 - package 
 - install
-- deploy
+- deploy   
+    
+
+
+
 
     
-__Clean lifecycle__   
-Ciclo intermediário responsável pela limpeza do projeto e é composto por 3 fases:
+__Clean lifecycle__
+    
 ![image](https://user-images.githubusercontent.com/108890154/230734253-57edf118-fd74-4305-b3c8-e0ed2a8cb7c0.png)
+    
+Ciclo intermediário responsável pela limpeza do projeto e é composto por 3 fases:
  
 - pre-clean
 - clean
 - post-clean
+    
+
+
 
     
-__Site lifecycle__ 
-Ciclo final responsável pela criação do site de documentação do projeto composto por 4 fases:
-![image](https://user-images.githubusercontent.com/108890154/230734351-3320371d-f766-4eab-8241-5a2bc8f22432.png)   
+__Site lifecycle__  
+    
+![image](https://user-images.githubusercontent.com/108890154/230734351-3320371d-f766-4eab-8241-5a2bc8f22432.png)  
 
+Ciclo final responsável pela criação do site de documentação do projeto composto por 4 fases:  
 - pre-site
 - site
 - post-site
 - site-deploy 
-
+    
     
 <h4>Projetos Multi-módulos</h4>
 <h4>Plugins</h4>
