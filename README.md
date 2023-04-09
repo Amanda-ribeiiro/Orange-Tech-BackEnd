@@ -1,6 +1,6 @@
 # [Orange Tech + | BackEnd](https://web.dio.me/track/2aeff5aa-bb23-4141-8109-20fa42b58ff7) 🧡
 
-[👩🏻‍🎓 Certificado de conclusão]()
+[👩🏻‍🎓 Certificado de conclusão](https://hermes.digitalinnovation.one/certificates/F0D4A3D5.pdf?_gl=1*88ljy3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MTAwNTQ2Ny4yODIuMS4xNjgxMDEyNDAyLjQ0LjAuMA..)
 <p>
 O que falta para você se tornar um desenvolvedor Java e começar 2023 com uma formação completa? Inscreva-se já no Orange Tech+ Back-End e tenha mais de 80 horas para transformar sua carreira e conquistar as melhores vagas do mercado tech em 2023! Tenha acesso a módulos sobre a linguagem Java que vão desde o básico e introdução ao ambiente até códigos mais avançados e frameworks mais usados.
 </p>
@@ -2660,5 +2660,5 @@ public class CamaroteBlue {
 }
 ````
 
-[👩🏻‍🎓 Certificado de conclusão]()  
+[👩🏻‍🎓 Certificado de conclusão](https://hermes.digitalinnovation.one/certificates/F0D4A3D5.pdf?_gl=1*88ljy3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MTAwNTQ2Ny4yODIuMS4xNjgxMDEyNDAyLjQ0LjAuMA..)  
 By: Amanda Ribeiro
