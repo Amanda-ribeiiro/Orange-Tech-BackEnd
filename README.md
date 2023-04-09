@@ -2483,7 +2483,7 @@ A saída deverá ser quantas multas o motorista já tem e se ele irá receber po
 
 Exemplo:    
     
-------------------------------------------------    
+   
 |Entrada  |   Saída                             |
 |---------|-------------------------------------|
 |  80     | "1 multas. Nao levou pontos na      | 
@@ -2494,7 +2494,6 @@ Exemplo:
 |                                               |        
 |  95     | "3 multas.  Levou pontos na         |
 |  2      | carteira"                           |
--------------------------------------------------  
 
 ````java
 import java.util.Scanner;
@@ -2528,12 +2527,12 @@ A saída deverá ser as informações da entrada, porém de uma forma mais amig�
 
 Exemplo:
     
-------------------------------------------------------------------------------
+
 |Entrada                        | Saida                                      |
 |-------------------------------|--------------------------------------------|
 | Casa/1900/Disponivel          |  "Imovel: Casa R$1900 Disponivel"          |
 | Apartamento/850/Indisponivel  |  "Imovel: Apartamento R$850 Indisponivel"  |
-------------------------------------------------------------------------------
+
 
 ````java
 import java.util.Scanner;
@@ -2570,7 +2569,7 @@ A saída deverá ser o lanche montado com as palavras que definem os ingrediente
 
 Exemplo:    
 
-------------------------------------- ----
+
 |Entrada                      | Saida    |
 |-----------------------------|----------|
 | Pao;Presunto;Carne;Pao      |   Pao    |
@@ -2587,7 +2586,7 @@ Exemplo:
 |                             |  Tomate  |
 |                             |  Carne   |
 |                             |   Pao    |    
------------------------------------------
+
     
 ````java
 import java.util.Scanner;    
@@ -2619,13 +2618,15 @@ A saída deve ser o número de pessoas que foram colocadas no camarote. (sem as 
 
 Exemplo:
 
-------------------------------------
-|Entrada |    Saída                |
-| 100	 |"50 pessoas no camarote" |
-| 40     |"20 pessoas no camarote" |
-| 25	 |"13 pessoas no camarote" |
-------------------------------------    
-    
+
+| Entrada |    Saída                |
+|---------|-------------------------|
+| 100	  |"50 pessoas no camarote" |
+| 40      |"20 pessoas no camarote" |
+| 25	  |"13 pessoas no camarote" |
+
+  
+  
 ````java
 import java.util.Scanner;
 
