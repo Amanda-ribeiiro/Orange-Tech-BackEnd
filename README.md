@@ -810,12 +810,12 @@ Indíce (ou subscrito) {c[0] = o 0 seria a posição em que o<code>array</code> 
 **Array Multidimensional**
 <p>Primeiro conchete guarda a posição da linha e o segundo da coluna:</p>
 
-```
+----------------------------------------
 | Coluna 0    | coluna 1   | coluna 2  |
-| — — — — — — | — — — — —  | — — — — — |
+|-------------|------------|-----------|
 | a [0] [0]   | a [0] [1]  | a [0] [2] |
 | a [1] [0]   | a [1] [1]  | a [1] [2] |
-```
+----------------------------------------
 
 <h4 id="conhecento-o-repositorio">Conhecendo o repositório</h4>
 Pré-requistos
