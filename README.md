@@ -2528,25 +2528,29 @@ A saída deverá ser as informações da entrada, porém de uma forma mais amig�
 
 Exemplo:
     
------------------------------------------------------------------------------|
+------------------------------------------------------------------------------
 |Entrada                        | Saida                                      |
 |-------------------------------|--------------------------------------------|
 | Casa/1900/Disponivel          |  "Imovel: Casa R$1900 Disponivel"          |
 | Apartamento/850/Indisponivel  |  "Imovel: Apartamento R$850 Indisponivel"  |
------------------------------------------------------------------------------|
+------------------------------------------------------------------------------
 
 ````java
-
+import java.util.Scanner;
     
-    
-    
-    
-    
-    
+public class ImoveisDisponiveis {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String entrada = scanner.nextLine();  
+        String[] dados = entrada.split("/");  
+        String classificacao = dados[0];
+        int valorAluguel = Integer.parseInt(dados[1]);
+        String disponibilidade = dados[2];
+        String saida = "Imovel: " + classificacao + " R$" + valorAluguel + " " + disponibilidade;
+        System.out.println(saida);
+    }
+}   
 ````
-    
-    
-    
 <h3>7.4 Desafio - Dc Monals</h4>
 <h3>7.5 Desafio - Camarote do Blue Cold Ice Cubes</h4>    
     
