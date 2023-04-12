@@ -447,22 +447,22 @@ No terminal quando for executar colocar apenas "MinhaClasse" sem o ".class".
 
  Quando executamos uma classe que contenha o método main, o mesmo permie que passemos um array [] de argumentos do tipo String. Logo podemos após a definição da classe a ser execuada informar estes parâmetros, exemplo:
 
-``java
-> java MinhaClasse argumentoUm argumentoDois
-``
+````java
+java MinhaClasse argumentoUm argumentoDois
+````
 
 Os parâmentros pode ser adicionados manualmente nos arquivos .json assim não temos que ficar passar passando toda outra no terminal.
 
 Classe Scanner proposta de ter melhor interação no que se refere aos inputs a entrada de dados que os nossos usuários vão querer realizar em nosso programa.
 Ex:
 
-``java
-> Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
->
-> System.out.println("Digite sua idade");
-> 
-> int idade = scanner.nexIt();
-``
+````java
+Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+
+System.out.println("Digite sua idade");
+
+int idade = scanner.nexIt();
+````
 
 <h4 id="quiz">📝 QUIZ -  Aprendendo a Sintaxe Java</h4>
 
