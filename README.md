@@ -442,12 +442,13 @@ Docymentation: Menciona aspecto de documentação
 <p>
 Com o JVM devidamente configurada, nós podemos criar um executável do nosso programa e disponilizar o instalador para qualquer sistema operacional.
 </p>
+
 > Observe que nosso projeto Java criado por um IDE, ele terá uma pastada chama *bin*. É nesta pasa que ficarão os arquivos *.class*, o nosso bytecode.
 No terminal quando for executar colocar apenas "MinhaClasse" sem o ".class". 
 
  Quando executamos uma classe que contenha o método main, o mesmo permie que passemos um array [] de argumentos do tipo String. Logo podemos após a definição da classe a ser execuada informar estes parâmetros, exemplo:
 
-````java
+````
 java MinhaClasse argumentoUm argumentoDois
 ````
 
@@ -456,7 +457,7 @@ Os parâmentros pode ser adicionados manualmente nos arquivos .json assim não t
 Classe Scanner proposta de ter melhor interação no que se refere aos inputs a entrada de dados que os nossos usuários vão querer realizar em nosso programa.
 Ex:
 
-````java
+````
 Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
 System.out.println("Digite sua idade");
@@ -492,6 +493,7 @@ public String formatarCep(long cep){}
 R: Este método tem por finalidade formatar um número de cep para texto que represente um código postal legível.
 
 5- Qual é o valor impresso na execução do código abaixo ?
+
 ```java
 public static void main(String[] args) throws Exception {
       int numero1 = 1;
@@ -508,6 +510,7 @@ R: 12
 <h4 id="operadores-relacionais">Operadores Relacionais</h4> 
 São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado.
 Tipos:
+
 ```java
 Similaridade: (==) igualdade, (!=) diferente
 ```
@@ -692,11 +695,17 @@ int i1 = 10; float f1 = 4.5f; char c1 = "x";
 boolean b1 = true;
 Qual operação é válida?
 ```
-<p>R: c1>i1</p>
+<p>R:</p>
 
-<p>7- Qual das expressões lógicas a seguir é válida?</p>
 ```java
-<p>R: (10 > 15) && true</p>
+ c1>i1<    
+```
+           
+<p>7- Qual das expressões lógicas a seguir é válida?</p>
+<p>R:</p>
+
+```java
+(10 > 15) && true
 ```
 <p>8- São tipos de operadores relacionais:</p>
 <p>R: Igualdade e menor</p>
