@@ -1860,7 +1860,7 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 <h5>O que é Apache Mave</h5>
 <p> Ferramenta para gerenciar build e dependências de um projeto. Primeira versão foi em julho de 2004, mantido pela Apache Software Foundation.</p>
 
-- Endereça como o Software foi constrído e suas dependências através do (POM) [https://maven.apache.org/pom.html](Project Object Model);
+- Endereça como o Software foi constrído e suas dependências através do (POM) [Project Object Model](https://maven.apache.org/pom.html);
 - Facilitar a compreensão do desenvolvedor;
 - Fornecer informações de qualidade.
     
