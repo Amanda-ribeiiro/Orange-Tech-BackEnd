@@ -378,7 +378,8 @@ Palavras reservadas, são identidicadores de uma linguaem que já possuem uma fi
 A linguagem Java possui 52 palavaras reservadas. Todas essas palavras são classificadas com uma cor especial pela maioria das IDE's. Abaixo temos a lista de palavras agrupadas por suas finalidades.
 </p>
 
-<p>__PALAVRAS RESERVADAS EM JAVA__</p>
+_Palavra reservada em <code>Java</code>
+
   -----------------------------------------------------------------------------------------------------------  
   |          |           |           |            |              |           |           |        |         |
   | ---------|-----------|-----------|------------|--------------|-----------|-----------|--------|---------|    
