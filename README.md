@@ -1793,7 +1793,7 @@ public class Multa{
 <h3>5.5 Abstraindo um Bootcamp Usando Orientação a Objetos em Java</h3>
 <h4>Apresentação e visão geral de POO - Programação Orientada a Objetos</h4>
 
-__POO__
+<p>__POO__</p>
 
 - Paradigma: Modelo, exemplo a ser seguido;
 - Programação: Desenvolvimento de uma aplicação;
