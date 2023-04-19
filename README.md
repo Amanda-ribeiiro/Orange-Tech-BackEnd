@@ -1847,7 +1847,7 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 
 
 <h3>6.2 Gerenciamento de Dependências e Buil em Java com Maven</h3>
-[Professor: Willyan Guimarães Caetano][https://www.linkedin/in/willyancaetanodev]
+[Professor: Willyan Guimarães Caetano](https://www.linkedin/in/willyancaetanodev)
 <h4>Introdução, definição e instalação</h4>
 
 <h5>Apresentação Inicial do Curso</h5>
@@ -1859,7 +1859,7 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 <h5>O que é Apache Mave</h5>
 <p> Ferramenta para gerenciar build e dependências de um projeto. Primeira versão foi em julho de 2004, mantido pela Apache Software Foundation.</p>
 
-- Endereça como o Software foi constrído e suas dependências através do (POM)[https://maven.apache.org/pom.html] (Project Object Model);
+- Endereça como o Software foi constrído e suas dependências através do (POM)[https://maven.apache.org/pom.html](Project Object Model);
 - Facilitar a compreensão do desenvolvedor;
 - Fornecer informações de qualidade.
     
@@ -1892,6 +1892,7 @@ Iremos adicionar manualmente no Path utilitarios que o Windows enxerga em seu am
 > <code>mvn --version</code>
 
 <h5>Instalação: Linux</h5>
+
 [Site Maven para instalação](https://maven.apache.org/)
 
 
@@ -1957,8 +1958,8 @@ Cria o <code>Jar</code> da aplicação e fica dentro da pasta <code>target</code
 - Limpar diretório de trabalho: Clean <code>mvn clear</code>
 
 [Referências](http://www.baeldung.com/maven-compiler-plugin) |
-[Referências](http://www.mkyong.com/maven/how-to-run-unit-test-with-maven/) |
-Referências](http://www.tutorials.jenkov.com/maven/maven-commands.html) .
+[Referências](http://www.mkyong.com/maven/how-to-run-unit-test-with-maven/) | 
+[Referências](http://www.tutorials.jenkov.com/maven/maven-commands.html)
 
 <h5>Criando diferentes tipos de projeto</h5>
 - Maven archetype: template que possibilita a personalização e a configuração de como um projeto construído. Neste arquivo definimos versão de componentes, quais componentes vão inseridos automaticamente.
@@ -1970,6 +1971,7 @@ Referências](http://www.tutorials.jenkov.com/maven/maven-commands.html) .
 POM (project object model) unidade fundamental de trabalho ele é em formato XML ele que vai detalha o projeto, como construir o projeto. Maven sempre procura pela pom.xml para realizar sua execução.
 
 <h5>Repositório</h5>
+
 [repositorio de configuração](https://repo.maven.apache.org/maven2/)
 
 <h5>Como adicionar dependências</h5>
@@ -1985,12 +1987,12 @@ Copie o código:
 
 E adicione no <code>pom.xml</code> abaixo das  
 
-``
+``bash
 <dependencies> 
 <dependency>
 </dependency>
-
 ``
+
 depois volte no terminal e copile o projeto <code>mvn compile</code>.
 
 <h4>Gerenciando dependências</h4>
@@ -2001,7 +2003,7 @@ Direta: dependências declaradas no pom.xml
 Transitiva: dependências obrigatórias das dependências declaradas no pom.xml
 
 <h5>Transitividades e Escopos</h5>
-O Maven 
+_O Maven_
 
 - Runtime (tempo de execução)
 - Test (teste)
@@ -2168,6 +2170,7 @@ Ciclo final responsável pela criação do site de documentação do projeto com
     
     
 <h4>Projetos Multi-módulos</h4>
+    
 ![image](https://user-images.githubusercontent.com/108890154/230734769-6bec850a-608b-47c8-a07f-d46843d13fc9.png)
 
 ``
@@ -2240,6 +2243,7 @@ mvn javadoc:javadoc
     
 <h4>Conclusão</h4>
 - 🔗[documentação](https://maven.apache.org/guides/)
+    
 - 📕[livro - Apache Maven 3 Cookbook](https://www.amazon.com.br/Apache-Maven-3-Cookbook-Srirangan/dp/1849512442)  
     
 <h4>📝 QUIZ - Conclusão Maven</h4>
@@ -2323,7 +2327,8 @@ mvn javadoc:javadoc
 ☑️  camadas - permite que a arquitetura seja menos compleza e altamente flexível.
 
 __Nível de Maturidade__
-<p> Para padronizar e facilitar o desenvolvimento de APIs REST, Leonardo Richardson propôs um modelo de maturidade para esse tipo de API, definido em 4 níveis:   
+<p> Para padronizar e facilitar o desenvolvimento de APIs REST, Leonardo Richardson propôs um modelo de maturidade para esse tipo de API, definido em 4 níveis:  
+    
 ![image](https://user-images.githubusercontent.com/108890154/230740562-714f8768-f54f-42e3-aceb-19505a2185d3.png)
 
 _Nível 0: Ausência de Regras_
