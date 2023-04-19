@@ -1,4 +1,4 @@
-# [Orange Tech + | BackEnd](https://web.dio.me/track/2aeff5aa-bb23-4141-8109-20fa42b58ff7) 🧡
+# [Orange Tech + | BackEnd](https://web.dio.me/track/2aeff5aa-bb23-4141-8109-20fa42b58ff7) :orange_heart:
 
 [👩🏻‍🎓 Certificado de conclusão](https://hermes.digitalinnovation.one/certificates/F0D4A3D5.pdf?_gl=1*88ljy3*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY4MTAwNTQ2Ny4yODIuMS4xNjgxMDEyNDAyLjQ0LjAuMA..)
 <p>
