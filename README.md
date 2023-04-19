@@ -1847,6 +1847,7 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 
 
 <h3>6.2 Gerenciamento de Dependências e Buil em Java com Maven</h3>
+
 [Professor: Willyan Guimarães Caetano](https://www.linkedin/in/willyancaetanodev)
 <h4>Introdução, definição e instalação</h4>
 
@@ -1859,7 +1860,7 @@ digitar ``sout`` e apertar <code>enter</code>  para abrir <code>System.out.print
 <h5>O que é Apache Mave</h5>
 <p> Ferramenta para gerenciar build e dependências de um projeto. Primeira versão foi em julho de 2004, mantido pela Apache Software Foundation.</p>
 
-- Endereça como o Software foi constrído e suas dependências através do (POM)[https://maven.apache.org/pom.html](Project Object Model);
+- Endereça como o Software foi constrído e suas dependências através do (POM) [https://maven.apache.org/pom.html](Project Object Model);
 - Facilitar a compreensão do desenvolvedor;
 - Fornecer informações de qualidade.
     
@@ -1975,6 +1976,7 @@ POM (project object model) unidade fundamental de trabalho ele é em formato XML
 [repositorio de configuração](https://repo.maven.apache.org/maven2/)
 
 <h5>Como adicionar dependências</h5>
+
 Entre nesse [site](https://mvnrepository.com/) e procure por "Hibernate-validator":
 
 ![image](https://user-images.githubusercontent.com/108890154/230730215-7796d872-7254-4b6b-bec3-fc3122800aca.png)
