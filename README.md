@@ -34,7 +34,9 @@ Temas sobre empregaribilidade e um painel que será abordado sobre como se desta
 ##### [Introdução](https://web.dio.me/course/introducao-ao-desenvolvimento-moderno-de-software/learning/64118d38-e7a0-4e98-becd-c5e52c993e08?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined)
 
 <h2 id="conhencendo-a-linguagem-de-programacao">3- Conhencendo a Linguagem de Programação Java</h2>
-<h3 id="introducao-a-platforma-java">3.1 Introdução à plataforma Java</h3> 
+
+<h3><a href="https://web.dio.me/course/introducao-a-plataforma-java/learning/cdc0426c-9371-4af8-aaf0-23fffca6218f?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">3.1 Introdução à plataforma Java</a></h3> 
+
 
 [Professor: Gleyson Sampaio](https://www.linkedin.com/in/glysns/)
 <h4 id="introducao-e-objetos">Introdução e Objetivos</h4>
@@ -125,7 +127,7 @@ R: James Gosling
 
 ✅ [Certificado](https://hermes.digitalinnovation.one/certificates/C089F2F6.pdf?_gl=1*8wyras*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY3OTc2Mzk5NS4yNTQuMS4xNjc5NzY2Mzc2LjYwLjAuMA..)
 
-<h3 id="ambiente-de-desenvolvimento">3.2Ambiente de Desenvolvimento Java</h3>
+<h3><a href="https://web.dio.me/course/ambiente-de-desenvolvimento-java/learning/c88e693f-67ca-4885-a1d1-0069da2aef10?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">3.2Ambiente de Desenvolvimento Java</a></h3>
 <h4 id="introducao-a-ides">Introdução a IDEs</h4>
 <p>
 IDE(Integrated Development Environment), capaz de prover vários mecanismo que dispõe de recursos que auxiliam muito no nosso desenvolvimento. Ex:
@@ -212,7 +214,7 @@ R: <code>JRE</code>
 
 ✅ [Certificado](https://hermes.digitalinnovation.one/certificates/3F38BD8B.pdf)
 
-<h3 id="aprendendo-a-sintaxe-java">3.3 Aprendendo a Sintaxe Java</h3>
+<h3><a href="https://web.dio.me/course/aprendendo-a-sintaxe-java/learning/f7af647f-d6ef-4663-8a3c-1f63129ee55f?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined">3.3 Aprendendo a Sintaxe Java</a></h3>
 <h4 id="introducao">Introdução</h4>
 Regras essenciais para a construção de códigos com base na linguagem Java.
 <h4 id="anatomia-das-classes">Anatomia das Classes</h4>
